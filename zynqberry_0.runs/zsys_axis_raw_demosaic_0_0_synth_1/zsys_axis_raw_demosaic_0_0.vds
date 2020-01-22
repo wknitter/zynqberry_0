@@ -1,0 +1,415 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 21 21:14:11 2020
+# Process ID: 13537
+# Current directory: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_axis_raw_demosaic_0_0_synth_1
+# Command line: vivado -log zsys_axis_raw_demosaic_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zsys_axis_raw_demosaic_0_0.tcl
+# Log file: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_axis_raw_demosaic_0_0_synth_1/zsys_axis_raw_demosaic_0_0.vds
+# Journal file: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_axis_raw_demosaic_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source zsys_axis_raw_demosaic_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/zynqberry_0/zynqberry_ip_2019-2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.2/data/ip'.
+Command: synth_design -top zsys_axis_raw_demosaic_0_0 -part xc7z010clg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13686 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2016.164 ; gain = 202.715 ; free physical = 26971 ; free virtual = 30933
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'zsys_axis_raw_demosaic_0_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_axis_raw_demosaic_0_0/synth/zsys_axis_raw_demosaic_0_0.vhd:74]
+	Parameter C_RAW_WIDTH bound to: 10 - type: integer 
+	Parameter C_MODE bound to: 1 - type: integer 
+	Parameter C_IN_TYPE bound to: 1 - type: integer 
+	Parameter C_COLOR_POS bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'axis_raw_demosaic_v1_0' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:11' bound to instance 'U0' of component 'axis_raw_demosaic_v1_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_axis_raw_demosaic_0_0/synth/zsys_axis_raw_demosaic_0_0.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'axis_raw_demosaic_v1_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:38]
+	Parameter C_MODE bound to: 1 - type: integer 
+	Parameter C_COLOR_POS bound to: 2 - type: integer 
+	Parameter C_IN_TYPE bound to: 1 - type: integer 
+	Parameter C_RAW_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'dualport_ram' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/dualport_ram.vhd:9' bound to instance 'ram_inst' of component 'dualport_ram' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'dualport_ram' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/dualport_ram.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'dualport_ram' (1#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/dualport_ram.vhd:20]
+INFO: [Synth 8-3491] module 'gamma_rom' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/gamma_rom.vhd:9' bound to instance 'pa_gamma_inst' of component 'gamma_rom' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:174]
+INFO: [Synth 8-638] synthesizing module 'gamma_rom' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/gamma_rom.vhd:17]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "block" *) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/gamma_rom.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'gamma_rom' (2#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/gamma_rom.vhd:17]
+INFO: [Synth 8-3491] module 'gamma_rom' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/gamma_rom.vhd:9' bound to instance 'pa_gamma_inst' of component 'gamma_rom' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:174]
+INFO: [Synth 8-3491] module 'gamma_rom' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/gamma_rom.vhd:9' bound to instance 'pa_gamma_inst' of component 'gamma_rom' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:174]
+INFO: [Synth 8-3491] module 'gamma_rom' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/gamma_rom.vhd:9' bound to instance 'pa_gamma_inst' of component 'gamma_rom' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:174]
+INFO: [Synth 8-226] default block is never used [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:216]
+INFO: [Synth 8-226] default block is never used [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:224]
+INFO: [Synth 8-256] done synthesizing module 'axis_raw_demosaic_v1_0' (3#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'zsys_axis_raw_demosaic_0_0' (4#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_axis_raw_demosaic_0_0/synth/zsys_axis_raw_demosaic_0_0.vhd:74]
+WARNING: [Synth 8-3331] design axis_raw_demosaic_v1_0 has unconnected port axis_aresetn
+WARNING: [Synth 8-3331] design axis_raw_demosaic_v1_0 has unconnected port s_axis_tdata[15]
+WARNING: [Synth 8-3331] design axis_raw_demosaic_v1_0 has unconnected port s_axis_tdata[14]
+WARNING: [Synth 8-3331] design axis_raw_demosaic_v1_0 has unconnected port s_axis_tdata[13]
+WARNING: [Synth 8-3331] design axis_raw_demosaic_v1_0 has unconnected port s_axis_tdata[12]
+WARNING: [Synth 8-3331] design axis_raw_demosaic_v1_0 has unconnected port s_axis_tdata[11]
+WARNING: [Synth 8-3331] design axis_raw_demosaic_v1_0 has unconnected port s_axis_tdata[10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2081.883 ; gain = 268.434 ; free physical = 27080 ; free virtual = 31044
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2081.883 ; gain = 268.434 ; free physical = 27191 ; free virtual = 31155
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2081.883 ; gain = 268.434 ; free physical = 27191 ; free virtual = 31155
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2081.883 ; gain = 0.000 ; free physical = 27195 ; free virtual = 31159
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2235.664 ; gain = 0.000 ; free physical = 27077 ; free virtual = 31038
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2235.664 ; gain = 0.000 ; free physical = 27065 ; free virtual = 31025
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 28867 ; free virtual = 32824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 28867 ; free virtual = 32824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 28869 ; free virtual = 32826
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7031] Trying to map ROM "rom" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-4471] merging register 'x_rd_addr_reg[15:0]' into 'x_cnt_reg[15:0]' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:89]
+WARNING: [Synth 8-3936] Found unconnected internal register 'x_wr_addr_reg' and it is trimmed from '16' to '11' bits. [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/2bd3/hdl/axis_raw_demosaic_v1_0.vhd:88]
+INFO: [Synth 8-802] inferred FSM for state register 'sm_state_reg' in module 'axis_raw_demosaic_v1_0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 st_idle |                              001 |                               00
+              st_process |                              010 |                               01
+                 st_send |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_state_reg' using encoding 'one-hot' in module 'axis_raw_demosaic_v1_0'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 28882 ; free virtual = 32840
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 5     
+	                8 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---RAMs : 
+	              20K Bit         RAMs := 1     
++---ROMs : 
+	                              ROMs := 4     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dualport_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	               10 Bit    Registers := 1     
++---RAMs : 
+	              20K Bit         RAMs := 1     
+Module gamma_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module axis_raw_demosaic_v1_0 
+Detailed RTL Component Info : 
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3917] design zsys_axis_raw_demosaic_0_0 has port m_axis_tdata[31] driven by constant 0
+INFO: [Synth 8-3917] design zsys_axis_raw_demosaic_0_0 has port m_axis_tdata[30] driven by constant 0
+INFO: [Synth 8-3917] design zsys_axis_raw_demosaic_0_0 has port m_axis_tdata[29] driven by constant 0
+INFO: [Synth 8-3917] design zsys_axis_raw_demosaic_0_0 has port m_axis_tdata[28] driven by constant 0
+INFO: [Synth 8-3917] design zsys_axis_raw_demosaic_0_0 has port m_axis_tdata[27] driven by constant 0
+INFO: [Synth 8-3917] design zsys_axis_raw_demosaic_0_0 has port m_axis_tdata[26] driven by constant 0
+INFO: [Synth 8-3917] design zsys_axis_raw_demosaic_0_0 has port m_axis_tdata[25] driven by constant 0
+INFO: [Synth 8-3917] design zsys_axis_raw_demosaic_0_0 has port m_axis_tdata[24] driven by constant 0
+WARNING: [Synth 8-3331] design zsys_axis_raw_demosaic_0_0 has unconnected port axis_aresetn
+WARNING: [Synth 8-3331] design zsys_axis_raw_demosaic_0_0 has unconnected port s_axis_tdata[15]
+WARNING: [Synth 8-3331] design zsys_axis_raw_demosaic_0_0 has unconnected port s_axis_tdata[14]
+WARNING: [Synth 8-3331] design zsys_axis_raw_demosaic_0_0 has unconnected port s_axis_tdata[13]
+WARNING: [Synth 8-3331] design zsys_axis_raw_demosaic_0_0 has unconnected port s_axis_tdata[12]
+WARNING: [Synth 8-3331] design zsys_axis_raw_demosaic_0_0 has unconnected port s_axis_tdata[11]
+WARNING: [Synth 8-3331] design zsys_axis_raw_demosaic_0_0 has unconnected port s_axis_tdata[10]
+INFO: [Synth 8-4652] Swapped enable and write-enable on 1 RAM instances of RAM U0/ram_inst/ram_reg to conserve power
+INFO: [Synth 8-3886] merging instance 'U0/x_wr_addr_reg[0]' (FDE) to 'U0/position_reg[0]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 28871 ; free virtual = 32835
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping	Report (see note below)
++---------------------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                | RTL Object          | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++---------------------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|zsys_axis_raw_demosaic_0_0 | U0/ram_inst/ram_reg | 2 K x 10(READ_FIRST)   | W |   | 2 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
++---------------------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 28171 ; free virtual = 32135
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 28171 ; free virtual = 32135
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++---------------------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                | RTL Object          | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++---------------------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|zsys_axis_raw_demosaic_0_0 | U0/ram_inst/ram_reg | 2 K x 10(READ_FIRST)   | W |   | 2 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
++---------------------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7053] The timing for the instance U0/gamma_rom_gen[0].pa_gamma_inst/douta_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance U0/gamma_rom_gen[0].pa_gamma_inst/douta_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance U0/gamma_rom_gen[2].pa_gamma_inst/douta_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance U0/gamma_rom_gen[2].pa_gamma_inst/douta_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 28163 ; free virtual = 32127
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 27880 ; free virtual = 31844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 27880 ; free virtual = 31844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 27880 ; free virtual = 31844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 27880 ; free virtual = 31844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 27880 ; free virtual = 31844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 27880 ; free virtual = 31844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |     3|
+|2     |LUT2       |    12|
+|3     |LUT3       |    18|
+|4     |LUT4       |     9|
+|5     |LUT5       |     3|
+|6     |LUT6       |    18|
+|7     |RAMB18E1   |     2|
+|8     |RAMB36E1_1 |     1|
+|9     |FDRE       |    61|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+-----------------------+------+
+|      |Instance                             |Module                 |Cells |
++------+-------------------------------------+-----------------------+------+
+|1     |top                                  |                       |   127|
+|2     |  U0                                 |axis_raw_demosaic_v1_0 |   127|
+|3     |    \gamma_rom_gen[0].pa_gamma_inst  |gamma_rom              |     1|
+|4     |    \gamma_rom_gen[2].pa_gamma_inst  |gamma_rom_0            |     1|
+|5     |    ram_inst                         |dualport_ram           |     2|
++------+-------------------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 27880 ; free virtual = 31844
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 2235.664 ; gain = 268.434 ; free physical = 27936 ; free virtual = 31900
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2235.664 ; gain = 422.215 ; free physical = 27936 ; free virtual = 31900
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2235.664 ; gain = 0.000 ; free physical = 28004 ; free virtual = 31969
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2235.664 ; gain = 0.000 ; free physical = 27949 ; free virtual = 31913
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 2235.664 ; gain = 648.492 ; free physical = 28082 ; free virtual = 32046
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2235.664 ; gain = 0.000 ; free physical = 28082 ; free virtual = 32046
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/parallels/zynqberry_0/zynqberry_0.runs/zsys_axis_raw_demosaic_0_0_synth_1/zsys_axis_raw_demosaic_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zsys_axis_raw_demosaic_0_0, cache-ID = 0438d131f4e47946
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2259.676 ; gain = 0.000 ; free physical = 28070 ; free virtual = 32035
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/parallels/zynqberry_0/zynqberry_0.runs/zsys_axis_raw_demosaic_0_0_synth_1/zsys_axis_raw_demosaic_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zsys_axis_raw_demosaic_0_0_utilization_synth.rpt -pb zsys_axis_raw_demosaic_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 21:14:51 2020...

@@ -1,0 +1,10 @@
+19:06:23 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+19:06:25 INFO  : XSCT server has started successfully.
+19:06:26 INFO  : Successfully done setting XSCT server connection channel  
+19:06:26 INFO  : plnx-install-location is set to ''
+19:06:26 INFO  : Successfully done query RDI_DATADIR 
+19:06:26 INFO  : Successfully done setting workspace for the tool. 
+19:06:26 INFO  : Registering command handlers for Vitis TCF services
+19:09:27 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+19:09:27 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+19:19:11 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...

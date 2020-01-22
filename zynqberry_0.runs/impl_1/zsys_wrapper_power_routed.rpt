@@ -1,0 +1,218 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date             : Tue Jan 21 21:58:18 2020
+| Host             : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.3 LTS
+| Command          : report_power -file zsys_wrapper_power_routed.rpt -pb zsys_wrapper_power_summary_routed.pb -rpx zsys_wrapper_power_routed.rpx
+| Design           : zsys_wrapper
+| Device           : xc7z010clg225-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 1.653        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 1.527        |
+| Device Static (W)        | 0.127        |
+| Effective TJA (C/W)      | 11.5         |
+| Max Ambient (C)          | 65.9         |
+| Junction Temperature (C) | 44.1         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.048 |       10 |       --- |             --- |
+| Slice Logic              |     0.013 |    19482 |       --- |             --- |
+|   LUT as Logic           |     0.011 |     6192 |     17600 |           35.18 |
+|   CARRY4                 |     0.001 |      323 |      4400 |            7.34 |
+|   Register               |     0.001 |    10280 |     35200 |           29.20 |
+|   BUFR                   |    <0.001 |        2 |        56 |            3.57 |
+|   LUT as Distributed RAM |    <0.001 |       58 |      6000 |            0.97 |
+|   BUFG                   |    <0.001 |        3 |        32 |            9.38 |
+|   F7/F8 Muxes            |    <0.001 |      275 |     17600 |            1.56 |
+|   LUT as Shift Register  |    <0.001 |      271 |      6000 |            4.52 |
+|   Others                 |     0.000 |      702 |       --- |             --- |
+| Signals                  |     0.023 |    14484 |       --- |             --- |
+| Block RAM                |     0.029 |       24 |        60 |           40.00 |
+| MMCM                     |     0.105 |        1 |         2 |           50.00 |
+| I/O                      |     0.113 |       42 |        54 |           77.78 |
+| XADC                     |     0.003 |        1 |       --- |             --- |
+| PS7                      |     1.193 |        1 |       --- |             --- |
+| Static Power             |     0.127 |          |           |                 |
+| Total                    |     1.653 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.124 |       0.116 |      0.008 |
+| Vccaux    |       1.800 |     0.078 |       0.070 |      0.008 |
+| Vcco33    |       3.300 |     0.028 |       0.027 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.004 |       0.002 |      0.002 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccpint   |       1.000 |     0.709 |       0.679 |      0.030 |
+| Vccpaux   |       1.800 |     0.037 |       0.026 |      0.010 |
+| Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |
+| Vcco_ddr  |       1.350 |     0.321 |       0.319 |      0.002 |
+| Vcco_mio0 |       3.300 |     0.003 |       0.002 |      0.001 |
+| Vcco_mio1 |       3.300 |     0.002 |       0.001 |      0.001 |
+| Vccadc    |       1.800 |     0.021 |       0.001 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                     |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                           |                                                                                                            |
+|                             |            |                                                        |                                                                                                            |
+| Overall confidence level    | Low        |                                                        |                                                                                                            |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+------------------------+
+| Ambient Temp (C)      | 25.0                   |
+| ThetaJA (C/W)         | 11.5                   |
+| Airflow (LFM)         | 250                    |
+| Heat Sink             | none                   |
+| ThetaSA (C/W)         | 0.0                    |
+| Board Selection       | medium (10"x10")       |
+| # of Board Layers     | 8to11 (8 to 11 Layers) |
+| Board Temperature (C) | 25.0                   |
++-----------------------+------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++---------------------------+-----------------------------------------------------------------------------------+-----------------+
+| Clock                     | Domain                                                                            | Constraint (ns) |
++---------------------------+-----------------------------------------------------------------------------------+-----------------+
+| clk_fpga_0                | zsys_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]                           |             6.2 |
+| clk_fpga_2                | zsys_i/processing_system7_0/inst/FCLK_CLK2                                        |             5.0 |
+| clk_fpga_2                | zsys_i/processing_system7_0/inst/FCLK_CLK_unbuffered[2]                           |             5.0 |
+| clk_fpga_3                | zsys_i/processing_system7_0/inst/FCLK_CLK_unbuffered[3]                           |            81.2 |
+| clk_out1_zsys_clk_wiz_1_0 | zsys_i/video_out/clk_wiz_1/inst/CLK_CORE_DRP_I/clk_inst/clk_out1_zsys_clk_wiz_1_0 |            13.5 |
+| clk_out2_zsys_clk_wiz_1_0 | zsys_i/video_out/clk_wiz_1/inst/CLK_CORE_DRP_I/clk_inst/clk_out2_zsys_clk_wiz_1_0 |             2.7 |
+| clkfbout_zsys_clk_wiz_1_0 | zsys_i/video_out/clk_wiz_1/inst/CLK_CORE_DRP_I/clk_inst/clkfbout_zsys_clk_wiz_1_0 |            50.0 |
++---------------------------+-----------------------------------------------------------------------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++------------------------------+-----------+
+| Name                         | Power (W) |
++------------------------------+-----------+
+| zsys_wrapper                 |     1.527 |
+|   GPIO_1_tri_iobuf_0         |     0.003 |
+|   GPIO_1_tri_iobuf_1         |     0.003 |
+|   GPIO_1_tri_iobuf_10        |     0.003 |
+|   GPIO_1_tri_iobuf_11        |     0.003 |
+|   GPIO_1_tri_iobuf_12        |     0.003 |
+|   GPIO_1_tri_iobuf_13        |     0.003 |
+|   GPIO_1_tri_iobuf_14        |     0.003 |
+|   GPIO_1_tri_iobuf_15        |     0.003 |
+|   GPIO_1_tri_iobuf_16        |     0.003 |
+|   GPIO_1_tri_iobuf_17        |     0.003 |
+|   GPIO_1_tri_iobuf_18        |     0.003 |
+|   GPIO_1_tri_iobuf_19        |     0.003 |
+|   GPIO_1_tri_iobuf_2         |     0.003 |
+|   GPIO_1_tri_iobuf_20        |     0.003 |
+|   GPIO_1_tri_iobuf_21        |     0.003 |
+|   GPIO_1_tri_iobuf_22        |     0.003 |
+|   GPIO_1_tri_iobuf_23        |     0.003 |
+|   GPIO_1_tri_iobuf_3         |     0.003 |
+|   GPIO_1_tri_iobuf_4         |     0.003 |
+|   GPIO_1_tri_iobuf_5         |     0.003 |
+|   GPIO_1_tri_iobuf_6         |     0.003 |
+|   GPIO_1_tri_iobuf_7         |     0.003 |
+|   GPIO_1_tri_iobuf_8         |     0.003 |
+|   GPIO_1_tri_iobuf_9         |     0.003 |
+|   zsys_i                     |     1.450 |
+|     audio                    |     0.011 |
+|       axi_i2s_adi_0          |     0.002 |
+|       i2s_to_pwm_0           |     0.002 |
+|       xadc_wiz_0             |     0.007 |
+|     proc_sys7_0_axi_periph   |     0.008 |
+|       s00_couplers           |     0.006 |
+|       xbar                   |     0.001 |
+|     processing_system7_0     |     1.198 |
+|       inst                   |     1.198 |
+|     video_in                 |     0.072 |
+|       axi_interconnect_0     |     0.001 |
+|       axi_vdma_0             |     0.017 |
+|       axis_data_fifo_0       |     0.012 |
+|       axis_data_fifo_3       |     0.001 |
+|       axis_data_fifo_4       |     0.007 |
+|       axis_raw_demosaic_0    |     0.011 |
+|       axis_raw_unpack_0      |     0.002 |
+|       csi2_d_phy_rx_0        |     0.018 |
+|       csi_to_axis_0          |     0.001 |
+|     video_out                |     0.161 |
+|       Video_IO_2_HDMI_TMDS_0 |     0.025 |
+|       axi_vdma_0             |     0.007 |
+|       clk_wiz_1              |     0.114 |
+|       v_axi4s_vid_out_0      |     0.004 |
+|       v_tc_0                 |     0.011 |
++------------------------------+-----------+
+
+

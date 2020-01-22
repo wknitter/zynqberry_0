@@ -1,0 +1,455 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 21 21:14:11 2020
+# Process ID: 13536
+# Current directory: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_Video_IO_2_HDMI_TMDS_0_0_synth_1
+# Command line: vivado -log zsys_Video_IO_2_HDMI_TMDS_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zsys_Video_IO_2_HDMI_TMDS_0_0.tcl
+# Log file: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_Video_IO_2_HDMI_TMDS_0_0_synth_1/zsys_Video_IO_2_HDMI_TMDS_0_0.vds
+# Journal file: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_Video_IO_2_HDMI_TMDS_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source zsys_Video_IO_2_HDMI_TMDS_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/zynqberry_0/zynqberry_ip_2019-2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.2/data/ip'.
+Command: synth_design -top zsys_Video_IO_2_HDMI_TMDS_0_0 -part xc7z010clg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13685 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2016.164 ; gain = 200.684 ; free physical = 26969 ; free virtual = 30932
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'zsys_Video_IO_2_HDMI_TMDS_0_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_Video_IO_2_HDMI_TMDS_0_0/synth/zsys_Video_IO_2_HDMI_TMDS_0_0.vhd:74]
+	Parameter C_CLK_SWAP bound to: 1 - type: bool 
+	Parameter C_D0_SWAP bound to: 1 - type: bool 
+	Parameter C_D1_SWAP bound to: 0 - type: bool 
+	Parameter C_D2_SWAP bound to: 0 - type: bool 
+	Parameter C_INT_CLOCKING bound to: 0 - type: bool 
+	Parameter C_VIDEO_MODE bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'Video_IO_2_HDMI_TMDS_v1_0' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:11' bound to instance 'U0' of component 'Video_IO_2_HDMI_TMDS_v1_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_Video_IO_2_HDMI_TMDS_0_0/synth/zsys_Video_IO_2_HDMI_TMDS_0_0.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'Video_IO_2_HDMI_TMDS_v1_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:52]
+	Parameter C_CLK_SWAP bound to: 1 - type: bool 
+	Parameter C_D0_SWAP bound to: 1 - type: bool 
+	Parameter C_D1_SWAP bound to: 0 - type: bool 
+	Parameter C_D2_SWAP bound to: 0 - type: bool 
+	Parameter C_INT_CLOCKING bound to: 0 - type: bool 
+	Parameter C_VIDEO_MODE bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'dvi_encoder' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/dvi_encoder.vhd:9' bound to instance 'enc_inst' of component 'dvi_encoder' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'dvi_encoder' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/dvi_encoder.vhd:25]
+INFO: [Synth 8-3491] module 'tmds_encoder' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:9' bound to instance 'encb_inst' of component 'tmds_encoder' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/dvi_encoder.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'tmds_encoder' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'tmds_encoder' (1#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:21]
+INFO: [Synth 8-3491] module 'tmds_encoder' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:9' bound to instance 'encg_inst' of component 'tmds_encoder' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/dvi_encoder.vhd:53]
+INFO: [Synth 8-3491] module 'tmds_encoder' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:9' bound to instance 'encr_inst' of component 'tmds_encoder' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/dvi_encoder.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'dvi_encoder' (2#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/dvi_encoder.vhd:25]
+INFO: [Synth 8-3491] module 'serdes_ddr' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/src/serdes_ddr.vhd:11' bound to instance 'serdes_ddr_inst' of component 'serdes_ddr' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'serdes_ddr' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/src/serdes_ddr.vhd:21]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'OSERDESE2_m_inst' to cell 'OSERDESE2' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/src/serdes_ddr.vhd:32]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'OSERDESE2_s_inst' to cell 'OSERDESE2' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/src/serdes_ddr.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'serdes_ddr' (3#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/src/serdes_ddr.vhd:21]
+INFO: [Synth 8-3491] module 'serdes_ddr' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/src/serdes_ddr.vhd:11' bound to instance 'serdes_ddr_inst' of component 'serdes_ddr' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:192]
+INFO: [Synth 8-3491] module 'serdes_ddr' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/src/serdes_ddr.vhd:11' bound to instance 'serdes_ddr_inst' of component 'serdes_ddr' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:192]
+INFO: [Synth 8-3491] module 'serdes_ddr' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/src/serdes_ddr.vhd:11' bound to instance 'serdes_ddr_inst' of component 'serdes_ddr' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:192]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'obufds_d0_inst' to cell 'OBUFDS' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:204]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'obufds_d1_inst' to cell 'OBUFDS' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:210]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'obufds_d2_inst' to cell 'OBUFDS' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:216]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'obufds_clk_inst' to cell 'OBUFDS' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:222]
+INFO: [Synth 8-256] done synthesizing module 'Video_IO_2_HDMI_TMDS_v1_0' (4#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/Video_IO_2_HDMI_TMDS_v1_0.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'zsys_Video_IO_2_HDMI_TMDS_0_0' (5#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_Video_IO_2_HDMI_TMDS_0_0/synth/zsys_Video_IO_2_HDMI_TMDS_0_0.vhd:74]
+WARNING: [Synth 8-3331] design Video_IO_2_HDMI_TMDS_v1_0 has unconnected port vid_hblank
+WARNING: [Synth 8-3331] design Video_IO_2_HDMI_TMDS_v1_0 has unconnected port vid_vblank
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2081.883 ; gain = 266.402 ; free physical = 27080 ; free virtual = 31044
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2084.852 ; gain = 269.371 ; free physical = 27194 ; free virtual = 31158
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2084.852 ; gain = 269.371 ; free physical = 27194 ; free virtual = 31158
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2090.789 ; gain = 0.000 ; free physical = 27174 ; free virtual = 31139
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2247.633 ; gain = 0.000 ; free physical = 27147 ; free virtual = 31108
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 4 instances
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2247.633 ; gain = 0.000 ; free physical = 27233 ; free virtual = 31193
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28894 ; free virtual = 32855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28894 ; free virtual = 32855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28897 ; free virtual = 32857
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:161]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:142]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28886 ; free virtual = 32847
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      5 Bit       Adders := 12    
+	   8 Input      4 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   5 Input     10 Bit        Muxes := 3     
+	   2 Input     10 Bit        Muxes := 6     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 15    
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module tmds_encoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      5 Bit       Adders := 4     
+	   8 Input      4 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   5 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'U0/enc_inst/encg_inst/de_q_reg' into 'U0/enc_inst/encb_inst/de_q_reg' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:115]
+INFO: [Synth 8-4471] merging register 'U0/enc_inst/encg_inst/de_reg_reg' into 'U0/enc_inst/encb_inst/de_reg_reg' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:116]
+INFO: [Synth 8-4471] merging register 'U0/enc_inst/encg_inst/c1_q_reg' into 'U0/enc_inst/encg_inst/c0_q_reg' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:118]
+INFO: [Synth 8-4471] merging register 'U0/enc_inst/encr_inst/de_q_reg' into 'U0/enc_inst/encb_inst/de_q_reg' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:115]
+INFO: [Synth 8-4471] merging register 'U0/enc_inst/encr_inst/de_reg_reg' into 'U0/enc_inst/encb_inst/de_reg_reg' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:116]
+INFO: [Synth 8-4471] merging register 'U0/enc_inst/encr_inst/c0_q_reg' into 'U0/enc_inst/encg_inst/c0_q_reg' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:117]
+INFO: [Synth 8-4471] merging register 'U0/enc_inst/encr_inst/c1_q_reg' into 'U0/enc_inst/encg_inst/c0_q_reg' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:118]
+INFO: [Synth 8-4471] merging register 'U0/enc_inst/encr_inst/c_reg_reg[1:0]' into 'U0/enc_inst/encg_inst/c_reg_reg[1:0]' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ipshared/be66/hdl/tmds_encoder.vhd:120]
+WARNING: [Synth 8-3331] design zsys_Video_IO_2_HDMI_TMDS_0_0 has unconnected port vid_hblank
+WARNING: [Synth 8-3331] design zsys_Video_IO_2_HDMI_TMDS_0_0 has unconnected port vid_vblank
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/enc_inst/encg_inst/c0_q_reg )
+INFO: [Synth 8-3886] merging instance 'U0/enc_inst/encb_inst/n0q_m_reg[0]' (FD) to 'U0/enc_inst/encb_inst/n1q_m_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/enc_inst/encg_inst/n0q_m_reg[0]' (FD) to 'U0/enc_inst/encg_inst/n1q_m_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/enc_inst/encr_inst/n0q_m_reg[0]' (FD) to 'U0/enc_inst/encr_inst/n1q_m_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/enc_inst/encg_inst/c_reg_reg[0]' (FD) to 'U0/enc_inst/encg_inst/c0_q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/enc_inst/encg_inst/c0_q_reg )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28804 ; free virtual = 32768
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 27885 ; free virtual = 31849
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 27885 ; free virtual = 31849
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 27880 ; free virtual = 31845
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28399 ; free virtual = 32359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28399 ; free virtual = 32359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28397 ; free virtual = 32358
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28397 ; free virtual = 32358
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28396 ; free virtual = 32357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28396 ; free virtual = 32356
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |LUT1        |    12|
+|2     |LUT2        |     7|
+|3     |LUT3        |    36|
+|4     |LUT4        |    18|
+|5     |LUT5        |    73|
+|6     |LUT6        |    96|
+|7     |MUXF7       |     3|
+|8     |OSERDESE2   |     4|
+|9     |OSERDESE2_1 |     4|
+|10    |FDRE        |   120|
+|11    |FDSE        |     9|
+|12    |OBUFDS      |     4|
++------+------------+------+
+
+Report Instance Areas: 
++------+--------------------------------------------+--------------------------+------+
+|      |Instance                                    |Module                    |Cells |
++------+--------------------------------------------+--------------------------+------+
+|1     |top                                         |                          |   386|
+|2     |  U0                                        |Video_IO_2_HDMI_TMDS_v1_0 |   386|
+|3     |    \HDMI_ddr_lines_gen[0].serdes_ddr_inst  |serdes_ddr                |     2|
+|4     |    \HDMI_ddr_lines_gen[1].serdes_ddr_inst  |serdes_ddr_0              |     2|
+|5     |    \HDMI_ddr_lines_gen[2].serdes_ddr_inst  |serdes_ddr_1              |     2|
+|6     |    \HDMI_ddr_lines_gen[3].serdes_ddr_inst  |serdes_ddr_2              |     3|
+|7     |    enc_inst                                |dvi_encoder               |   363|
+|8     |      encb_inst                             |tmds_encoder              |   126|
+|9     |      encg_inst                             |tmds_encoder_3            |   118|
+|10    |      encr_inst                             |tmds_encoder_4            |   119|
++------+--------------------------------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28396 ; free virtual = 32356
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2247.633 ; gain = 269.371 ; free physical = 28434 ; free virtual = 32395
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2247.633 ; gain = 432.152 ; free physical = 28434 ; free virtual = 32395
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2247.633 ; gain = 0.000 ; free physical = 28426 ; free virtual = 32387
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 10 inverter(s) to 10 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2247.633 ; gain = 0.000 ; free physical = 28362 ; free virtual = 32323
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:32 . Memory (MB): peak = 2247.633 ; gain = 660.461 ; free physical = 28490 ; free virtual = 32451
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2247.633 ; gain = 0.000 ; free physical = 28490 ; free virtual = 32451
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/parallels/zynqberry_0/zynqberry_0.runs/zsys_Video_IO_2_HDMI_TMDS_0_0_synth_1/zsys_Video_IO_2_HDMI_TMDS_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zsys_Video_IO_2_HDMI_TMDS_0_0, cache-ID = 94d49da956139efe
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2271.645 ; gain = 0.000 ; free physical = 28480 ; free virtual = 32441
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/parallels/zynqberry_0/zynqberry_0.runs/zsys_Video_IO_2_HDMI_TMDS_0_0_synth_1/zsys_Video_IO_2_HDMI_TMDS_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zsys_Video_IO_2_HDMI_TMDS_0_0_utilization_synth.rpt -pb zsys_Video_IO_2_HDMI_TMDS_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 21:14:54 2020...

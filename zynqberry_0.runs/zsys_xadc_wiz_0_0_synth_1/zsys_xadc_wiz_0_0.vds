@@ -1,0 +1,412 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 21 21:12:29 2020
+# Process ID: 11783
+# Current directory: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_xadc_wiz_0_0_synth_1
+# Command line: vivado -log zsys_xadc_wiz_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zsys_xadc_wiz_0_0.tcl
+# Log file: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_xadc_wiz_0_0_synth_1/zsys_xadc_wiz_0_0.vds
+# Journal file: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_xadc_wiz_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source zsys_xadc_wiz_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/zynqberry_0/zynqberry_ip_2019-2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.2/data/ip'.
+Command: synth_design -top zsys_xadc_wiz_0_0 -part xc7z010clg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12043 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2017.199 ; gain = 199.715 ; free physical = 28035 ; free virtual = 31981
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'zsys_xadc_wiz_0_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0.v:53]
+INFO: [Synth 8-638] synthesizing module 'zsys_xadc_wiz_0_0_axi_xadc' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_axi_xadc.vhd:121]
+INFO: [Synth 8-3491] module 'zsys_xadc_wiz_0_0_xadc_core_drp' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_xadc_core_drp.vhd:114' bound to instance 'AXI_XADC_CORE_I' of component 'zsys_xadc_wiz_0_0_xadc_core_drp' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_axi_xadc.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'zsys_xadc_wiz_0_0_xadc_core_drp' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_xadc_core_drp.vhd:139]
+INFO: [Synth 8-3491] module 'drp_to_axi4stream' declared at '/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_drp_to_axi_stream.vhd:56' bound to instance 'drp_to_axi4stream_inst' of component 'drp_to_axi4stream' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_xadc_core_drp.vhd:268]
+INFO: [Synth 8-638] synthesizing module 'drp_to_axi4stream' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_drp_to_axi_stream.vhd:83]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 16'b0000000000000110 
+	Parameter ALMOST_FULL_OFFSET bound to: 16'b0000001111111001 
+	Parameter DATA_WIDTH bound to: 18 - type: integer 
+	Parameter DO_REG bound to: 1 - type: integer 
+	Parameter EN_SYN bound to: 0 - type: bool 
+	Parameter FIFO_MODE bound to: FIFO18 - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: 1 - type: bool 
+	Parameter INIT bound to: 36'b000000000000000000000000000000000000 
+	Parameter IS_RDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RDEN_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREG_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter IS_WRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_WREN_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL bound to: 36'b000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'FIFO18E1_inst_data' to cell 'FIFO18E1' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_drp_to_axi_stream.vhd:230]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 16'b0000000000000110 
+	Parameter ALMOST_FULL_OFFSET bound to: 16'b0000001111111001 
+	Parameter DATA_WIDTH bound to: 18 - type: integer 
+	Parameter DO_REG bound to: 1 - type: integer 
+	Parameter EN_SYN bound to: 0 - type: bool 
+	Parameter FIFO_MODE bound to: FIFO18 - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: 1 - type: bool 
+	Parameter INIT bound to: 36'b000000000000000000000000000000000000 
+	Parameter IS_RDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RDEN_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREG_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter IS_WRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_WREN_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL bound to: 36'b000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'FIFO18E1_inst_tid' to cell 'FIFO18E1' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_drp_to_axi_stream.vhd:271]
+WARNING: [Synth 8-6014] Unused sequential element drp_rdwr_status_reg was removed.  [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_drp_to_axi_stream.vhd:134]
+INFO: [Synth 8-256] done synthesizing module 'drp_to_axi4stream' (1#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_drp_to_axi_stream.vhd:83]
+	Parameter INIT_40 bound to: 16'b0000000000000011 
+	Parameter INIT_41 bound to: 16'b0011000110101111 
+	Parameter INIT_42 bound to: 16'b0000011000000000 
+	Parameter INIT_43 bound to: 16'b0000000000000000 
+	Parameter INIT_44 bound to: 16'b0000000000000000 
+	Parameter INIT_45 bound to: 16'b0000000000000000 
+	Parameter INIT_46 bound to: 16'b0000000000000000 
+	Parameter INIT_47 bound to: 16'b0000000000000000 
+	Parameter INIT_48 bound to: 16'b0000000100000000 
+	Parameter INIT_49 bound to: 16'b0000000000000000 
+	Parameter INIT_4A bound to: 16'b0000000000000000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000000000000000 
+	Parameter INIT_4D bound to: 16'b0000000000000000 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter INIT_50 bound to: 16'b1011010111101101 
+	Parameter INIT_51 bound to: 16'b0101011111100100 
+	Parameter INIT_52 bound to: 16'b1010000101000111 
+	Parameter INIT_53 bound to: 16'b1100101000110011 
+	Parameter INIT_54 bound to: 16'b1010100100111010 
+	Parameter INIT_55 bound to: 16'b0101001011000110 
+	Parameter INIT_56 bound to: 16'b1001010101010101 
+	Parameter INIT_57 bound to: 16'b1010111001001110 
+	Parameter INIT_58 bound to: 16'b0101100110011001 
+	Parameter INIT_59 bound to: 16'b0101010101010101 
+	Parameter INIT_5A bound to: 16'b1001100110011001 
+	Parameter INIT_5B bound to: 16'b0110101010101010 
+	Parameter INIT_5C bound to: 16'b0101000100010001 
+	Parameter INIT_5D bound to: 16'b0101000100010001 
+	Parameter INIT_5E bound to: 16'b1001000111101011 
+	Parameter INIT_5F bound to: 16'b0110011001100110 
+	Parameter IS_CONVSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DCLK_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: ZYNQ - type: string 
+	Parameter SIM_MONITOR_FILE bound to: design.txt - type: string 
+INFO: [Synth 8-113] binding component instance 'XADC_INST' to cell 'XADC' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_xadc_core_drp.vhd:379]
+INFO: [Synth 8-256] done synthesizing module 'zsys_xadc_wiz_0_0_xadc_core_drp' (2#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_xadc_core_drp.vhd:139]
+INFO: [Synth 8-256] done synthesizing module 'zsys_xadc_wiz_0_0_axi_xadc' (3#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_axi_xadc.vhd:121]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_xadc_wiz_0_0' (4#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0.v:53]
+WARNING: [Synth 8-3331] design drp_to_axi4stream has unconnected port eos_in
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2082.918 ; gain = 265.434 ; free physical = 27910 ; free virtual = 31857
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2082.918 ; gain = 265.434 ; free physical = 27908 ; free virtual = 31854
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2082.918 ; gain = 265.434 ; free physical = 27908 ; free virtual = 31854
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2093.824 ; gain = 0.000 ; free physical = 27901 ; free virtual = 31847
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0.xdc] for cell 'inst'
+Parsing XDC File [/home/parallels/zynqberry_0/zynqberry_0.runs/zsys_xadc_wiz_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/parallels/zynqberry_0/zynqberry_0.runs/zsys_xadc_wiz_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2207.668 ; gain = 0.000 ; free physical = 27769 ; free virtual = 31716
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2207.668 ; gain = 0.000 ; free physical = 27766 ; free virtual = 31712
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27746 ; free virtual = 31693
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27746 ; free virtual = 31693
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_xadc_wiz_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27746 ; free virtual = 31693
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'drp_to_axi4stream'
+INFO: [Synth 8-5544] ROM "mode_change_sig_reset" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "den_o" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "channel_id" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+        wait_mode_change |                             0000 |                             0100
+       rd_en_ctrl_reg_41 |                             0001 |                             0000
+          rd_ctrl_reg_41 |                             0010 |                             0001
+           wait_sim_samp |                             0011 |                             0101
+                rd_a_reg |                             0100 |                             0110
+            rd_b_reg_cmd |                             0101 |                             0111
+                rd_b_reg |                             0110 |                             1000
+            wait_ind_adc |                             0111 |                             0011
+           wait_seq_s_ch |                             1000 |                             0010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'drp_to_axi4stream'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27736 ; free virtual = 31683
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module drp_to_axi4stream 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'inst/AXI_XADC_CORE_I/drp_to_axi4stream_inst/dwe_o_reg' (FDCE) to 'inst/AXI_XADC_CORE_I/drp_to_axi4stream_inst/channel_id_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/AXI_XADC_CORE_I/drp_to_axi4stream_inst/channel_id_reg[5]' (FDCE) to 'inst/AXI_XADC_CORE_I/drp_to_axi4stream_inst/channel_id_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\AXI_XADC_CORE_I/drp_to_axi4stream_inst/channel_id_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27556 ; free virtual = 31506
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27063 ; free virtual = 31015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27060 ; free virtual = 31012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27056 ; free virtual = 31008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27897 ; free virtual = 31849
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27897 ; free virtual = 31849
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27897 ; free virtual = 31849
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27897 ; free virtual = 31849
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27897 ; free virtual = 31848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27897 ; free virtual = 31848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |FIFO18E1 |     2|
+|2     |LUT1     |     2|
+|3     |LUT2     |     4|
+|4     |LUT3     |     2|
+|5     |LUT4     |     1|
+|6     |LUT5     |     7|
+|7     |LUT6     |     5|
+|8     |XADC     |     1|
+|9     |FDCE     |    12|
++------+---------+------+
+
+Report Instance Areas: 
++------+-----------------------------+--------------------------------+------+
+|      |Instance                     |Module                          |Cells |
++------+-----------------------------+--------------------------------+------+
+|1     |top                          |                                |    36|
+|2     |  inst                       |zsys_xadc_wiz_0_0_axi_xadc      |    36|
+|3     |    AXI_XADC_CORE_I          |zsys_xadc_wiz_0_0_xadc_core_drp |    36|
+|4     |      drp_to_axi4stream_inst |drp_to_axi4stream               |    35|
++------+-----------------------------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27897 ; free virtual = 31848
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2207.668 ; gain = 265.434 ; free physical = 27957 ; free virtual = 31908
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2207.668 ; gain = 390.184 ; free physical = 27957 ; free virtual = 31908
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2207.668 ; gain = 0.000 ; free physical = 27948 ; free virtual = 31900
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2232.520 ; gain = 0.000 ; free physical = 27925 ; free virtual = 31877
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 2232.520 ; gain = 644.344 ; free physical = 28091 ; free virtual = 32043
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2232.520 ; gain = 0.000 ; free physical = 28091 ; free virtual = 32043
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/parallels/zynqberry_0/zynqberry_0.runs/zsys_xadc_wiz_0_0_synth_1/zsys_xadc_wiz_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zsys_xadc_wiz_0_0, cache-ID = 97379927a1b8731c
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2256.531 ; gain = 0.000 ; free physical = 28083 ; free virtual = 32035
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/parallels/zynqberry_0/zynqberry_0.runs/zsys_xadc_wiz_0_0_synth_1/zsys_xadc_wiz_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zsys_xadc_wiz_0_0_utilization_synth.rpt -pb zsys_xadc_wiz_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 21:13:10 2020...

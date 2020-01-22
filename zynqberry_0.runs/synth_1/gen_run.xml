@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg225-1" LaunchTime="1579661697">
+  <File Type="VDS-TIMINGSUMMARY" Name="zsys_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="zsys_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="zsys_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="zsys_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="zsys_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="zsys_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="zsys_wrapper_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="zsys_wrapper_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="zsys_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/zsys/zsys.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/zsys/hdl/zsys_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="zsys_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/zynqberry_pinout.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_auto_pc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_csi2_d_phy_rx_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_proc_sys_reset_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_proc_sys_reset_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_raw_unpack_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_Video_IO_2_HDMI_TMDS_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_csi_to_axis_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_to_i2s_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_i2s_to_pwm_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_i2s_adi_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_reg32_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_xadc_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_auto_pc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_vdma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_fb_conv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_v_tc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_v_axi4s_vid_out_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_vdma_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_rst_proc_sys7_0_50M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_raw_demosaic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_auto_pc_0"/>
+</GenRun>

@@ -1,0 +1,41 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|               clk_fpga_0 |               clk_fpga_3 |                             zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMA_D1/WE|
+|               clk_fpga_0 |               clk_fpga_3 |                             zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMD_D1/WE|
+|               clk_fpga_0 |               clk_fpga_3 |                                zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMD/WE|
+|               clk_fpga_0 |               clk_fpga_3 |                             zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMC_D1/WE|
+|               clk_fpga_0 |               clk_fpga_3 |                                zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMC/WE|
+|               clk_fpga_0 |               clk_fpga_3 |                             zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMB_D1/WE|
+|               clk_fpga_0 |               clk_fpga_3 |                                zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMB/WE|
+|               clk_fpga_0 |               clk_fpga_3 |                                zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMA/WE|
+|               clk_fpga_0 |               clk_fpga_3 |                                              zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[4]/D|
+|               clk_fpga_0 |               clk_fpga_3 |                                              zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[2]/D|
+|               clk_fpga_0 |               clk_fpga_3 |                                              zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[3]/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                       zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/out_data_reg[4]/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                       zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/out_data_reg[2]/D|
+|               clk_fpga_0 |               clk_fpga_3 |                                                  zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/tick_d1_reg/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                           zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/tick_d1_reg/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                                          zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tick_d1_reg/D|
+|               clk_fpga_0 |               clk_fpga_3 |                                        zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/wr_addr_reg[1]/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                        zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/wr_addr_reg[0]/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                              zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/tick_reg/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                                       zsys_i/audio/axi_i2s_adi_0/U0/ctrl/SDATA_O_reg[0]/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                                       zsys_i/audio/axi_i2s_adi_0/U0/ctrl/LRCLK_O_reg[0]/S|
+|               clk_fpga_0 |               clk_fpga_3 |                                                        zsys_i/audio/axi_i2s_adi_0/U0/ctrl/BCLK_O_reg[0]/S|
+|               clk_fpga_0 |               clk_fpga_3 |                                                  zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/tick_d1_reg/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                                  zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/tick_d2_reg/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                               zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/rd_addr_reg[1]/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                               zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/rd_addr_reg[0]/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                                             zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tick_reg/R|
+|               clk_fpga_0 |               clk_fpga_3 |                                               zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_sync_fifo_in_reg[4]/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                                                  zsys_i/audio/i2s_to_pwm_0/U0/sdata_reg/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                                             zsys_i/audio/i2s_to_pwm_0/U0/bclk_sr_reg[0]/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                                            zsys_i/audio/i2s_to_pwm_0/U0/lrclk_sr_reg[0]/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                                            zsys_i/audio/axis_to_i2s_0/U0/bclk_sr_reg[0]/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                                           zsys_i/audio/axis_to_i2s_0/U0/lrclk_sr_reg[0]/D|
+|               clk_fpga_0 |               clk_fpga_3 |                                              zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[0]/D|
+|               clk_fpga_0 |               clk_fpga_3 |                                              zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[1]/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                       zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/out_data_reg[0]/D|
+|               clk_fpga_3 |               clk_fpga_0 |                                       zsys_i/audio/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/out_data_reg[1]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
