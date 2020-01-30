@@ -17,7 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param chipscope.maxJobs 2
 create_project -in_memory -part xc7z010clg225-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -80,8 +79,26 @@ set_property used_in_implementation false [get_files -all /home/parallels/zynqbe
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/new/zynqberry_pinout.xdc
-set_property used_in_implementation false [get_files /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/new/zynqberry_pinout.xdc]
+read_xdc /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_bitgen_common.xdc
+set_property used_in_implementation false [get_files /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_bitgen_common.xdc]
+
+read_xdc /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_common.xdc
+set_property used_in_implementation false [get_files /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_common.xdc]
+
+read_xdc /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_csi.xdc
+set_property used_in_implementation false [get_files /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_csi.xdc]
+
+read_xdc /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_hdmi.xdc
+set_property used_in_implementation false [get_files /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_hdmi.xdc]
+
+read_xdc /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_te0726.xdc
+set_property used_in_implementation false [get_files /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_te0726.xdc]
+
+read_xdc /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_timing.xdc
+set_property used_in_implementation false [get_files /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/_i_timing.xdc]
+
+read_xdc /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/vivado_target.xdc
+set_property used_in_implementation false [get_files /home/parallels/zynqberry_0/zynqberry_0.srcs/constrs_1/imports/constraints/vivado_target.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

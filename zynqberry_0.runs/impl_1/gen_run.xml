@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg225-1" LaunchTime="1579661754">
+<GenRun Id="impl_1" LaunchPart="xc7z010clg225-1" LaunchTime="1579746024">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="BG-DRC" Name="zsys_wrapper.drc"/>
   <File Type="BG-BGN" Name="zsys_wrapper.bgn"/>
@@ -99,13 +99,64 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/new/zynqberry_pinout.xdc">
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/_i_bitgen_common.xdc">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../zynqberry/zynqberrydemo1/constraints/_i_bitgen_common.xdc"/>
+        <Attr Name="ImportTime" Val="1575477666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/_i_common.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../zynqberry/zynqberrydemo1/constraints/_i_common.xdc"/>
+        <Attr Name="ImportTime" Val="1575477664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/_i_csi.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../zynqberry/zynqberrydemo1/constraints/_i_csi.xdc"/>
+        <Attr Name="ImportTime" Val="1575477664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/_i_hdmi.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../zynqberry/zynqberrydemo1/constraints/_i_hdmi.xdc"/>
+        <Attr Name="ImportTime" Val="1575477664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/_i_te0726.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../zynqberry/zynqberrydemo1/constraints/_i_te0726.xdc"/>
+        <Attr Name="ImportTime" Val="1575477666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/_i_timing.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../zynqberry/zynqberrydemo1/constraints/_i_timing.xdc"/>
+        <Attr Name="ImportTime" Val="1575477664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/vivado_target.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../zynqberry/zynqberrydemo1/constraints/vivado_target.xdc"/>
+        <Attr Name="ImportTime" Val="1575477664"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/constraints/vivado_target.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
@@ -116,9 +167,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

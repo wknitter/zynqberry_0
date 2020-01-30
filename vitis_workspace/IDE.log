@@ -8,3 +8,13 @@
 19:09:27 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
 19:09:27 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
 19:19:11 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+18:30:45 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+18:30:48 INFO  : Registering command handlers for Vitis TCF services
+18:30:48 INFO  : XSCT server has started successfully.
+18:30:48 INFO  : Successfully done setting XSCT server connection channel  
+18:30:48 INFO  : plnx-install-location is set to ''
+18:30:49 INFO  : Successfully done setting workspace for the tool. 
+18:30:49 INFO  : Successfully done query RDI_DATADIR 
+18:31:00 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+18:31:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa is already opened
+

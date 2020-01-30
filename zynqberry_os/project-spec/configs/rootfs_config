@@ -151,7 +151,7 @@ CONFIG_haveged=y
 #
 # i2c-tools 
 #
-# CONFIG_i2c-tools is not set
+CONFIG_i2c-tools=y
 # CONFIG_i2c-tools-dev is not set
 # CONFIG_i2c-tools-dbg is not set
 # CONFIG_i2c-tools-misc is not set
@@ -559,11 +559,11 @@ CONFIG_openssh-sftp-server=y
 #
 # alsa-utils 
 #
-# CONFIG_alsa-utils is not set
+CONFIG_alsa-utils=y
 # CONFIG_alsa-utils-aconnect is not set
 # CONFIG_alsa-utils-alsaloop is not set
 # CONFIG_alsa-utils-aseqdump is not set
-# CONFIG_alsa-utils-aplay is not set
+CONFIG_alsa-utils-aplay=y
 # CONFIG_alsa-utils-iecset is not set
 # CONFIG_alsa-utils-alsaucm is not set
 # CONFIG_alsa-utils-dev is not set
@@ -1884,10 +1884,10 @@ CONFIG_run-postinsts=y
 #
 # CONFIG_alsa-lib is not set
 # CONFIG_alsa-lib-dbg is not set
-# CONFIG_alsa-lib-dev is not set
+CONFIG_alsa-lib-dev=y
 # CONFIG_alsa-server is not set
-# CONFIG_libasound is not set
-# CONFIG_alsa-conf-base is not set
+CONFIG_libasound=y
+CONFIG_alsa-conf-base=y
 # CONFIG_alsa-conf is not set
 # CONFIG_alsa-oss is not set
 
@@ -3853,14 +3853,14 @@ CONFIG_bridge-utils=y
 #
 # packagegroup-petalinux-networking-debug
 #
-# CONFIG_packagegroup-petalinux-networking-debug is not set
+CONFIG_packagegroup-petalinux-networking-debug=y
 # CONFIG_packagegroup-petalinux-networking-debug-dbg is not set
 # CONFIG_packagegroup-petalinux-networking-debug-dev is not set
 
 #
 # packagegroup-petalinux-networking-stack 
 #
-# CONFIG_packagegroup-petalinux-networking-stack is not set
+CONFIG_packagegroup-petalinux-networking-stack=y
 # CONFIG_packagegroup-petalinux-networking-stack-dbg is not set
 # CONFIG_packagegroup-petalinux-networking-stack-dev is not set
 
@@ -3881,7 +3881,7 @@ CONFIG_bridge-utils=y
 #
 # packagegroup-petalinux-python-modules 
 #
-# CONFIG_packagegroup-petalinux-python-modules is not set
+CONFIG_packagegroup-petalinux-python-modules=y
 # CONFIG_packagegroup-petalinux-python-modules-dbg is not set
 # CONFIG_packagegroup-petalinux-python-modules-dev is not set
 
@@ -3910,7 +3910,7 @@ CONFIG_bridge-utils=y
 #
 # packagegroup-petalinux-utils 
 #
-# CONFIG_packagegroup-petalinux-utils is not set
+CONFIG_packagegroup-petalinux-utils=y
 # CONFIG_packagegroup-petalinux-utils-dbg is not set
 # CONFIG_packagegroup-petalinux-utils-dev is not set
 
