@@ -291,10 +291,12 @@ int main(void)
 			SDK_RELEASE_YEAR, SDK_RELEASE_QUARTER,
 			__DATE__,__TIME__);
 
+//#define XPAR_PS7_DDR_0_S_AXI_BASEADDR 0x0
+
 #ifdef XPAR_PS7_DDR_0_S_AXI_BASEADDR
 
     /*
-     * DDR Read/write test 
+     * DDR Read/write test
      */
 	Status = DDRInitCheck();
 	if (Status == XST_FAILURE) {
@@ -379,6 +381,7 @@ int main(void)
 	 */
 	BootModeRegister = Xil_In32(BOOT_MODE_REG);
 	BootModeRegister &= BOOT_MODES_MASK;
+//	BootModeRegister = JTAG_MODE; //this
 
 	/*
 	 * QSPI BOOT MODE

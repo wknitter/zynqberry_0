@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="zynqberry_system-verifyFlash"/>
+	<item value="zynqberry_system" key="programflash.hwplatform"/>
+	<item value="Auto Detect" key="zynqberry_system-device"/>
+	<item value="/home/parallels/zynqberry_0/zynqberry_os/images/linux/BOOT.BIN" key="zynqberry_system-imgFile"/>
+	<item value="false" key="zynqberry_system-blankCheck"/>
+	<item value="Local" key="zynqberry_system-target"/>
+	<item value="" key="zynqberry_system-offSet"/>
+	<item value="/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/sw/zynqberry_0/boot/fsbl.elf" key="zynqberry_system-fsblFile"/>
+	<item value="qspi-x4-single" key="zynqberry_system-flashType"/>
+</section>

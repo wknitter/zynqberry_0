@@ -1,2 +1,6 @@
-Nothing to build in platform 'zynqberry_0'
+06:06:58 **** Incremental Build of project zynqberry_0 ****
+buildplatform.sh 36033 zynqberry_0 no_domain_build 
+XSDB Server Channel: tcfchan#9
+
+06:07:03 Build Finished (took 4s.700ms)
 

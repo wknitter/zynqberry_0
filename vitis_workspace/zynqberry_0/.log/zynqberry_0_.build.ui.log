@@ -1,2 +1,6 @@
-2020-01-22T18:31:00.621987000-Nothing to build in platform 'zynqberry_0'
+2020-02-01T06:06:58.30721700255-06:06:58 **** Incremental Build of project zynqberry_0 ****
+000-buildplatform.sh 36033 zynqberry_0 no_domain_build 
+000-XSDB Server Channel: tcfchan#9
+00255-
+06:07:03 Build Finished (took 4s.700ms)
 

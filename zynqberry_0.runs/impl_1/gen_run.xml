@@ -1,80 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7z010clg225-1" LaunchTime="1579746024">
+  <File Type="PA-TCL" Name="zsys_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="zsys_wrapper_reports.tcl"/>
+  <File Type="OPT-DCP" Name="zsys_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="zsys_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="zsys_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="zsys_wrapper_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="zsys_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="zsys_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="zsys_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="zsys_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="zsys_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="zsys_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="zsys_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="zsys_wrapper_physopt.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="zsys_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="zsys_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="zsys_wrapper_routed_bb.dcp"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-DRC" Name="zsys_wrapper.drc"/>
+  <File Type="BG-BIT" Name="zsys_wrapper.bit"/>
+  <File Type="ROUTE-BUS-SKEW" Name="zsys_wrapper_bus_skew_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="zsys_wrapper.msk"/>
+  <File Type="BITSTR-RBT" Name="zsys_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="zsys_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="zsys_wrapper_bd.bmm"/>
+  <File Type="PDI-FILE" Name="zsys_wrapper.pdi"/>
+  <File Type="ROUTE-DRC" Name="zsys_wrapper_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="zsys_wrapper.mmi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="zsys_wrapper_postroute_physopt.dcp"/>
+  <File Type="ROUTE-DRC-PB" Name="zsys_wrapper_drc_routed.pb"/>
   <File Type="BG-BGN" Name="zsys_wrapper.bgn"/>
+  <File Type="BG-BIN" Name="zsys_wrapper.bin"/>
+  <File Type="RCFI_FILE" Name="zsys_wrapper.rcfi"/>
+  <File Type="RDI-RDI" Name="zsys_wrapper.vdi"/>
+  <File Type="ROUTE-DRC-RPX" Name="zsys_wrapper_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="zsys_wrapper.drc"/>
+  <File Type="CFI_FILE" Name="zsys_wrapper.cfi"/>
+  <File Type="ROUTE-PWR" Name="zsys_wrapper_power_routed.rpt"/>
   <File Type="BITSTR-SYSDEF" Name="zsys_wrapper.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="zsys_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="NPI_FILE" Name="zsys_wrapper.npi"/>
+  <File Type="ROUTE-PWR-RPX" Name="zsys_wrapper_power_routed.rpx"/>
+  <File Type="RNPI_FILE" Name="zsys_wrapper.rnpi"/>
+  <File Type="ROUTE-PWR-SUM" Name="zsys_wrapper_power_summary_routed.pb"/>
   <File Type="BITSTR-LTX" Name="zsys_wrapper.ltx"/>
   <File Type="RBD_FILE" Name="zsys_wrapper.rbd"/>
-  <File Type="NPI_FILE" Name="zsys_wrapper.npi"/>
-  <File Type="RNPI_FILE" Name="zsys_wrapper.rnpi"/>
-  <File Type="CFI_FILE" Name="zsys_wrapper.cfi"/>
-  <File Type="RDI-RDI" Name="zsys_wrapper.vdi"/>
-  <File Type="RCFI_FILE" Name="zsys_wrapper.rcfi"/>
-  <File Type="PDI-FILE" Name="zsys_wrapper.pdi"/>
-  <File Type="BITSTR-MMI" Name="zsys_wrapper.mmi"/>
-  <File Type="BITSTR-BMM" Name="zsys_wrapper_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="zsys_wrapper.nky"/>
-  <File Type="BITSTR-RBT" Name="zsys_wrapper.rbt"/>
-  <File Type="BITSTR-MSK" Name="zsys_wrapper.msk"/>
-  <File Type="BG-BIN" Name="zsys_wrapper.bin"/>
-  <File Type="BG-BIT" Name="zsys_wrapper.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="zsys_wrapper_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="zsys_wrapper_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="zsys_wrapper_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="zsys_wrapper_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="zsys_wrapper_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="zsys_wrapper_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="zsys_wrapper_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="zsys_wrapper_postroute_physopt.dcp"/>
+  <File Type="ROUTE-STATUS" Name="zsys_wrapper_route_status.rpt"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="zsys_wrapper_bus_skew_routed.rpx"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="zsys_wrapper_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW" Name="zsys_wrapper_bus_skew_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="zsys_wrapper_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-SIMILARITY" Name="zsys_wrapper_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-TIMING-RPX" Name="zsys_wrapper_timing_summary_routed.rpx"/>
   <File Type="ROUTE-TIMING-PB" Name="zsys_wrapper_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="zsys_wrapper_timing_summary_routed.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="zsys_wrapper_route_status.pb"/>
-  <File Type="ROUTE-STATUS" Name="zsys_wrapper_route_status.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="zsys_wrapper_power_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="zsys_wrapper_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="zsys_wrapper_power_routed.rpt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="zsys_wrapper_methodology_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="zsys_wrapper_methodology_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="zsys_wrapper_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="zsys_wrapper_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="zsys_wrapper_drc_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="zsys_wrapper_drc_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="zsys_wrapper_routed_bb.dcp"/>
-  <File Type="ROUTE-DCP" Name="zsys_wrapper_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="zsys_wrapper_routed_error.dcp"/>
-  <File Type="PHYSOPT-TIMING" Name="zsys_wrapper_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="zsys_wrapper_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="zsys_wrapper_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="zsys_wrapper_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="zsys_wrapper_postplace_pwropt.dcp"/>
-  <File Type="PLACE-TIMING" Name="zsys_wrapper_timing_summary_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="zsys_wrapper_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="zsys_wrapper_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="zsys_wrapper_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="zsys_wrapper_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="zsys_wrapper_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="zsys_wrapper_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="zsys_wrapper_io_placed.rpt"/>
-  <File Type="PLACE-DCP" Name="zsys_wrapper_placed.dcp"/>
-  <File Type="PWROPT-DRC" Name="zsys_wrapper_drc_pwropted.rpt"/>
-  <File Type="PWROPT-DCP" Name="zsys_wrapper_pwropt.dcp"/>
-  <File Type="OPT-HWDEF" Name="zsys_wrapper.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="zsys_wrapper_methodology_drc_opted.rpt"/>
-  <File Type="OPT-DRC" Name="zsys_wrapper_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="zsys_wrapper_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="zsys_wrapper_timing_summary_init.rpt"/>
-  <File Type="PWROPT-TIMING" Name="zsys_wrapper_timing_summary_pwropted.rpt"/>
-  <File Type="REPORTS-TCL" Name="zsys_wrapper_reports.tcl"/>
-  <File Type="OPT-TIMING" Name="zsys_wrapper_timing_summary_opted.rpt"/>
-  <File Type="PA-TCL" Name="zsys_wrapper.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/zsys/zsys.bd">
@@ -177,32 +158,33 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_raw_demosaic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_rst_proc_sys7_0_50M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_to_i2s_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_csi_to_axis_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_auto_pc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_Video_IO_2_HDMI_TMDS_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_i2s_to_pwm_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_i2s_adi_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_raw_unpack_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_v_tc_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_auto_pc_1"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_csi2_d_phy_rx_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_proc_sys_reset_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_proc_sys_reset_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_raw_unpack_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_Video_IO_2_HDMI_TMDS_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_3_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_csi_to_axis_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_4_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_to_i2s_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_i2s_to_pwm_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_i2s_adi_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_fb_conv_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axi_reg32_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_xadc_wiz_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_auto_pc_2"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axi_vdma_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_clk_wiz_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_fb_conv_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_v_tc_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_v_axi4s_vid_out_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_vdma_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_xbar_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_rst_proc_sys7_0_50M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_raw_demosaic_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_vdma_0_1"/>
 </GenRun>
