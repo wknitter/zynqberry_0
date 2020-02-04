@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/sw/zynqberry_0/boot" key="zynq_flash_files_selection"/>
+	<item value="/home/parallels/zynqberry_0/fsbl_flash" key="zynq_flash_files_selection"/>
 	<item value="/home/parallels/zynqberry_0" key="scw_hwspec"/>
 </section>

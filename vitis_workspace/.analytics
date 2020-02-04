@@ -17,3 +17,6 @@ timestamp=[2020-01-30 20:51:24], mode=PLATFORM_GENERATION, duration=0:00:07.882,
 timestamp=[2020-01-30 20:52:54], mode=PLATFORM_GENERATION, duration=0:00:04.713, duration_ms=4713, data={name=zynqberry_0}
 timestamp=[2020-01-30 21:02:34], mode=PLATFORM_GENERATION, duration=0:00:04.762, duration_ms=4762, data={name=zynqberry_0}
 timestamp=[2020-02-01 06:07:03], mode=PLATFORM_GENERATION, duration=0:00:04.717, duration_ms=4717, data={name=zynqberry_0}
+timestamp=[2020-02-03 19:15:40], mode=WORKBENCH_START, duration=0:00:07.474, duration_ms=7474, data={}
+timestamp=[2020-02-03 19:15:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.750, duration_ms=750, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hello_zynqberry,zynqberry_0,zynqberry_system}
+timestamp=[2020-02-03 19:16:42], mode=PLATFORM_GENERATION, duration=0:00:04.551, duration_ms=4551, data={name=zynqberry_0}

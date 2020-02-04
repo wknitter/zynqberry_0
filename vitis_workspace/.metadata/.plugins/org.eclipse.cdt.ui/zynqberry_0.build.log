@@ -1,6 +1,6 @@
-06:06:58 **** Incremental Build of project zynqberry_0 ****
-buildplatform.sh 36033 zynqberry_0 no_domain_build 
-XSDB Server Channel: tcfchan#9
+19:16:38 **** Incremental Build of project zynqberry_0 ****
+buildplatform.sh 35705 zynqberry_0 no_domain_build 
+XSDB Server Channel: tcfchan#1
 
-06:07:03 Build Finished (took 4s.700ms)
+19:16:42 Build Finished (took 4s.494ms)
 

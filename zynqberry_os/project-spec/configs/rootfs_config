@@ -3941,6 +3941,7 @@ CONFIG_imagefeature-hwcodecs=y
 # apps 
 #
 # CONFIG_gpio-demo is not set
+CONFIG_hello-zynqberry-app=y
 # CONFIG_peekpoke is not set
 
 #
