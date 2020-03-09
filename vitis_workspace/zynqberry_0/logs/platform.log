@@ -5949,3 +5949,1739 @@ TRACE::2020-02-03.22:16:39::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqbe
 /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2020-02-03.22:16:39::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:02::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-02-05.21:20:02::SCWPlatform::Opened new HwDB with name zsys_wrapper
+TRACE::2020-02-05.21:20:02::SCWReader::Active system found as  zynqberry_0
+TRACE::2020-02-05.21:20:02::SCWReader::Handling sysconfig zynqberry_0
+TRACE::2020-02-05.21:20:02::SCWDomain::checking for install qemu data   : 
+TRACE::2020-02-05.21:20:02::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-02-05.21:20:02::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-02-05.21:20:02::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:02::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:02::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:02::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:02::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:02::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:02::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:02::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:02::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-02-05.21:20:02::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:02::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:02::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:02::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:02::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:02::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:02::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-02-05.21:20:02::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:02::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:02::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:02::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-02-05.21:20:02::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-05.21:20:03::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-02-05.21:20:03::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-02-05.21:20:03::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWReader::No isolation master present  
+TRACE::2020-02-05.21:20:03::SCWDomain::checking for install qemu data   : 
+TRACE::2020-02-05.21:20:03::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-02-05.21:20:03::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-02-05.21:20:03::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-05.21:20:03::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-02-05.21:20:03::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWReader::No isolation master present  
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::In reload Mss file.
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2020-02-05.21:20:03::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2020-02-05.21:20:03::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-02-05.21:20:03::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-02-05.21:20:03::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-05.21:20:03::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::In reload Mss file.
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-02-05.21:20:03::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-05.21:20:03::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-05.21:20:03::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-05.21:20:03::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-05.21:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-05.21:20:03::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-05.21:20:03::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-05.21:20:03::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:48::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:48::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:48::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened new HwDB with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWReader::Active system found as  zynqberry_0
+TRACE::2020-02-09.22:22:50::SCWReader::Handling sysconfig zynqberry_0
+TRACE::2020-02-09.22:22:50::SCWDomain::checking for install qemu data   : 
+TRACE::2020-02-09.22:22:50::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-02-09.22:22:50::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-02-09.22:22:50::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-02-09.22:22:50::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-09.22:22:50::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-02-09.22:22:50::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-02-09.22:22:50::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWReader::No isolation master present  
+TRACE::2020-02-09.22:22:50::SCWDomain::checking for install qemu data   : 
+TRACE::2020-02-09.22:22:50::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-02-09.22:22:50::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-02-09.22:22:50::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-09.22:22:50::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-02-09.22:22:50::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWReader::No isolation master present  
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::In reload Mss file.
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2020-02-09.22:22:50::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2020-02-09.22:22:50::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-02-09.22:22:50::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-02-09.22:22:50::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-09.22:22:50::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::In reload Mss file.
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-02-09.22:22:50::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-09.22:22:50::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-02-09.22:22:50::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-02-09.22:22:50::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-02-09.22:22:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-09.22:22:50::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-09.22:22:50::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-09.22:22:50::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:46:58::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:46:58::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:46:58::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:46:59::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:46:59::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:46:59::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:46:59::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened new HwDB with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWReader::Active system found as  zynqberry_0
+TRACE::2020-03-07.14:47:01::SCWReader::Handling sysconfig zynqberry_0
+TRACE::2020-03-07.14:47:01::SCWDomain::checking for install qemu data   : 
+TRACE::2020-03-07.14:47:01::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-03-07.14:47:01::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-03-07.14:47:01::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-03-07.14:47:01::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.14:47:01::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-03-07.14:47:01::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-03-07.14:47:01::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWReader::No isolation master present  
+TRACE::2020-03-07.14:47:01::SCWDomain::checking for install qemu data   : 
+TRACE::2020-03-07.14:47:01::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-03-07.14:47:01::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-07.14:47:01::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.14:47:01::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-03-07.14:47:01::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWReader::No isolation master present  
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWWriter::formatted JSON is {
+	"platformName":	"zynqberry_0",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zynqberry_0",
+	"platHandOff":	"/home/parallels/zynqberry_0/zsys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zsys_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynqberry_0",
+	"systems":	[{
+			"systemName":	"zynqberry_0",
+			"systemDesc":	"zynqberry_0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynqberry_0",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"27f7a421bb50295d21087fc87b1f6f7d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0b99407ee263c6ef9582e531a9156a3a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-03-07.14:47:01::SCWMssOS::Writing the mss file completed /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWWriter::formatted JSON is {
+	"platformName":	"zynqberry_0",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zynqberry_0",
+	"platHandOff":	"/home/parallels/zynqberry_0/zsys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zsys_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynqberry_0",
+	"systems":	[{
+			"systemName":	"zynqberry_0",
+			"systemDesc":	"zynqberry_0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynqberry_0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"27f7a421bb50295d21087fc87b1f6f7d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0b99407ee263c6ef9582e531a9156a3a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-07.14:47:01::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.14:47:01::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::In reload Mss file.
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:01::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:01::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:01::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2020-03-07.14:47:01::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2020-03-07.14:47:01::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2020-03-07.14:47:01::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-03-07.14:47:01::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:01::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-07.14:47:01::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.14:47:02::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:02::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:02::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:02::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:02::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:02::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::In reload Mss file.
+TRACE::2020-03-07.14:47:02::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:02::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:02::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:02::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:02::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:02::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-07.14:47:02::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.14:47:02::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.14:47:02::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.14:47:02::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.14:47:02::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.14:47:02::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.14:47:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.14:47:02::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.14:47:02::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.14:47:02::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:03::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:03::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:03::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened new HwDB with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWReader::Active system found as  zynqberry_0
+TRACE::2020-03-07.21:32:05::SCWReader::Handling sysconfig zynqberry_0
+TRACE::2020-03-07.21:32:05::SCWDomain::checking for install qemu data   : 
+TRACE::2020-03-07.21:32:05::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-03-07.21:32:05::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-03-07.21:32:05::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-03-07.21:32:05::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.21:32:05::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:05::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:05::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-03-07.21:32:05::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-03-07.21:32:05::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:05::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWReader::No isolation master present  
+TRACE::2020-03-07.21:32:05::SCWDomain::checking for install qemu data   : 
+TRACE::2020-03-07.21:32:05::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-03-07.21:32:05::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:05::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-07.21:32:05::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.21:32:05::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-03-07.21:32:05::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:05::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWReader::No isolation master present  
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:05::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:05::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:05::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:05::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:05::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:05::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::In reload Mss file.
+TRACE::2020-03-07.21:32:06::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:06::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:06::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:06::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:06::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2020-03-07.21:32:06::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2020-03-07.21:32:06::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2020-03-07.21:32:06::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-03-07.21:32:06::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-07.21:32:06::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.21:32:06::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:06::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:06::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:06::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:06::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:06::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::In reload Mss file.
+TRACE::2020-03-07.21:32:06::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:06::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:06::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:06::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:06::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:06::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-07.21:32:06::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-07.21:32:06::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-07.21:32:06::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-07.21:32:06::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-07.21:32:06::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-07.21:32:06::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-07.21:32:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-07.21:32:06::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-07.21:32:06::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-07.21:32:06::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:06::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:06::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:06::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:08::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:08::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:08::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:08::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened new HwDB with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWReader::Active system found as  zynqberry_0
+TRACE::2020-03-08.12:59:10::SCWReader::Handling sysconfig zynqberry_0
+TRACE::2020-03-08.12:59:10::SCWDomain::checking for install qemu data   : 
+TRACE::2020-03-08.12:59:10::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-03-08.12:59:10::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-03-08.12:59:10::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-03-08.12:59:10::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-03-08.12:59:10::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-03-08.12:59:10::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWReader::No isolation master present  
+TRACE::2020-03-08.12:59:10::SCWDomain::checking for install qemu data   : 
+TRACE::2020-03-08.12:59:10::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-03-08.12:59:10::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-08.12:59:10::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-03-08.12:59:10::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWReader::No isolation master present  
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWWriter::formatted JSON is {
+	"platformName":	"zynqberry_0",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zynqberry_0",
+	"platHandOff":	"/home/parallels/zynqberry_0/zsys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zsys_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynqberry_0",
+	"systems":	[{
+			"systemName":	"zynqberry_0",
+			"systemDesc":	"zynqberry_0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynqberry_0",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"27f7a421bb50295d21087fc87b1f6f7d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0b99407ee263c6ef9582e531a9156a3a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-03-08.12:59:10::SCWMssOS::Writing the mss file completed /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWWriter::formatted JSON is {
+	"platformName":	"zynqberry_0",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zynqberry_0",
+	"platHandOff":	"/home/parallels/zynqberry_0/zsys_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zsys_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynqberry_0",
+	"systems":	[{
+			"systemName":	"zynqberry_0",
+			"systemDesc":	"zynqberry_0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynqberry_0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"27f7a421bb50295d21087fc87b1f6f7d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"0b99407ee263c6ef9582e531a9156a3a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-08.12:59:10::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::In reload Mss file.
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2020-03-08.12:59:10::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2020-03-08.12:59:10::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-03-08.12:59:10::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-08.12:59:10::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::In reload Mss file.
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::No sw design opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::mss exists loading the mss file  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design from mss  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Adding the swdes entry /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-08.12:59:10::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-08.12:59:10::SCWMssOS::Opened the sw design.  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to open the hw design at /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA given /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA absoulate path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform::DSA directory /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Platform Path /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa
+TRACE::2020-03-08.12:59:10::SCWPlatform:: Unique name xilinx:te0726_m::0.0
+TRACE::2020-03-08.12:59:10::SCWPlatform::Trying to set the existing hwdb with name zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Opened existing hwdb zsys_wrapper
+TRACE::2020-03-08.12:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-08.12:59:10::SCWMssOS::Checking the sw design at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::DEBUG:  swdes dump  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-03-08.12:59:10::SCWMssOS::Sw design exists and opened at  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-08.12:59:10::SCWMssOS::Removing the swdes entry for  /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss

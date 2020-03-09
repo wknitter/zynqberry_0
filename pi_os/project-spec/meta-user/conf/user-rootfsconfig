@@ -1,0 +1,31 @@
+#Note: Mention Each package in individual line
+#These packages will get added into rootfs menu entry
+
+# User apps
+CONFIG_gpio-demo
+CONFIG_peekpoke
+
+# System tools
+CONFIG_gsl
+CONFIG_nano
+CONFIG_cmake
+
+# Python3 
+CONFIG_python3
+CONFIG_python3-pip
+CONFIG_python3-cffi
+CONFIG_python3-numpy
+CONFIG_python3-shell
+CONFIG_python3-pyserial
+CONFIG_python3-threading
+CONFIG_python3-multiprocessing
+
+# Zynqberry apps
+CONFIG_startup
+CONFIG_rpicam
+CONFIG_fbgrab
+CONFIG_ffmpeg
+CONFIG_webfwu
+CONFIG_ffmpeg
+CONFIG_adafruit-circuitpython
+CONFIG_te-audio-codec

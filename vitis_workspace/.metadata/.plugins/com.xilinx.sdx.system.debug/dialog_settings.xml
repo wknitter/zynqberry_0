@@ -8,13 +8,13 @@
 	<item value="true" key="zynqberry_system-verifyFlash"/>
 	<item value="true" key="hello_zynqberry-verifyFlash"/>
 	<item value="Auto Detect" key="zynqberry_system-device"/>
-	<item value="/home/parallels/zynqberry_0/zynqberry_os/images/linux/BOOT.BIN" key="zynqberry_system-imgFile"/>
+	<item value="/home/parallels/zynqberry_0/pi_os/images/linux/BOOT.BIN" key="zynqberry_system-imgFile"/>
 	<item value="false" key="zynqberry_system-blankCheck"/>
 	<item value="Local" key="zynqberry_system-target"/>
 	<item value="" key="hello_zynqberry-offSet"/>
 	<item value="/home/parallels/zynqberry_0/zynqberry_os/images/linux/BOOT.BIN" key="hello_zynqberry-imgFile"/>
 	<item value="false" key="hello_zynqberry-blankCheck"/>
-	<item value="/home/parallels/zynqberry_0/fsbl_flash/zynq_fsbl_flash.elf" key="zynqberry_system-fsblFile"/>
+	<item value="/home/parallels/zynqberry_0/pi_os/images/linux/zynq_fsbl.elf" key="zynqberry_system-fsblFile"/>
 	<item value="qspi-x4-single" key="zynqberry_system-flashType"/>
 	<item value="Local" key="hello_zynqberry-target"/>
 </section>

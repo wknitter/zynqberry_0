@@ -1,0 +1,18 @@
+auto lo
+iface lo inet loopback
+
+## Static IP example
+#auto eth0
+#iface eth0 inet static
+#        address 192.168.1.19
+#        netmask 255.255.255.0
+#        network 192.168.1.0
+##        gateway 192.168.1.1
+## DHCP Example
+auto eth0
+iface eth0 inet dhcp
+		
+# Second NIC (if any)
+auto eth1
+iface eth1 inet dhcp
+

@@ -1,0 +1,16 @@
+petalinux-package --boot --fsbl ../vitis_workspace/zynqberry_0/export/zynqberry_0/sw/zynqberry_0/boot/fsbl.elf --fpga ../vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.bit --u-boot --force
+
+
+sudo mount /dev/sdc1 /media/BOOT/
+sudo mount /dev/sdc2 /media/rootfs/
+
+sudo rm -rfv /media/BOOT/
+sudo rm -rfv /media/rootfs/
+
+sudo cp ./zynqberry_0/zynqberry_os/images/linux/image.ub /media/BOOT/
+sudo cp ./zynqberry_0/zynqberry_os/images/linux/system.dtb /media/BOOT/
+
+sudo tar -xvf ./zynqberry_0/zynqberry_os/images/linux/rootfs.tar.gz -C /media/rootfs/
+
+sudo umount /media/BOOT/
+sudo umount /media/rootfs/
