@@ -1,4 +1,4 @@
-2020-02-01T06:07:04.33629500255-06:07:04 **** Incremental Build of configuration Debug for project hello_zynqberry ****
+2020-03-10T20:20:57.95064300255-20:20:57 **** Build of configuration Debug for project hello_zynqberry ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
@@ -26,5 +26,5 @@
 000-Finished building: hello_zynqberry.elf.size
 000- 
 00255-
-06:07:04 Build Finished (took 164ms)
+20:20:58 Build Finished (took 167ms)
 
