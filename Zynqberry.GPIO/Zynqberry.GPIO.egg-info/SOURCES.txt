@@ -1,0 +1,8 @@
+README.md
+setup.py
+Zynqberry/__init__.py
+Zynqberry.GPIO.egg-info/PKG-INFO
+Zynqberry.GPIO.egg-info/SOURCES.txt
+Zynqberry.GPIO.egg-info/dependency_links.txt
+Zynqberry.GPIO.egg-info/top_level.txt
+Zynqberry/GPIO/__init__.py

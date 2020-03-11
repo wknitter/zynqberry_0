@@ -8,7 +8,7 @@ setuptools.setup(
     version                       = "0.0.1",
     author                        = "Whitney Knitter",
     author_email                  = "whitney@knitronics.com",
-    description                   = "A small example package",
+    description                   = "Zynqberry GPIO package",
     long_description              = long_description,
     long_description_content_type = "text/markdown",
     url                           = "https://github.com/pypa/sampleproject",
