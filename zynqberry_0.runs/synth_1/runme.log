@@ -18,9 +18,9 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Device 21-403] Loading part xc7z010clg225-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 4897 
+INFO: Helper process launched with PID 3891 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2039.070 ; gain = 202.715 ; free physical = 30551 ; free virtual = 34352
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2039.070 ; gain = 202.715 ; free physical = 30575 ; free virtual = 34331
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'zsys_wrapper' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/hdl/zsys_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
@@ -31,19 +31,19 @@ INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/tools/Xilinx/Vivado/2019.2/sc
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [/tools/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
 INFO: [Synth 8-6157] synthesizing module 'zsys' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2756]
 INFO: [Synth 8-6157] synthesizing module 'audio_imp_1P9NOCO' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:12]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axi_i2s_adi_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_i2s_adi_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_i2s_adi_0_0' (2#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_i2s_adi_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axi_i2s_adi_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_i2s_adi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_i2s_adi_0_0' (2#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_i2s_adi_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'axi_i2s_adi_0' of module 'zsys_axi_i2s_adi_0_0' has 45 connections declared, but only 44 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:182]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axis_to_i2s_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_to_i2s_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_to_i2s_0_0' (3#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_to_i2s_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_i2s_to_pwm_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_i2s_to_pwm_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_i2s_to_pwm_0_0' (4#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_i2s_to_pwm_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_xadc_wiz_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_xadc_wiz_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_xadc_wiz_0_0' (5#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_xadc_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axis_to_i2s_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_to_i2s_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_to_i2s_0_0' (3#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_to_i2s_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_i2s_to_pwm_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_i2s_to_pwm_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_i2s_to_pwm_0_0' (4#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_i2s_to_pwm_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_xadc_wiz_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_xadc_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_xadc_wiz_0_0' (5#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_xadc_wiz_0_0_stub.v:5]
 WARNING: [Synth 8-7023] instance 'xadc_wiz_0' of module 'zsys_xadc_wiz_0_0' has 14 connections declared, but only 8 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:243]
 INFO: [Synth 8-6155] done synthesizing module 'audio_imp_1P9NOCO' (6#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:12]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axi_reg32_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_reg32_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_reg32_0_0' (7#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_reg32_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axi_reg32_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_reg32_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_reg32_0_0' (7#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_reg32_0_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'zsys_proc_sys7_0_axi_periph_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:3984]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_17O0P66' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:254]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_17O0P66' (8#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:254]
@@ -58,75 +58,75 @@ INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_10UJB05' (12#1) 
 INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_75ARYB' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:928]
 INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_75ARYB' (13#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:928]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_PGNNMJ' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1445]
-INFO: [Synth 8-6157] synthesizing module 'zsys_auto_pc_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_auto_pc_0' (14#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_auto_pc_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_auto_pc_0' (14#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_PGNNMJ' (15#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1445]
-INFO: [Synth 8-6157] synthesizing module 'zsys_xbar_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_xbar_0' (16#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_xbar_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_xbar_0' (16#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_xbar_0_stub.v:6]
 WARNING: [Synth 8-689] width (12) of port connection 'm_axi_arprot' does not match port width (18) of module 'zsys_xbar_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:5049]
 WARNING: [Synth 8-689] width (12) of port connection 'm_axi_awprot' does not match port width (18) of module 'zsys_xbar_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:5053]
 INFO: [Synth 8-6155] done synthesizing module 'zsys_proc_sys7_0_axi_periph_0' (17#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:3984]
-INFO: [Synth 8-6157] synthesizing module 'zsys_processing_system7_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_processing_system7_0_0' (18#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_processing_system7_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_processing_system7_0_0' (18#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'zsys_processing_system7_0_0' has 187 connections declared, but only 156 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:3315]
 INFO: [Synth 8-6157] synthesizing module 'resets_imp_BXH7YA' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1060]
-INFO: [Synth 8-6157] synthesizing module 'zsys_rst_proc_sys7_0_50M_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_rst_proc_sys7_0_50M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_rst_proc_sys7_0_50M_0' (19#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_rst_proc_sys7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_rst_proc_sys7_0_50M_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_rst_proc_sys7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_rst_proc_sys7_0_50M_0' (19#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_rst_proc_sys7_0_50M_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'rst_proc_sys7_0_50M' of module 'zsys_rst_proc_sys7_0_50M_0' has 10 connections declared, but only 7 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1079]
 INFO: [Synth 8-6155] done synthesizing module 'resets_imp_BXH7YA' (20#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1060]
 INFO: [Synth 8-6157] synthesizing module 'video_in_imp_1E96PH' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1750]
 INFO: [Synth 8-6157] synthesizing module 'zsys_axi_interconnect_0_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:3614]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1CTEOV5' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1089]
-INFO: [Synth 8-6157] synthesizing module 'zsys_auto_pc_1' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_auto_pc_1' (21#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_auto_pc_1' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_auto_pc_1' (21#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_1_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1CTEOV5' (22#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1089]
 INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_interconnect_0_0' (23#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:3614]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axi_vdma_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_vdma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_vdma_0_0' (24#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axi_vdma_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_vdma_0_0' (24#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_vdma_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'zsys_axi_vdma_0_0' has 44 connections declared, but only 43 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2054]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axis_data_fifo_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_data_fifo_0_0' (25#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axis_data_fifo_3_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_3_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_data_fifo_3_0' (26#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_3_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axis_data_fifo_4_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_4_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_data_fifo_4_0' (27#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_4_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axis_raw_demosaic_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_raw_demosaic_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_raw_demosaic_0_0' (28#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_raw_demosaic_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axis_raw_unpack_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_raw_unpack_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_raw_unpack_0_0' (29#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_raw_unpack_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_csi2_d_phy_rx_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_csi2_d_phy_rx_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_csi2_d_phy_rx_0_0' (30#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_csi2_d_phy_rx_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axis_data_fifo_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_data_fifo_0_0' (25#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axis_data_fifo_3_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_data_fifo_3_0' (26#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axis_data_fifo_4_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_4_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_data_fifo_4_0' (27#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_data_fifo_4_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axis_raw_demosaic_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_raw_demosaic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_raw_demosaic_0_0' (28#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_raw_demosaic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axis_raw_unpack_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_raw_unpack_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_raw_unpack_0_0' (29#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_raw_unpack_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_csi2_d_phy_rx_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_csi2_d_phy_rx_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_csi2_d_phy_rx_0_0' (30#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_csi2_d_phy_rx_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'csi2_d_phy_rx_0' of module 'zsys_csi2_d_phy_rx_0_0' has 33 connections declared, but only 25 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2166]
-INFO: [Synth 8-6157] synthesizing module 'zsys_csi_to_axis_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_csi_to_axis_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_csi_to_axis_0_0' (31#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_csi_to_axis_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_proc_sys_reset_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_proc_sys_reset_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_proc_sys_reset_0_0' (32#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_csi_to_axis_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_csi_to_axis_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_csi_to_axis_0_0' (31#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_csi_to_axis_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_proc_sys_reset_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_proc_sys_reset_0_0' (32#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_proc_sys_reset_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'zsys_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2217]
-INFO: [Synth 8-6157] synthesizing module 'zsys_proc_sys_reset_1_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_proc_sys_reset_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_proc_sys_reset_1_0' (33#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_proc_sys_reset_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_proc_sys_reset_1_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_proc_sys_reset_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_proc_sys_reset_1_0' (33#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_proc_sys_reset_1_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'proc_sys_reset_1' of module 'zsys_proc_sys_reset_1_0' has 10 connections declared, but only 6 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2224]
 INFO: [Synth 8-6155] done synthesizing module 'video_in_imp_1E96PH' (34#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1750]
 INFO: [Synth 8-6157] synthesizing module 'video_out_imp_VOY96P' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2233]
-INFO: [Synth 8-6157] synthesizing module 'zsys_Video_IO_2_HDMI_TMDS_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_Video_IO_2_HDMI_TMDS_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_Video_IO_2_HDMI_TMDS_0_0' (35#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_Video_IO_2_HDMI_TMDS_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_Video_IO_2_HDMI_TMDS_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_Video_IO_2_HDMI_TMDS_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_Video_IO_2_HDMI_TMDS_0_0' (35#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_Video_IO_2_HDMI_TMDS_0_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'zsys_axi_mem_intercon_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:3814]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1CXSKC1' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1282]
-INFO: [Synth 8-6157] synthesizing module 'zsys_auto_pc_2' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_2_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_auto_pc_2' (36#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_auto_pc_2' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_auto_pc_2' (36#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_auto_pc_2_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1CXSKC1' (37#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:1282]
 INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_mem_intercon_0' (38#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:3814]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axi_vdma_0_1' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_vdma_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_vdma_0_1' (39#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_vdma_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axi_vdma_0_1' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_vdma_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axi_vdma_0_1' (39#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axi_vdma_0_1_stub.v:6]
 WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'zsys_axi_vdma_0_1' has 41 connections declared, but only 39 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2619]
-INFO: [Synth 8-6157] synthesizing module 'zsys_axis_fb_conv_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_fb_conv_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_fb_conv_0_0' (40#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_fb_conv_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zsys_clk_wiz_1_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_clk_wiz_1_0' (41#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'zsys_v_axi4s_vid_out_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_v_axi4s_vid_out_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_v_axi4s_vid_out_0_0' (42#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_axis_fb_conv_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_fb_conv_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_axis_fb_conv_0_0' (40#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_axis_fb_conv_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_clk_wiz_1_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_clk_wiz_1_0' (41#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'zsys_v_axi4s_vid_out_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_v_axi4s_vid_out_0_0' (42#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_v_axi4s_vid_out_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'v_axi4s_vid_out_0' of module 'zsys_v_axi4s_vid_out_0_0' has 31 connections declared, but only 25 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2696]
-INFO: [Synth 8-6157] synthesizing module 'zsys_v_tc_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_v_tc_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zsys_v_tc_0_0' (43#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-4816-parallels-Parallels-Virtual-Platform/realtime/zsys_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zsys_v_tc_0_0' [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zsys_v_tc_0_0' (43#1) [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/.Xil/Vivado-3573-parallels-Parallels-Virtual-Platform/realtime/zsys_v_tc_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'v_tc_0' of module 'zsys_v_tc_0_0' has 32 connections declared, but only 30 given [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2722]
 INFO: [Synth 8-6155] done synthesizing module 'video_out_imp_VOY96P' (44#1) [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/synth/zsys.v:2233]
 INFO: [Synth 8-6157] synthesizing module 'zsys_xlconcat_0_0' [/home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_xlconcat_0_0/synth/zsys_xlconcat_0_0.v:58]
@@ -285,7 +285,7 @@ WARNING: [Synth 8-3331] design video_out_imp_VOY96P has unconnected port CLKWIZ_
 WARNING: [Synth 8-3331] design video_out_imp_VOY96P has unconnected port CLKWIZ_AXI_araddr[28]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2109.758 ; gain = 273.402 ; free physical = 30580 ; free virtual = 34384
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2109.758 ; gain = 273.402 ; free physical = 30605 ; free virtual = 34364
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -298,12 +298,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2109.758 ; gain = 273.402 ; free physical = 30579 ; free virtual = 34383
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2109.758 ; gain = 273.402 ; free physical = 30603 ; free virtual = 34362
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2109.758 ; gain = 273.402 ; free physical = 30579 ; free virtual = 34383
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2109.758 ; gain = 273.402 ; free physical = 30603 ; free virtual = 34362
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2115.695 ; gain = 0.000 ; free physical = 30571 ; free virtual = 34376
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2115.695 ; gain = 0.000 ; free physical = 30595 ; free virtual = 34354
 INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -407,26 +407,26 @@ Parsing XDC File [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/dont_touc
 Finished Parsing XDC File [/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2244.539 ; gain = 0.000 ; free physical = 30460 ; free virtual = 34282
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2244.539 ; gain = 0.000 ; free physical = 30488 ; free virtual = 34265
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 24 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 24 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2244.539 ; gain = 0.000 ; free physical = 30460 ; free virtual = 34282
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2244.539 ; gain = 0.000 ; free physical = 30488 ; free virtual = 34265
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'zsys_i/video_in/axi_vdma_0' at clock pin 'm_axi_s2mm_aclk' is different from the actual clock period '6.250', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'zsys_i/video_in/axis_data_fifo_0' at clock pin 's_axis_aclk' is different from the actual clock period '5.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'zsys_i/video_in/proc_sys_reset_0' at clock pin 'slowest_sync_clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'zsys_i/video_out/axi_vdma_0' at clock pin 'm_axi_mm2s_aclk' is different from the actual clock period '6.250', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'zsys_i/video_out/clk_wiz_1' at clock pin 's_axi_aclk' is different from the actual clock period '6.250', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30537 ; free virtual = 34360
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30544 ; free virtual = 34323
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg225-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30537 ; free virtual = 34360
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30544 ; free virtual = 34323
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -666,10 +666,10 @@ Applied set_property DONT_TOUCH = true for zsys_i/proc_sys7_0_axi_periph/s00_cou
 Applied set_property DONT_TOUCH = true for zsys_i/video_in/axi_interconnect_0/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for zsys_i/video_out/axi_mem_intercon/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30537 ; free virtual = 34360
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30544 ; free virtual = 34323
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30534 ; free virtual = 34357
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30543 ; free virtual = 34323
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -705,7 +705,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30520 ; free virtual = 34348
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30528 ; free virtual = 34313
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -717,13 +717,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30391 ; free virtual = 34226
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30378 ; free virtual = 34170
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30391 ; free virtual = 34226
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30378 ; free virtual = 34170
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -735,7 +735,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30392 ; free virtual = 34227
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30379 ; free virtual = 34171
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -759,13 +759,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30393 ; free virtual = 34229
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30390 ; free virtual = 34182
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30393 ; free virtual = 34229
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30390 ; free virtual = 34182
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -784,25 +784,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30394 ; free virtual = 34229
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30390 ; free virtual = 34182
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30394 ; free virtual = 34229
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30390 ; free virtual = 34182
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30394 ; free virtual = 34229
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30390 ; free virtual = 34182
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30394 ; free virtual = 34229
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30390 ; free virtual = 34182
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -898,18 +898,18 @@ Report Instance Areas:
 |15    |        s00_couplers       |s00_couplers_imp_1CXSKC1      |    93|
 +------+---------------------------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30394 ; free virtual = 34229
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30390 ; free virtual = 34182
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 82 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2247.508 ; gain = 273.402 ; free physical = 30448 ; free virtual = 34284
-Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30448 ; free virtual = 34284
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2247.508 ; gain = 273.402 ; free physical = 30444 ; free virtual = 34236
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2247.508 ; gain = 411.152 ; free physical = 30444 ; free virtual = 34236
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2247.508 ; gain = 0.000 ; free physical = 30515 ; free virtual = 34353
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2247.508 ; gain = 0.000 ; free physical = 30510 ; free virtual = 34305
 INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2247.508 ; gain = 0.000 ; free physical = 30456 ; free virtual = 34294
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2247.508 ; gain = 0.000 ; free physical = 30452 ; free virtual = 34247
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 24 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 24 instances
@@ -917,10 +917,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 128 Infos, 133 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 2247.508 ; gain = 659.336 ; free physical = 30579 ; free virtual = 34418
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2247.508 ; gain = 0.000 ; free physical = 30579 ; free virtual = 34418
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:35 . Memory (MB): peak = 2247.508 ; gain = 659.336 ; free physical = 30576 ; free virtual = 34370
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2247.508 ; gain = 0.000 ; free physical = 30576 ; free virtual = 34370
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/parallels/zynqberry_0/zynqberry_0.runs/synth_1/zsys_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file zsys_wrapper_utilization_synth.rpt -pb zsys_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Jan 22 21:21:06 2020...
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 15 11:59:46 2020...

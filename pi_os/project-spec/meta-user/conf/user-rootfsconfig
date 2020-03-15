@@ -5,21 +5,6 @@
 CONFIG_gpio-demo
 CONFIG_peekpoke
 
-# System tools
-CONFIG_gsl
-CONFIG_nano
-CONFIG_cmake
-
-# Python3 
-CONFIG_python3
-CONFIG_python3-pip
-CONFIG_python3-cffi
-CONFIG_python3-numpy
-CONFIG_python3-shell
-CONFIG_python3-pyserial
-CONFIG_python3-threading
-CONFIG_python3-multiprocessing
-
 # Zynqberry apps
 CONFIG_startup
 CONFIG_rpicam

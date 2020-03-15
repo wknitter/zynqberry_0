@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date             : Wed Jan 22 21:23:35 2020
-| Host             : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.3 LTS
+| Date             : Sun Mar 15 12:04:03 2020
+| Host             : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.4 LTS
 | Command          : report_power -file zsys_wrapper_power_routed.rpt -pb zsys_wrapper_power_summary_routed.pb -rpx zsys_wrapper_power_routed.rpx
 | Design           : zsys_wrapper
 | Device           : xc7z010clg225-1

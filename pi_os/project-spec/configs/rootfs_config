@@ -55,7 +55,7 @@ CONFIG_busybox-httpd=y
 # CONFIG_busybox-inetd is not set
 # CONFIG_busybox-dev is not set
 # CONFIG_busybox-hwclock is not set
-# CONFIG_busybox-udhcpc is not set
+CONFIG_busybox-udhcpc=y
 # CONFIG_busybox-syslog is not set
 
 #
@@ -616,7 +616,7 @@ CONFIG_alsa-utils-aplay=y
 #
 # git 
 #
-# CONFIG_git is not set
+CONFIG_git=y
 # CONFIG_git-bash-completion is not set
 # CONFIG_gitweb is not set
 # CONFIG_git-perltools is not set
@@ -626,7 +626,7 @@ CONFIG_alsa-utils-aplay=y
 #
 # grep 
 #
-# CONFIG_grep is not set
+CONFIG_grep=y
 # CONFIG_grep-dbg is not set
 # CONFIG_grep-dev is not set
 
@@ -707,7 +707,7 @@ CONFIG_pciutils=y
 #
 # pkgconfig 
 #
-# CONFIG_pkgconfig is not set
+CONFIG_pkgconfig=y
 # CONFIG_pkgconfig-dbg is not set
 # CONFIG_pkgconfig-dev is not set
 
@@ -735,7 +735,7 @@ CONFIG_pciutils=y
 #
 # smartmontools 
 #
-# CONFIG_smartmontools is not set
+CONFIG_smartmontools=y
 # CONFIG_smartmontools-dbg is not set
 # CONFIG_smartmontools-dev is not set
 
@@ -764,7 +764,7 @@ CONFIG_pciutils=y
 #
 # unzip 
 #
-# CONFIG_unzip is not set
+CONFIG_unzip=y
 # CONFIG_unzip-dbg is not set
 # CONFIG_unzip-dev is not set
 
@@ -3936,16 +3936,16 @@ CONFIG_imagefeature-ssh-server-dropbear=y
 CONFIG_imagefeature-hwcodecs=y
 CONFIG_imagefeature-package-management=y
 CONFIG_package-feed-uris=""
-# CONFIG_imagefeature-debug-tweaks is not set
+CONFIG_imagefeature-debug-tweaks=y
 
 #
 # apps 
 #
-CONFIG_gpio-demo=y
-CONFIG_peekpoke=y
+# CONFIG_gpio-demo is not set
+# CONFIG_peekpoke is not set
 CONFIG_rpicam=y
-CONFIG_startup=y
-CONFIG_webfwu=y
+# CONFIG_startup is not set
+# CONFIG_webfwu is not set
 
 #
 # modules 
@@ -3956,13 +3956,6 @@ CONFIG_te-audio-codec=y
 # user packages 
 #
 CONFIG_adafruit-circuitpython=y
-CONFIG_cmake=y
-CONFIG_gsl=y
-CONFIG_nano=y
-CONFIG_python3-cffi=y
-CONFIG_python3-numpy=y
-CONFIG_python3-pip=y
-CONFIG_python3-pyserial=y
 CONFIG_fbgrab=y
 
 #

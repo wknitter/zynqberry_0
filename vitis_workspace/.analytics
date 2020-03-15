@@ -35,3 +35,12 @@ timestamp=[2020-03-08 18:50:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.861, d
 timestamp=[2020-03-10 20:19:43], mode=WORKBENCH_START, duration=0:00:07.721, duration_ms=7721, data={}
 timestamp=[2020-03-10 20:19:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.923, duration_ms=923, data={editors_count=3, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hello_zynqberry,zynqberry_0,zynqberry_system}
 timestamp=[2020-03-10 20:20:56], mode=PLATFORM_GENERATION, duration=0:00:17.599, duration_ms=17599, data={name=zynqberry_0}
+timestamp=[2020-03-14 09:30:38], mode=WORKBENCH_START, duration=0:00:08.226, duration_ms=8226, data={}
+timestamp=[2020-03-14 09:30:39], mode=WORKBENCH_UI_INIT, duration=0:00:01.026, duration_ms=1026, data={editors_count=3, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hello_zynqberry,zynqberry_0,zynqberry_system}
+timestamp=[2020-03-14 14:43:10], mode=WORKBENCH_START, duration=0:00:08.283, duration_ms=8283, data={}
+timestamp=[2020-03-14 14:43:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.938, duration_ms=938, data={editors_count=3, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hello_zynqberry,zynqberry_0,zynqberry_system}
+timestamp=[2020-03-14 20:21:06], mode=WORKBENCH_START, duration=0:00:08.188, duration_ms=8188, data={}
+timestamp=[2020-03-14 20:21:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.804, duration_ms=804, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hello_zynqberry,zynqberry_0,zynqberry_system}
+timestamp=[2020-03-15 09:07:38], mode=WORKBENCH_START, duration=0:00:07.383, duration_ms=7383, data={}
+timestamp=[2020-03-15 09:07:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.972, duration_ms=972, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hello_zynqberry,zynqberry_0,zynqberry_system}
+timestamp=[2020-03-15 09:08:17], mode=PLATFORM_GENERATION, duration=0:00:13.625, duration_ms=13625, data={name=zynqberry_0}

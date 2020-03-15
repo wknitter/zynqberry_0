@@ -1,30 +1,10 @@
-2020-03-10T20:20:57.95064300255-20:20:57 **** Build of configuration Debug for project hello_zynqberry ****
+2020-03-15T09:08:33.92030500255-09:08:33 **** Incremental Build of configuration Debug for project hello_zynqberry ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
 000- 
 000-make --no-print-directory main-build
-000-Building file: ../src/helloworld.c
-000-Invoking: ARM v7 gcc compiler
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/sw/zynqberry_0/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-000-Finished building: ../src/helloworld.c
-000- 
-000-Building file: ../src/platform.c
-000-Invoking: ARM v7 gcc compiler
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/sw/zynqberry_0/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-000-Finished building: ../src/platform.c
-000- 
-000-Building target: hello_zynqberry.elf
-000-Invoking: ARM v7 gcc linker
-000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/sw/zynqberry_0/standalone_domain/bsplib/lib -o "hello_zynqberry.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-000-Finished building target: hello_zynqberry.elf
-000- 
-000-Invoking: ARM v7 Print Size
-000-arm-none-eabi-size hello_zynqberry.elf  |tee "hello_zynqberry.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000-  19068	   1144	  22568	  42780	   a71c	hello_zynqberry.elf
-000-Finished building: hello_zynqberry.elf.size
-000- 
+000-make[1]: Nothing to be done for 'main-build'.
 00255-
-20:20:58 Build Finished (took 167ms)
+09:08:33 Build Finished (took 68ms)
 
