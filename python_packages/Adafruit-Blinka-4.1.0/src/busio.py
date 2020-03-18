@@ -172,6 +172,9 @@ class SPI(Lockable):
         elif board_id == ap_board.PINE64 or board_id == ap_board.PINEBOOK or board_id == ap_board.PINEPHONE:
             from adafruit_blinka.microcontroller.allwinner.a64.pin import Pin
             from adafruit_blinka.microcontroller.generic_linux.spi import SPI as _SPI
+        elif board_id == ap_board.ZYNQBERRY:
+            from adafruit_blinka.microcontroller.zynqberry_emio.pin import Pin
+            from adafruit_blinka.microcontroller.zynqberry_emio.spi import SPI as _SPI
 
         else:
             from machine import SPI as _SPI

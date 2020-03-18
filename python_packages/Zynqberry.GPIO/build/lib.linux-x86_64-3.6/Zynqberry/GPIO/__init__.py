@@ -20,6 +20,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-#from Zynqberry._GPIO import *
+from Zynqberry._GPIO import *
 
-from .gpio import GPIO
+#from mmio import MMIO
+#from ps import Register
+#from ps import Clocks
+#from gpio import GPIO

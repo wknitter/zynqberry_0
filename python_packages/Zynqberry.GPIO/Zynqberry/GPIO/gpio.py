@@ -163,6 +163,9 @@ class GPIO:
 
     """
 
+    IN = 'in'
+    OUT = 'out'
+
     if CPU_ARCH == ZYNQ_ARCH:
         _GPIO_MIN_USER_PIN = 54
     elif CPU_ARCH == ZU_ARCH:
@@ -376,3 +379,96 @@ class GPIO:
             with open(os.path.join(base_path, "ngpio")) as fd:
                 ngpio = fd.read().rstrip()
             return int(''.join(x for x in ngpio if x.isdigit()))
+
+    @staticmethod
+    def setup(pin_num, direction, pull_up_down, target_label=None):
+        GPIO_OFFSET = GPIO._GPIO_MIN_USER_PIN
+
+        if pin_num < 2:
+            # not a valid pin on the Zynqberry
+            return -1
+        elif pin_num < 14:
+            zynq_pin = GPIO.get_gpio_base(target_label) + GPIO_OFFSET + (pin_num - 2)
+            zb_p = GPIO(zynq_pin, direction)
+            return 0
+        elif pin_num == 14:
+            # not a valid pin on the Zynqberry
+            return -1
+        elif pin_num == 15:
+            # not a valid pin on the Zynqberry
+            return -1
+        else:
+            if pin_num < 27:
+                zynq_pin = GPIO.get_gpio_base(target_label) + GPIO_OFFSET + (pin_num - 4)
+                zb_p = GPIO(zynq_pin, direction)
+                return 0
+            else:
+                # not a valid pin on the Zynqberry 
+                return -1
+
+    @staticmethod
+    def input(pin_num):
+        GPIO_OFFSET = GPIO._GPIO_MIN_USER_PIN
+
+        if pin_num < 2:
+            # not a valid pin on the Zynqberry 
+            val = -1
+        elif pin_num < 14:
+            zynq_pin = GPIO.get_gpio_base(target_label) + GPIO_OFFSET + (pin_num - 2)
+            zb_p = GPIO(zynq_pin, GPIO.IN)
+            val = zb_p.read()
+        elif pin_num == 14: 
+            # not a valid pin on the Zynqberry 
+            val = -1
+        elif pin_num == 15:
+            # not a valid pin on the Zynqberry 
+            val = -1
+        else:
+            if pin_num < 27:
+                zynq_pin = GPIO.get_gpio_base(target_label) + GPIO_OFFSET + (pin_num - 4)
+                zb_p = GPIO(zynq_pin, GPIO.IN)
+                val = zb_p.read()
+            else:
+                # not a valid pin on the Zynqberry 
+                val = -1
+
+        return val
+
+    @staticmethod
+    def output(pin_num, set_val):
+        GPIO_OFFSET = GPIO._GPIO_MIN_USER_PIN
+
+        if pin_num < 2:
+            # not a valid pin on the Zynqberry 
+            val = -1
+        elif pin_num < 14:
+            zynq_pin = GPIO.get_gpio_base(target_label) + GPIO_OFFSET + (pin_num - 2)
+            zb_p = GPIO(zynq_pin, GPIO.OUT)
+            if set_val == 1:
+                zb_p.write('1')
+            else:
+                zb_p.write('0')
+            
+            val = 0
+        elif pin_num == 14:
+            # not a valid pin on the Zynqberry 
+            val = -1
+        elif pin_num == 15:
+            # not a valid pin on the Zynqberry 
+            val = -1
+        else:
+            if pin_num < 27:
+                zynq_pin = GPIO.get_gpio_base(target_label) + GPIO_OFFSET + (pin_num - 4)
+                zb_p = GPIO(zynq_pin, GPIO.OUT)
+                if set_val == 1:
+                    zb_p.write('1')
+                else:
+                    zb_p.write('0')
+
+                val = 0
+            else:
+                # not a valid pin on the Zynqberry 
+                val = -1
+
+        return val
+

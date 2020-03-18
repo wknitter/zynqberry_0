@@ -13,10 +13,11 @@ setuptools.setup(
     long_description_content_type = "text/markdown",
     url                           = "https://github.com/pypa/sampleproject",
     packages                      = ['Zynqberry','Zynqberry.GPIO'],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+#    package_dir                   = {'': 'src'},
+#    packages                      = find_packages("src"),
+#    py_modules                    = ['ps', 'registers', 'gpio', 'tinynumpy', 'mmio'],
+    classifiers                   = ["Programming Language :: Python :: 3",
+                                     "License :: OSI Approved :: MIT License",
+                                     "Operating System :: OS Independent",],
     python_requires='>=3.5',
 )

@@ -138,7 +138,7 @@ elif board_id == ap_board.PINE64:
     from adafruit_blinka.board.pine64 import *
 
 elif board_id == ap_board.ZYNQBERRY:
-    from adafruit_blinka.board.zynqberry import *
+    from adafruit_blinka.board.zynqberry.zynqberry_40pin import *
 
 elif "sphinx" in sys.modules:
     pass

@@ -118,6 +118,7 @@ class Register:
         else:
             array = np.frombuffer(buffer, register_type, count=1)
 
+
         self._buffer = array.view(dtype=register_type)
 
     def __getitem__(self, index):

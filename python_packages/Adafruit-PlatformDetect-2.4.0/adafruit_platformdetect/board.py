@@ -68,7 +68,7 @@ class Board:
         elif chip_id == chips.MIPS24KEC:
             board_id = boards.ONION_OMEGA2
         elif chip_id == chips.ZYNQ7000:
-            board_id = self._pynq_id()
+            board_id = boards.ZYNQBERRY
         elif chip_id == chips.A64:
             board_id = self._pine64_id()
         return board_id
@@ -334,7 +334,7 @@ class Board:
                 self.any_giant_board, self.any_jetson_board, self.any_coral_board,
                 self.any_odroid_40_pin, self.any_96boards, self.any_sifive_board,
                 self.any_onion_omega_board, self.any_pine64_board,
-                self.any_pynq_board,
+                self.any_pynq_board,self.any_zynqberry_board,
             ]
         )
 

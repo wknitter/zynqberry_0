@@ -30,7 +30,7 @@
 import os
 import mmap
 import numpy as np
-import .tinynumpy as tnp
+import Zynqberry.tinynumpy as tnp
 
 __author__ = "Yun Rock Qu"
 __copyright__ = "Copyright 2016, Xilinx"

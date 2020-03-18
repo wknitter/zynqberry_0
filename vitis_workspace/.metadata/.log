@@ -4627,3 +4627,9 @@ java.lang.Error
 	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
 	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
 	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-03-15 15:18:13.656
+!MESSAGE Executing command: /tools/Xilinx/Vitis/2019.2/bin/wbtcv -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-03-15 15:18:13.669
+!MESSAGE Executed Webtalk command
