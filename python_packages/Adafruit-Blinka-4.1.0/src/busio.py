@@ -32,10 +32,13 @@ class I2C(Lockable):
             from adafruit_blinka.microcontroller.mcp2221.i2c import I2C
             self._i2c = I2C(frequency=frequency)
             return
+        elif board_id == ap_board.ZYNQBERRY:
+            from adafruit_blinka.microcontroller.zynqberry_emio.i2c import I2C as _I2C
         elif detector.board.any_embedded_linux:
             from adafruit_blinka.microcontroller.generic_linux.i2c import I2C as _I2C
         else:
             from machine import I2C as _I2C
+
         from microcontroller.pin import i2cPorts
         for portId, portScl, portSda in i2cPorts:
             try:
@@ -106,10 +109,13 @@ class SPI(Lockable):
             self._spi = _SPI(clock)
             self._pins = (SCK, MOSI, MISO)
             return
+        elif board_id == ap_board.ZYNQBERRY:
+            from adafruit_blinka.microcontroller.zynqberry_emio.spi import SPI as _SPI
         elif detector.board.any_embedded_linux:
             from adafruit_blinka.microcontroller.generic_linux.spi import SPI as _SPI
         else:
             from machine import SPI as _SPI
+
         from microcontroller.pin import spiPorts
         for portId, portSck, portMosi, portMiso in spiPorts:
             if ((clock == portSck) and                   # Clock is required!
