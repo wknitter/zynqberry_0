@@ -165,6 +165,9 @@ class GPIO:
 
     IN = 'in'
     OUT = 'out'
+    PUD_OFF = 0
+    PUD_UP = 1
+    PUD_DOWN = 2 
 
     if CPU_ARCH == ZYNQ_ARCH:
         _GPIO_MIN_USER_PIN = 54
