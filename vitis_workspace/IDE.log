@@ -191,3 +191,14 @@ Reason: Name or service not known
 09:07:44 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
 09:08:17 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
 09:08:33 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+09:08:06 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+09:08:08 INFO  : Registering command handlers for Vitis TCF services
+09:08:09 INFO  : XSCT server has started successfully.
+09:08:09 INFO  : Successfully done setting XSCT server connection channel  
+09:08:11 INFO  : plnx-install-location is set to ''
+09:08:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa is already opened
+
+09:08:13 INFO  : Successfully done setting workspace for the tool. 
+09:08:13 INFO  : Successfully done query RDI_DATADIR 
+09:08:13 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+09:08:13 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"

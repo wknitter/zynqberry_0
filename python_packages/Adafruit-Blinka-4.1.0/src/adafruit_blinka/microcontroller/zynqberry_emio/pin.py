@@ -132,5 +132,5 @@ D45 = Pin(45)    # Zynqberry GPIO[n/a]
 spiPorts = ((0, SCLK, MOSI, MISO), (1, SCLK_1, MOSI_1, MISO_1), (2, SCLK_2, MOSI_2, MISO_2))
 
 i2cPorts = (
-    (3, SCL, SDA), (1, SCL, SDA), (0, D1, D0),   # both pi 1 and pi 2 i2c ports!
+    (3, SCL, SDA), (1, SCL, SDA),
 )

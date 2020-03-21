@@ -32,7 +32,7 @@ class I2C(Lockable):
             from adafruit_blinka.microcontroller.mcp2221.i2c import I2C
             self._i2c = I2C(frequency=frequency)
             return
-        elif board_id == ap_board.ZYNQBERRY:
+        elif detector.board.ZYNQBERRY:
             from adafruit_blinka.microcontroller.zynqberry_emio.i2c import I2C as _I2C
         elif detector.board.any_embedded_linux:
             from adafruit_blinka.microcontroller.generic_linux.i2c import I2C as _I2C
@@ -178,7 +178,7 @@ class SPI(Lockable):
         elif board_id == ap_board.PINE64 or board_id == ap_board.PINEBOOK or board_id == ap_board.PINEPHONE:
             from adafruit_blinka.microcontroller.allwinner.a64.pin import Pin
             from adafruit_blinka.microcontroller.generic_linux.spi import SPI as _SPI
-        elif board_id == ap_board.ZYNQBERRY:
+        elif detector.board.ZYNQBERRY:
             from adafruit_blinka.microcontroller.zynqberry_emio.pin import Pin
             from adafruit_blinka.microcontroller.zynqberry_emio.spi import SPI as _SPI
 

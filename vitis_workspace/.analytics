@@ -44,3 +44,5 @@ timestamp=[2020-03-14 20:21:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.804, d
 timestamp=[2020-03-15 09:07:38], mode=WORKBENCH_START, duration=0:00:07.383, duration_ms=7383, data={}
 timestamp=[2020-03-15 09:07:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.972, duration_ms=972, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hello_zynqberry,zynqberry_0,zynqberry_system}
 timestamp=[2020-03-15 09:08:17], mode=PLATFORM_GENERATION, duration=0:00:13.625, duration_ms=13625, data={name=zynqberry_0}
+timestamp=[2020-03-20 09:08:07], mode=WORKBENCH_START, duration=0:00:08.323, duration_ms=8323, data={}
+timestamp=[2020-03-20 09:08:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.826, duration_ms=826, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hello_zynqberry,zynqberry_0,zynqberry_system}
