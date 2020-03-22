@@ -65,6 +65,20 @@ I2C0_SDA_T,
 I2C0_SCL_I, 
 I2C0_SCL_O, 
 I2C0_SCL_T, 
+SPI0_SCLK_I, 
+SPI0_SCLK_O, 
+SPI0_SCLK_T, 
+SPI0_MOSI_I, 
+SPI0_MOSI_O, 
+SPI0_MOSI_T, 
+SPI0_MISO_I, 
+SPI0_MISO_O, 
+SPI0_MISO_T, 
+SPI0_SS_I, 
+SPI0_SS_O, 
+SPI0_SS1_O, 
+SPI0_SS2_O, 
+SPI0_SS_T, 
 TTC0_WAVE0_OUT, 
 TTC0_WAVE1_OUT, 
 TTC0_WAVE2_OUT, 
@@ -244,15 +258,29 @@ PS_SRSTB,
 PS_CLK, 
 PS_PORB 
 );
-input [23 : 0] GPIO_I;
-output [23 : 0] GPIO_O;
-output [23 : 0] GPIO_T;
+input [16 : 0] GPIO_I;
+output [16 : 0] GPIO_O;
+output [16 : 0] GPIO_T;
 input I2C0_SDA_I;
 output I2C0_SDA_O;
 output I2C0_SDA_T;
 input I2C0_SCL_I;
 output I2C0_SCL_O;
 output I2C0_SCL_T;
+input SPI0_SCLK_I;
+output SPI0_SCLK_O;
+output SPI0_SCLK_T;
+input SPI0_MOSI_I;
+output SPI0_MOSI_O;
+output SPI0_MOSI_T;
+input SPI0_MISO_I;
+output SPI0_MISO_O;
+output SPI0_MISO_T;
+input SPI0_SS_I;
+output SPI0_SS_O;
+output SPI0_SS1_O;
+output SPI0_SS2_O;
+output SPI0_SS_T;
 output TTC0_WAVE0_OUT;
 output TTC0_WAVE1_OUT;
 output TTC0_WAVE2_OUT;

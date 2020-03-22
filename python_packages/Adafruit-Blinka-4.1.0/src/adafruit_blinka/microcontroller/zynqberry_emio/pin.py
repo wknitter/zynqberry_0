@@ -56,81 +56,48 @@ class Pin:
         else:
             return GPIO.input(self.id)
 
-# Pi 1B rev1 only?
-D0 = Pin(0)      # Zynqberry GPIO[n/a]
-D1 = Pin(1)      # Zynqberry GPIO[n/a]
+D2 = Pin(2)      # Zynqberry I2C_SDA
+SDA = Pin(2)     # Zynqberry I2C_SDA
+D3 = Pin(3)      # Zynqberry I2C_SCL
+SCL = Pin(3)     # Zynqberry I2C_SCL
 
-D2 = Pin(2)      # Zynqberry GPIO[0]
-SDA = Pin(2)     # Zynqberry GPIO[0]
-D3 = Pin(3)      # Zynqberry GPIO[1]
-SCL = Pin(3)     # Zynqberry GPIO[1]
+D4 = Pin(4)      # Zynqberry GPIO[0]
+D5 = Pin(5)      # Zynqberry GPIO[1]
+D6 = Pin(6)      # Zynqberry GPIO[2] 
 
-D4 = Pin(4)      # Zynqberry GPIO[2]
-D5 = Pin(5)      # Zynqberry GPIO[3]
-D6 = Pin(6)      # Zynqberry GPIO[4] 
+D7 = Pin(7)      # Zynqberry SPI0_SS1
+CE1 = Pin(7)     # Zynqberry SPI0_SS1
+D8 = Pin(8)      # Zynqberry SPI0_SS1
+CE0 = Pin(8)     # Zynqberry SPI0_SS
+D9 = Pin(9)      # Zynqberry SPI0_MISO
+MISO = Pin(9)    # Zynqberry SPI0_MISO
+D10 = Pin(10)    # Zynqberry SPI0_MOSI
+MOSI = Pin(10)   # Zynqberry SPI0_MOSI
+D11 = Pin(11)    # Zynqberry SPI0_SCLK
+SCLK = Pin(11)   # Zynqberry SPI0_SCLK - Raspberry Pi naming
+SCK = Pin(11)    # Zynqberry SPI0_SCLK - CircuitPython naming
 
-D7 = Pin(7)      # Zynqberry GPIO[5]
-CE1 = Pin(7)     # Zynqberry GPIO[5]
-D8 = Pin(8)      # Zynqberry GPIO[6]
-CE0 = Pin(8)     # Zynqberry GPIO[6]
-D9 = Pin(9)      # Zynqberry GPIO[7]
-MISO = Pin(9)    # Zynqberry GPIO[7]
-D10 = Pin(10)    # Zynqberry GPIO[8]
-MOSI = Pin(10)   # Zynqberry GPIO[8]
-D11 = Pin(11)    # Zynqberry GPIO[9]
-SCLK = Pin(11)   # Zynqberry GPIO[9] - Raspberry Pi naming
-SCK = Pin(11)    # Zynqberry GPIO[9] - CircuitPython naming
+D12 = Pin(12)    # Zynqberry GPIO[3]
+D13 = Pin(13)    # Zynqberry GPIO[4]
 
-D12 = Pin(12)    # Zynqberry GPIO[10]
-D13 = Pin(13)    # Zynqberry GPIO[11]
-
-D14 = Pin(14)    # Zynqberry GPIO[n/a]  
-TXD = Pin(14)    # Zynqberry GPIO[n/a]
-D15 = Pin(15)    # Zynqberry GPIO[n/a]
-RXD = Pin(15)    # Zynqberry GPIO[n/a]
-
-D16 = Pin(16)    # Zynqberry GPIO[12]
-D17 = Pin(17)    # Zynqberry GPIO[13]
-D18 = Pin(18)    # Zynqberry GPIO[14]
-D19 = Pin(19)    # Zynqberry GPIO[15]
-MISO_1 = Pin(19) # Zynqberry GPIO[15]
-D20 = Pin(20)    # Zynqberry GPIO[16]
-MOSI_1 = Pin(20) # Zynqberry GPIO[16]
-D21 = Pin(21)    # Zynqberry GPIO[17]
-SCLK_1 = Pin(21) # Zynqberry GPIO[17]
-SCK_1 = Pin(21)  # Zynqberry GPIO[17]
-D22 = Pin(22)    # Zynqberry GPIO[18]
-D23 = Pin(23)    # Zynqberry GPIO[19]
-D24 = Pin(24)    # Zynqberry GPIO[20]
-D25 = Pin(25)    # Zynqberry GPIO[21]
-D26 = Pin(26)    # Zynqberry GPIO[22]
-D27 = Pin(27)    # Zynqberry GPIO[23]
-D28 = Pin(28)    # Zynqberry GPIO[n/a]
-D29 = Pin(29)    # Zynqberry GPIO[n/a]
-D30 = Pin(30)    # Zynqberry GPIO[n/a]
-D31 = Pin(31)    # Zynqberry GPIO[n/a]
-D32 = Pin(32)    # Zynqberry GPIO[n/a]
-D33 = Pin(33)    # Zynqberry GPIO[n/a]
-D34 = Pin(34)    # Zynqberry GPIO[n/a]
-D35 = Pin(35)    # Zynqberry GPIO[n/a]
-D36 = Pin(36)    # Zynqberry GPIO[n/a]
-D37 = Pin(37)    # Zynqberry GPIO[n/a]
-D38 = Pin(38)    # Zynqberry GPIO[n/a]
-D39 = Pin(39)    # Zynqberry GPIO[n/a]
-D40 = Pin(40)    # Zynqberry GPIO[n/a]
-MISO_2 = Pin(40) # Zynqberry GPIO[n/a]
-D41 = Pin(41)    # Zynqberry GPIO[n/a]
-MOSI_2 = Pin(41) # Zynqberry GPIO[n/a]
-D42 = Pin(42)    # Zynqberry GPIO[n/a]
-SCLK_2 = Pin(42) # Zynqberry GPIO[n/a]
-SCK_2 = Pin(43)  # Zynqberry GPIO[n/a]
-D43 = Pin(43)    # Zynqberry GPIO[n/a]
-D44 = Pin(44)    # Zynqberry GPIO[n/a]
-D45 = Pin(45)    # Zynqberry GPIO[n/a]
+D16 = Pin(16)    # Zynqberry GPIO[5]
+D17 = Pin(17)    # Zynqberry GPIO[6]
+D18 = Pin(18)    # Zynqberry GPIO[7]
+D19 = Pin(19)    # Zynqberry GPIO[8]
+D20 = Pin(20)    # Zynqberry GPIO[9]
+D21 = Pin(21)    # Zynqberry GPIO[10]
+D22 = Pin(22)    # Zynqberry GPIO[11]
+D23 = Pin(23)    # Zynqberry GPIO[12]
+D24 = Pin(24)    # Zynqberry GPIO[13]
+D25 = Pin(25)    # Zynqberry GPIO[14]
+D26 = Pin(26)    # Zynqberry GPIO[15]
+D27 = Pin(27)    # Zynqberry GPIO[16]
 
 # ordered as spiId, sckId, mosiId, misoId
-spiPorts = ((0, SCLK, MOSI, MISO), (1, SCLK_1, MOSI_1, MISO_1), (2, SCLK_2, MOSI_2, MISO_2))
+spiPorts = (
+    (0, SCLK, MOSI, MISO),
+)
 
 i2cPorts = (
-    (3, SCL, SDA), (1, SCL, SDA),
+    (0, SCL, SDA),
 )

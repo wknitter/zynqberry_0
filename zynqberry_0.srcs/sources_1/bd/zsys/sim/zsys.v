@@ -1,8 +1,8 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-//Date        : Tue Jan 21 21:09:22 2020
-//Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.3 LTS
+//Date        : Sat Mar 21 17:11:36 2020
+//Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.4 LTS
 //Command     : generate_target zsys.bd
 //Design      : zsys
 //Purpose     : IP block netlist
@@ -2778,8 +2778,28 @@ module zsys
     GPIO_1_tri_i,
     GPIO_1_tri_o,
     GPIO_1_tri_t,
+    IIC_0_0_scl_i,
+    IIC_0_0_scl_o,
+    IIC_0_0_scl_t,
+    IIC_0_0_sda_i,
+    IIC_0_0_sda_o,
+    IIC_0_0_sda_t,
     PWM_L,
     PWM_R,
+    SPI_0_0_io0_i,
+    SPI_0_0_io0_o,
+    SPI_0_0_io0_t,
+    SPI_0_0_io1_i,
+    SPI_0_0_io1_o,
+    SPI_0_0_io1_t,
+    SPI_0_0_sck_i,
+    SPI_0_0_sck_o,
+    SPI_0_0_sck_t,
+    SPI_0_0_ss1_o,
+    SPI_0_0_ss2_o,
+    SPI_0_0_ss_i,
+    SPI_0_0_ss_o,
+    SPI_0_0_ss_t,
     Vp_Vn_v_n,
     Vp_Vn_v_p,
     csi_c_clk_n,
@@ -2813,11 +2833,31 @@ module zsys
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_CLK" *) inout FIXED_IO_ps_clk;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB" *) inout FIXED_IO_ps_porb;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB" *) inout FIXED_IO_ps_srstb;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 GPIO_1 TRI_I" *) input [23:0]GPIO_1_tri_i;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 GPIO_1 TRI_O" *) output [23:0]GPIO_1_tri_o;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 GPIO_1 TRI_T" *) output [23:0]GPIO_1_tri_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 GPIO_1 TRI_I" *) input [16:0]GPIO_1_tri_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 GPIO_1 TRI_O" *) output [16:0]GPIO_1_tri_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 GPIO_1 TRI_T" *) output [16:0]GPIO_1_tri_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SCL_I" *) input IIC_0_0_scl_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SCL_O" *) output IIC_0_0_scl_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SCL_T" *) output IIC_0_0_scl_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SDA_I" *) input IIC_0_0_sda_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SDA_O" *) output IIC_0_0_sda_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SDA_T" *) output IIC_0_0_sda_t;
   output PWM_L;
   output PWM_R;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 IO0_I" *) input SPI_0_0_io0_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 IO0_O" *) output SPI_0_0_io0_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 IO0_T" *) output SPI_0_0_io0_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 IO1_I" *) input SPI_0_0_io1_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 IO1_O" *) output SPI_0_0_io1_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 IO1_T" *) output SPI_0_0_io1_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 SCK_I" *) input SPI_0_0_sck_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 SCK_O" *) output SPI_0_0_sck_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 SCK_T" *) output SPI_0_0_sck_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 SS1_O" *) output SPI_0_0_ss1_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 SS2_O" *) output SPI_0_0_ss2_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 SS_I" *) input SPI_0_0_ss_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 SS_O" *) output SPI_0_0_ss_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0_0 SS_T" *) output SPI_0_0_ss_t;
   (* X_INTERFACE_INFO = "xilinx.com:interface:diff_analog_io:1.0 Vp_Vn V_N" *) input Vp_Vn_v_n;
   (* X_INTERFACE_INFO = "xilinx.com:interface:diff_analog_io:1.0 Vp_Vn V_P" *) input Vp_Vn_v_p;
   input csi_c_clk_n;
@@ -2985,9 +3025,15 @@ module zsys
   wire processing_system7_0_FIXED_IO_PS_CLK;
   wire processing_system7_0_FIXED_IO_PS_PORB;
   wire processing_system7_0_FIXED_IO_PS_SRSTB;
-  wire [23:0]processing_system7_0_GPIO_0_TRI_I;
-  wire [23:0]processing_system7_0_GPIO_0_TRI_O;
-  wire [23:0]processing_system7_0_GPIO_0_TRI_T;
+  wire [16:0]processing_system7_0_GPIO_0_TRI_I;
+  wire [16:0]processing_system7_0_GPIO_0_TRI_O;
+  wire [16:0]processing_system7_0_GPIO_0_TRI_T;
+  wire processing_system7_0_IIC_0_SCL_I;
+  wire processing_system7_0_IIC_0_SCL_O;
+  wire processing_system7_0_IIC_0_SCL_T;
+  wire processing_system7_0_IIC_0_SDA_I;
+  wire processing_system7_0_IIC_0_SDA_O;
+  wire processing_system7_0_IIC_0_SDA_T;
   wire [31:0]processing_system7_0_M_AXI_GP0_ARADDR;
   wire [1:0]processing_system7_0_M_AXI_GP0_ARBURST;
   wire [3:0]processing_system7_0_M_AXI_GP0_ARCACHE;
@@ -3026,6 +3072,20 @@ module zsys
   wire processing_system7_0_M_AXI_GP0_WREADY;
   wire [3:0]processing_system7_0_M_AXI_GP0_WSTRB;
   wire processing_system7_0_M_AXI_GP0_WVALID;
+  wire processing_system7_0_SPI_0_IO0_I;
+  wire processing_system7_0_SPI_0_IO0_O;
+  wire processing_system7_0_SPI_0_IO0_T;
+  wire processing_system7_0_SPI_0_IO1_I;
+  wire processing_system7_0_SPI_0_IO1_O;
+  wire processing_system7_0_SPI_0_IO1_T;
+  wire processing_system7_0_SPI_0_SCK_I;
+  wire processing_system7_0_SPI_0_SCK_O;
+  wire processing_system7_0_SPI_0_SCK_T;
+  wire processing_system7_0_SPI_0_SS1_O;
+  wire processing_system7_0_SPI_0_SS2_O;
+  wire processing_system7_0_SPI_0_SS_I;
+  wire processing_system7_0_SPI_0_SS_O;
+  wire processing_system7_0_SPI_0_SS_T;
   wire [0:0]rst_proc_sys7_0_50M_interconnect_aresetn;
   wire [0:0]rst_proc_sys7_0_50M_peripheral_aresetn;
   wire [31:0]video_in_M00_AXI_AWADDR;
@@ -3071,10 +3131,24 @@ module zsys
   wire [0:0]xlslice_0_Dout;
   wire [0:0]xlslice_1_Dout;
 
-  assign GPIO_1_tri_o[23:0] = processing_system7_0_GPIO_0_TRI_O;
-  assign GPIO_1_tri_t[23:0] = processing_system7_0_GPIO_0_TRI_T;
+  assign GPIO_1_tri_o[16:0] = processing_system7_0_GPIO_0_TRI_O;
+  assign GPIO_1_tri_t[16:0] = processing_system7_0_GPIO_0_TRI_T;
+  assign IIC_0_0_scl_o = processing_system7_0_IIC_0_SCL_O;
+  assign IIC_0_0_scl_t = processing_system7_0_IIC_0_SCL_T;
+  assign IIC_0_0_sda_o = processing_system7_0_IIC_0_SDA_O;
+  assign IIC_0_0_sda_t = processing_system7_0_IIC_0_SDA_T;
   assign PWM_L = audio_pwm_l_out;
   assign PWM_R = audio_pwm_r_out;
+  assign SPI_0_0_io0_o = processing_system7_0_SPI_0_IO0_O;
+  assign SPI_0_0_io0_t = processing_system7_0_SPI_0_IO0_T;
+  assign SPI_0_0_io1_o = processing_system7_0_SPI_0_IO1_O;
+  assign SPI_0_0_io1_t = processing_system7_0_SPI_0_IO1_T;
+  assign SPI_0_0_sck_o = processing_system7_0_SPI_0_SCK_O;
+  assign SPI_0_0_sck_t = processing_system7_0_SPI_0_SCK_T;
+  assign SPI_0_0_ss1_o = processing_system7_0_SPI_0_SS1_O;
+  assign SPI_0_0_ss2_o = processing_system7_0_SPI_0_SS2_O;
+  assign SPI_0_0_ss_o = processing_system7_0_SPI_0_SS_O;
+  assign SPI_0_0_ss_t = processing_system7_0_SPI_0_SS_T;
   assign Vp_Vn_1_V_N = Vp_Vn_v_n;
   assign Vp_Vn_1_V_P = Vp_Vn_v_p;
   assign csi_c_clk_n_1 = csi_c_clk_n;
@@ -3087,7 +3161,13 @@ module zsys
   assign hdmi_clk_p = video_out_hdmi_clk_p;
   assign hdmi_data_n[2:0] = video_out_hdmi_data_n;
   assign hdmi_data_p[2:0] = video_out_hdmi_data_p;
-  assign processing_system7_0_GPIO_0_TRI_I = GPIO_1_tri_i[23:0];
+  assign processing_system7_0_GPIO_0_TRI_I = GPIO_1_tri_i[16:0];
+  assign processing_system7_0_IIC_0_SCL_I = IIC_0_0_scl_i;
+  assign processing_system7_0_IIC_0_SDA_I = IIC_0_0_sda_i;
+  assign processing_system7_0_SPI_0_IO0_I = SPI_0_0_io0_i;
+  assign processing_system7_0_SPI_0_IO1_I = SPI_0_0_io1_i;
+  assign processing_system7_0_SPI_0_SCK_I = SPI_0_0_sck_i;
+  assign processing_system7_0_SPI_0_SS_I = SPI_0_0_ss_i;
   audio_imp_1P9NOCO audio
        (.DMA_RX_ACK_tready(processing_system7_0_DMA1_ACK_TREADY),
         .DMA_RX_ACK_tuser(processing_system7_0_DMA1_ACK_TUSER),
@@ -3353,8 +3433,12 @@ module zsys
         .GPIO_I(processing_system7_0_GPIO_0_TRI_I),
         .GPIO_O(processing_system7_0_GPIO_0_TRI_O),
         .GPIO_T(processing_system7_0_GPIO_0_TRI_T),
-        .I2C0_SCL_I(1'b0),
-        .I2C0_SDA_I(1'b0),
+        .I2C0_SCL_I(processing_system7_0_IIC_0_SCL_I),
+        .I2C0_SCL_O(processing_system7_0_IIC_0_SCL_O),
+        .I2C0_SCL_T(processing_system7_0_IIC_0_SCL_T),
+        .I2C0_SDA_I(processing_system7_0_IIC_0_SDA_I),
+        .I2C0_SDA_O(processing_system7_0_IIC_0_SDA_O),
+        .I2C0_SDA_T(processing_system7_0_IIC_0_SDA_T),
         .IRQ_F2P(xlconcat_0_dout),
         .MIO(FIXED_IO_mio[31:0]),
         .M_AXI_GP0_ACLK(processing_system7_0_FCLK_CLK0),
@@ -3399,6 +3483,20 @@ module zsys
         .PS_CLK(FIXED_IO_ps_clk),
         .PS_PORB(FIXED_IO_ps_porb),
         .PS_SRSTB(FIXED_IO_ps_srstb),
+        .SPI0_MISO_I(processing_system7_0_SPI_0_IO1_I),
+        .SPI0_MISO_O(processing_system7_0_SPI_0_IO1_O),
+        .SPI0_MISO_T(processing_system7_0_SPI_0_IO1_T),
+        .SPI0_MOSI_I(processing_system7_0_SPI_0_IO0_I),
+        .SPI0_MOSI_O(processing_system7_0_SPI_0_IO0_O),
+        .SPI0_MOSI_T(processing_system7_0_SPI_0_IO0_T),
+        .SPI0_SCLK_I(processing_system7_0_SPI_0_SCK_I),
+        .SPI0_SCLK_O(processing_system7_0_SPI_0_SCK_O),
+        .SPI0_SCLK_T(processing_system7_0_SPI_0_SCK_T),
+        .SPI0_SS1_O(processing_system7_0_SPI_0_SS1_O),
+        .SPI0_SS2_O(processing_system7_0_SPI_0_SS2_O),
+        .SPI0_SS_I(processing_system7_0_SPI_0_SS_I),
+        .SPI0_SS_O(processing_system7_0_SPI_0_SS_O),
+        .SPI0_SS_T(processing_system7_0_SPI_0_SS_T),
         .S_AXI_HP0_ACLK(processing_system7_0_FCLK_CLK0),
         .S_AXI_HP0_ARADDR(video_out_M00_AXI_ARADDR),
         .S_AXI_HP0_ARBURST(video_out_M00_AXI_ARBURST),

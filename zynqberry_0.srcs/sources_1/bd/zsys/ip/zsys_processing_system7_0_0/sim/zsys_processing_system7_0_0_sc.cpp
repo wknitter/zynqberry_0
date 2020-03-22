@@ -69,7 +69,7 @@ zsys_processing_system7_0_0_sc::zsys_processing_system7_0_0_sc(const sc_core::sc
   model_param_props.addLong("USE_TRACE_DATA_EDGE_DETECTOR", "0");
   model_param_props.addLong("C_TRACE_PIPELINE_WIDTH", "8");
   model_param_props.addLong("C_TRACE_BUFFER_CLOCK_DELAY", "12");
-  model_param_props.addLong("C_EMIO_GPIO_WIDTH", "24");
+  model_param_props.addLong("C_EMIO_GPIO_WIDTH", "17");
   model_param_props.addLong("C_INCLUDE_ACP_TRANS_CHECK", "0");
   model_param_props.addLong("C_USE_DEFAULT_ACP_USER_VAL", "0");
   model_param_props.addLong("C_S_AXI_ACP_ARUSER_VAL", "31");
@@ -119,10 +119,10 @@ zsys_processing_system7_0_0_sc::zsys_processing_system7_0_0_sc(const sc_core::sc
   mp_impl = new processing_system7_v5_5_tlm("inst", model_param_props);
 
   // initialize sockets
-  DMA0_REQ_socket = mp_impl->DMA0_REQ_socket;
-  DMA0_ACK_socket = mp_impl->DMA0_ACK_socket;
-  DMA1_REQ_socket = mp_impl->DMA1_REQ_socket;
-  DMA1_ACK_socket = mp_impl->DMA1_ACK_socket;
+  DMA0_REQ_tlm_axis_socket = mp_impl->DMA0_REQ_tlm_axis_socket;
+  DMA0_ACK_tlm_axis_socket = mp_impl->DMA0_ACK_tlm_axis_socket;
+  DMA1_REQ_tlm_axis_socket = mp_impl->DMA1_REQ_tlm_axis_socket;
+  DMA1_ACK_tlm_axis_socket = mp_impl->DMA1_ACK_tlm_axis_socket;
   M_AXI_GP0_rd_socket = mp_impl->M_AXI_GP0_rd_socket;
   M_AXI_GP0_wr_socket = mp_impl->M_AXI_GP0_wr_socket;
   S_AXI_HP0_rd_socket = mp_impl->S_AXI_HP0_rd_socket;

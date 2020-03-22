@@ -1,8 +1,8 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-//Date        : Tue Jan 21 21:09:23 2020
-//Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.3 LTS
+//Date        : Sat Mar 21 17:11:36 2020
+//Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.4 LTS
 //Command     : generate_target zsys_wrapper.bd
 //Design      : zsys_wrapper
 //Purpose     : IP block netlist
@@ -32,8 +32,16 @@ module zsys_wrapper
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
     GPIO_1_tri_io,
+    IIC_0_0_scl_io,
+    IIC_0_0_sda_io,
     PWM_L,
     PWM_R,
+    SPI_0_0_io0_io,
+    SPI_0_0_io1_io,
+    SPI_0_0_sck_io,
+    SPI_0_0_ss1_o,
+    SPI_0_0_ss2_o,
+    SPI_0_0_ss_io,
     Vp_Vn_v_n,
     Vp_Vn_v_p,
     csi_c_clk_n,
@@ -67,9 +75,17 @@ module zsys_wrapper
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
-  inout [23:0]GPIO_1_tri_io;
+  inout [16:0]GPIO_1_tri_io;
+  inout IIC_0_0_scl_io;
+  inout IIC_0_0_sda_io;
   output PWM_L;
   output PWM_R;
+  inout SPI_0_0_io0_io;
+  inout SPI_0_0_io1_io;
+  inout SPI_0_0_sck_io;
+  output SPI_0_0_ss1_o;
+  output SPI_0_0_ss2_o;
+  inout SPI_0_0_ss_io;
   input Vp_Vn_v_n;
   input Vp_Vn_v_p;
   input csi_c_clk_n;
@@ -113,14 +129,7 @@ module zsys_wrapper
   wire [14:14]GPIO_1_tri_i_14;
   wire [15:15]GPIO_1_tri_i_15;
   wire [16:16]GPIO_1_tri_i_16;
-  wire [17:17]GPIO_1_tri_i_17;
-  wire [18:18]GPIO_1_tri_i_18;
-  wire [19:19]GPIO_1_tri_i_19;
   wire [2:2]GPIO_1_tri_i_2;
-  wire [20:20]GPIO_1_tri_i_20;
-  wire [21:21]GPIO_1_tri_i_21;
-  wire [22:22]GPIO_1_tri_i_22;
-  wire [23:23]GPIO_1_tri_i_23;
   wire [3:3]GPIO_1_tri_i_3;
   wire [4:4]GPIO_1_tri_i_4;
   wire [5:5]GPIO_1_tri_i_5;
@@ -137,14 +146,7 @@ module zsys_wrapper
   wire [14:14]GPIO_1_tri_io_14;
   wire [15:15]GPIO_1_tri_io_15;
   wire [16:16]GPIO_1_tri_io_16;
-  wire [17:17]GPIO_1_tri_io_17;
-  wire [18:18]GPIO_1_tri_io_18;
-  wire [19:19]GPIO_1_tri_io_19;
   wire [2:2]GPIO_1_tri_io_2;
-  wire [20:20]GPIO_1_tri_io_20;
-  wire [21:21]GPIO_1_tri_io_21;
-  wire [22:22]GPIO_1_tri_io_22;
-  wire [23:23]GPIO_1_tri_io_23;
   wire [3:3]GPIO_1_tri_io_3;
   wire [4:4]GPIO_1_tri_io_4;
   wire [5:5]GPIO_1_tri_io_5;
@@ -161,14 +163,7 @@ module zsys_wrapper
   wire [14:14]GPIO_1_tri_o_14;
   wire [15:15]GPIO_1_tri_o_15;
   wire [16:16]GPIO_1_tri_o_16;
-  wire [17:17]GPIO_1_tri_o_17;
-  wire [18:18]GPIO_1_tri_o_18;
-  wire [19:19]GPIO_1_tri_o_19;
   wire [2:2]GPIO_1_tri_o_2;
-  wire [20:20]GPIO_1_tri_o_20;
-  wire [21:21]GPIO_1_tri_o_21;
-  wire [22:22]GPIO_1_tri_o_22;
-  wire [23:23]GPIO_1_tri_o_23;
   wire [3:3]GPIO_1_tri_o_3;
   wire [4:4]GPIO_1_tri_o_4;
   wire [5:5]GPIO_1_tri_o_5;
@@ -185,14 +180,7 @@ module zsys_wrapper
   wire [14:14]GPIO_1_tri_t_14;
   wire [15:15]GPIO_1_tri_t_15;
   wire [16:16]GPIO_1_tri_t_16;
-  wire [17:17]GPIO_1_tri_t_17;
-  wire [18:18]GPIO_1_tri_t_18;
-  wire [19:19]GPIO_1_tri_t_19;
   wire [2:2]GPIO_1_tri_t_2;
-  wire [20:20]GPIO_1_tri_t_20;
-  wire [21:21]GPIO_1_tri_t_21;
-  wire [22:22]GPIO_1_tri_t_22;
-  wire [23:23]GPIO_1_tri_t_23;
   wire [3:3]GPIO_1_tri_t_3;
   wire [4:4]GPIO_1_tri_t_4;
   wire [5:5]GPIO_1_tri_t_5;
@@ -200,8 +188,34 @@ module zsys_wrapper
   wire [7:7]GPIO_1_tri_t_7;
   wire [8:8]GPIO_1_tri_t_8;
   wire [9:9]GPIO_1_tri_t_9;
+  wire IIC_0_0_scl_i;
+  wire IIC_0_0_scl_io;
+  wire IIC_0_0_scl_o;
+  wire IIC_0_0_scl_t;
+  wire IIC_0_0_sda_i;
+  wire IIC_0_0_sda_io;
+  wire IIC_0_0_sda_o;
+  wire IIC_0_0_sda_t;
   wire PWM_L;
   wire PWM_R;
+  wire SPI_0_0_io0_i;
+  wire SPI_0_0_io0_io;
+  wire SPI_0_0_io0_o;
+  wire SPI_0_0_io0_t;
+  wire SPI_0_0_io1_i;
+  wire SPI_0_0_io1_io;
+  wire SPI_0_0_io1_o;
+  wire SPI_0_0_io1_t;
+  wire SPI_0_0_sck_i;
+  wire SPI_0_0_sck_io;
+  wire SPI_0_0_sck_o;
+  wire SPI_0_0_sck_t;
+  wire SPI_0_0_ss1_o;
+  wire SPI_0_0_ss2_o;
+  wire SPI_0_0_ss_i;
+  wire SPI_0_0_ss_io;
+  wire SPI_0_0_ss_o;
+  wire SPI_0_0_ss_t;
   wire Vp_Vn_v_n;
   wire Vp_Vn_v_p;
   wire csi_c_clk_n;
@@ -260,46 +274,11 @@ module zsys_wrapper
         .IO(GPIO_1_tri_io[16]),
         .O(GPIO_1_tri_i_16),
         .T(GPIO_1_tri_t_16));
-  IOBUF GPIO_1_tri_iobuf_17
-       (.I(GPIO_1_tri_o_17),
-        .IO(GPIO_1_tri_io[17]),
-        .O(GPIO_1_tri_i_17),
-        .T(GPIO_1_tri_t_17));
-  IOBUF GPIO_1_tri_iobuf_18
-       (.I(GPIO_1_tri_o_18),
-        .IO(GPIO_1_tri_io[18]),
-        .O(GPIO_1_tri_i_18),
-        .T(GPIO_1_tri_t_18));
-  IOBUF GPIO_1_tri_iobuf_19
-       (.I(GPIO_1_tri_o_19),
-        .IO(GPIO_1_tri_io[19]),
-        .O(GPIO_1_tri_i_19),
-        .T(GPIO_1_tri_t_19));
   IOBUF GPIO_1_tri_iobuf_2
        (.I(GPIO_1_tri_o_2),
         .IO(GPIO_1_tri_io[2]),
         .O(GPIO_1_tri_i_2),
         .T(GPIO_1_tri_t_2));
-  IOBUF GPIO_1_tri_iobuf_20
-       (.I(GPIO_1_tri_o_20),
-        .IO(GPIO_1_tri_io[20]),
-        .O(GPIO_1_tri_i_20),
-        .T(GPIO_1_tri_t_20));
-  IOBUF GPIO_1_tri_iobuf_21
-       (.I(GPIO_1_tri_o_21),
-        .IO(GPIO_1_tri_io[21]),
-        .O(GPIO_1_tri_i_21),
-        .T(GPIO_1_tri_t_21));
-  IOBUF GPIO_1_tri_iobuf_22
-       (.I(GPIO_1_tri_o_22),
-        .IO(GPIO_1_tri_io[22]),
-        .O(GPIO_1_tri_i_22),
-        .T(GPIO_1_tri_t_22));
-  IOBUF GPIO_1_tri_iobuf_23
-       (.I(GPIO_1_tri_o_23),
-        .IO(GPIO_1_tri_io[23]),
-        .O(GPIO_1_tri_i_23),
-        .T(GPIO_1_tri_t_23));
   IOBUF GPIO_1_tri_iobuf_3
        (.I(GPIO_1_tri_o_3),
         .IO(GPIO_1_tri_io[3]),
@@ -335,6 +314,36 @@ module zsys_wrapper
         .IO(GPIO_1_tri_io[9]),
         .O(GPIO_1_tri_i_9),
         .T(GPIO_1_tri_t_9));
+  IOBUF IIC_0_0_scl_iobuf
+       (.I(IIC_0_0_scl_o),
+        .IO(IIC_0_0_scl_io),
+        .O(IIC_0_0_scl_i),
+        .T(IIC_0_0_scl_t));
+  IOBUF IIC_0_0_sda_iobuf
+       (.I(IIC_0_0_sda_o),
+        .IO(IIC_0_0_sda_io),
+        .O(IIC_0_0_sda_i),
+        .T(IIC_0_0_sda_t));
+  IOBUF SPI_0_0_io0_iobuf
+       (.I(SPI_0_0_io0_o),
+        .IO(SPI_0_0_io0_io),
+        .O(SPI_0_0_io0_i),
+        .T(SPI_0_0_io0_t));
+  IOBUF SPI_0_0_io1_iobuf
+       (.I(SPI_0_0_io1_o),
+        .IO(SPI_0_0_io1_io),
+        .O(SPI_0_0_io1_i),
+        .T(SPI_0_0_io1_t));
+  IOBUF SPI_0_0_sck_iobuf
+       (.I(SPI_0_0_sck_o),
+        .IO(SPI_0_0_sck_io),
+        .O(SPI_0_0_sck_i),
+        .T(SPI_0_0_sck_t));
+  IOBUF SPI_0_0_ss_iobuf
+       (.I(SPI_0_0_ss_o),
+        .IO(SPI_0_0_ss_io),
+        .O(SPI_0_0_ss_i),
+        .T(SPI_0_0_ss_t));
   zsys zsys_i
        (.DDR_addr(DDR_addr),
         .DDR_ba(DDR_ba),
@@ -357,11 +366,31 @@ module zsys_wrapper
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
-        .GPIO_1_tri_i({GPIO_1_tri_i_23,GPIO_1_tri_i_22,GPIO_1_tri_i_21,GPIO_1_tri_i_20,GPIO_1_tri_i_19,GPIO_1_tri_i_18,GPIO_1_tri_i_17,GPIO_1_tri_i_16,GPIO_1_tri_i_15,GPIO_1_tri_i_14,GPIO_1_tri_i_13,GPIO_1_tri_i_12,GPIO_1_tri_i_11,GPIO_1_tri_i_10,GPIO_1_tri_i_9,GPIO_1_tri_i_8,GPIO_1_tri_i_7,GPIO_1_tri_i_6,GPIO_1_tri_i_5,GPIO_1_tri_i_4,GPIO_1_tri_i_3,GPIO_1_tri_i_2,GPIO_1_tri_i_1,GPIO_1_tri_i_0}),
-        .GPIO_1_tri_o({GPIO_1_tri_o_23,GPIO_1_tri_o_22,GPIO_1_tri_o_21,GPIO_1_tri_o_20,GPIO_1_tri_o_19,GPIO_1_tri_o_18,GPIO_1_tri_o_17,GPIO_1_tri_o_16,GPIO_1_tri_o_15,GPIO_1_tri_o_14,GPIO_1_tri_o_13,GPIO_1_tri_o_12,GPIO_1_tri_o_11,GPIO_1_tri_o_10,GPIO_1_tri_o_9,GPIO_1_tri_o_8,GPIO_1_tri_o_7,GPIO_1_tri_o_6,GPIO_1_tri_o_5,GPIO_1_tri_o_4,GPIO_1_tri_o_3,GPIO_1_tri_o_2,GPIO_1_tri_o_1,GPIO_1_tri_o_0}),
-        .GPIO_1_tri_t({GPIO_1_tri_t_23,GPIO_1_tri_t_22,GPIO_1_tri_t_21,GPIO_1_tri_t_20,GPIO_1_tri_t_19,GPIO_1_tri_t_18,GPIO_1_tri_t_17,GPIO_1_tri_t_16,GPIO_1_tri_t_15,GPIO_1_tri_t_14,GPIO_1_tri_t_13,GPIO_1_tri_t_12,GPIO_1_tri_t_11,GPIO_1_tri_t_10,GPIO_1_tri_t_9,GPIO_1_tri_t_8,GPIO_1_tri_t_7,GPIO_1_tri_t_6,GPIO_1_tri_t_5,GPIO_1_tri_t_4,GPIO_1_tri_t_3,GPIO_1_tri_t_2,GPIO_1_tri_t_1,GPIO_1_tri_t_0}),
+        .GPIO_1_tri_i({GPIO_1_tri_i_16,GPIO_1_tri_i_15,GPIO_1_tri_i_14,GPIO_1_tri_i_13,GPIO_1_tri_i_12,GPIO_1_tri_i_11,GPIO_1_tri_i_10,GPIO_1_tri_i_9,GPIO_1_tri_i_8,GPIO_1_tri_i_7,GPIO_1_tri_i_6,GPIO_1_tri_i_5,GPIO_1_tri_i_4,GPIO_1_tri_i_3,GPIO_1_tri_i_2,GPIO_1_tri_i_1,GPIO_1_tri_i_0}),
+        .GPIO_1_tri_o({GPIO_1_tri_o_16,GPIO_1_tri_o_15,GPIO_1_tri_o_14,GPIO_1_tri_o_13,GPIO_1_tri_o_12,GPIO_1_tri_o_11,GPIO_1_tri_o_10,GPIO_1_tri_o_9,GPIO_1_tri_o_8,GPIO_1_tri_o_7,GPIO_1_tri_o_6,GPIO_1_tri_o_5,GPIO_1_tri_o_4,GPIO_1_tri_o_3,GPIO_1_tri_o_2,GPIO_1_tri_o_1,GPIO_1_tri_o_0}),
+        .GPIO_1_tri_t({GPIO_1_tri_t_16,GPIO_1_tri_t_15,GPIO_1_tri_t_14,GPIO_1_tri_t_13,GPIO_1_tri_t_12,GPIO_1_tri_t_11,GPIO_1_tri_t_10,GPIO_1_tri_t_9,GPIO_1_tri_t_8,GPIO_1_tri_t_7,GPIO_1_tri_t_6,GPIO_1_tri_t_5,GPIO_1_tri_t_4,GPIO_1_tri_t_3,GPIO_1_tri_t_2,GPIO_1_tri_t_1,GPIO_1_tri_t_0}),
+        .IIC_0_0_scl_i(IIC_0_0_scl_i),
+        .IIC_0_0_scl_o(IIC_0_0_scl_o),
+        .IIC_0_0_scl_t(IIC_0_0_scl_t),
+        .IIC_0_0_sda_i(IIC_0_0_sda_i),
+        .IIC_0_0_sda_o(IIC_0_0_sda_o),
+        .IIC_0_0_sda_t(IIC_0_0_sda_t),
         .PWM_L(PWM_L),
         .PWM_R(PWM_R),
+        .SPI_0_0_io0_i(SPI_0_0_io0_i),
+        .SPI_0_0_io0_o(SPI_0_0_io0_o),
+        .SPI_0_0_io0_t(SPI_0_0_io0_t),
+        .SPI_0_0_io1_i(SPI_0_0_io1_i),
+        .SPI_0_0_io1_o(SPI_0_0_io1_o),
+        .SPI_0_0_io1_t(SPI_0_0_io1_t),
+        .SPI_0_0_sck_i(SPI_0_0_sck_i),
+        .SPI_0_0_sck_o(SPI_0_0_sck_o),
+        .SPI_0_0_sck_t(SPI_0_0_sck_t),
+        .SPI_0_0_ss1_o(SPI_0_0_ss1_o),
+        .SPI_0_0_ss2_o(SPI_0_0_ss2_o),
+        .SPI_0_0_ss_i(SPI_0_0_ss_i),
+        .SPI_0_0_ss_o(SPI_0_0_ss_o),
+        .SPI_0_0_ss_t(SPI_0_0_ss_t),
         .Vp_Vn_v_n(Vp_Vn_v_n),
         .Vp_Vn_v_p(Vp_Vn_v_p),
         .csi_c_clk_n(csi_c_clk_n),

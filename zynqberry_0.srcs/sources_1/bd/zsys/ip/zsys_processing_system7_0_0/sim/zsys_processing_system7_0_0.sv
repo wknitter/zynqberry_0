@@ -56,9 +56,9 @@
       bit  ENET1_MDIO_I;
       bit  ENET1_EXT_INTIN;
       bit  [7 : 0] ENET1_GMII_RXD;
-      bit  [23 : 0] GPIO_I;
-      bit  [23 : 0] GPIO_O;
-      bit  [23 : 0] GPIO_T;
+      bit  [16 : 0] GPIO_I;
+      bit  [16 : 0] GPIO_O;
+      bit  [16 : 0] GPIO_T;
       bit  I2C0_SDA_I;
       bit  I2C0_SDA_O;
       bit  I2C0_SDA_T;
@@ -686,6 +686,20 @@
   I2C0_SCL_I,
   I2C0_SCL_O,
   I2C0_SCL_T,
+  SPI0_SCLK_I,
+  SPI0_SCLK_O,
+  SPI0_SCLK_T,
+  SPI0_MOSI_I,
+  SPI0_MOSI_O,
+  SPI0_MOSI_T,
+  SPI0_MISO_I,
+  SPI0_MISO_O,
+  SPI0_MISO_T,
+  SPI0_SS_I,
+  SPI0_SS_O,
+  SPI0_SS1_O,
+  SPI0_SS2_O,
+  SPI0_SS_T,
   TTC0_WAVE0_OUT,
   TTC0_WAVE1_OUT,
   TTC0_WAVE2_OUT,
@@ -877,7 +891,7 @@
       parameter USE_TRACE_DATA_EDGE_DETECTOR = 0;
       parameter C_TRACE_PIPELINE_WIDTH = 8;
       parameter C_TRACE_BUFFER_CLOCK_DELAY = 12;
-      parameter C_EMIO_GPIO_WIDTH = 24;
+      parameter C_EMIO_GPIO_WIDTH = 17;
       parameter C_INCLUDE_ACP_TRANS_CHECK = 0;
       parameter C_USE_DEFAULT_ACP_USER_VAL = 0;
       parameter C_S_AXI_ACP_ARUSER_VAL = 31;
@@ -927,15 +941,29 @@
 
 //INPUT AND OUTPUT PORTS
 
-      input  [23 : 0] GPIO_I;
-      output  [23 : 0] GPIO_O;
-      output  [23 : 0] GPIO_T;
+      input  [16 : 0] GPIO_I;
+      output  [16 : 0] GPIO_O;
+      output  [16 : 0] GPIO_T;
       input  I2C0_SDA_I;
       output  I2C0_SDA_O;
       output  I2C0_SDA_T;
       input  I2C0_SCL_I;
       output  I2C0_SCL_O;
       output  I2C0_SCL_T;
+      input  SPI0_SCLK_I;
+      output  SPI0_SCLK_O;
+      output  SPI0_SCLK_T;
+      input  SPI0_MOSI_I;
+      output  SPI0_MOSI_O;
+      output  SPI0_MOSI_T;
+      input  SPI0_MISO_I;
+      output  SPI0_MISO_O;
+      output  SPI0_MISO_T;
+      input  SPI0_SS_I;
+      output  SPI0_SS_O;
+      output  SPI0_SS1_O;
+      output  SPI0_SS2_O;
+      output  SPI0_SS_T;
       output  TTC0_WAVE0_OUT;
       output  TTC0_WAVE1_OUT;
       output  TTC0_WAVE2_OUT;
@@ -1117,12 +1145,22 @@
 
 //REG DECLARATIONS
 
-      reg [23 : 0] GPIO_O;
-      reg [23 : 0] GPIO_T;
+      reg [16 : 0] GPIO_O;
+      reg [16 : 0] GPIO_T;
       reg I2C0_SDA_O;
       reg I2C0_SDA_T;
       reg I2C0_SCL_O;
       reg I2C0_SCL_T;
+      reg SPI0_SCLK_O;
+      reg SPI0_SCLK_T;
+      reg SPI0_MOSI_O;
+      reg SPI0_MOSI_T;
+      reg SPI0_MISO_O;
+      reg SPI0_MISO_T;
+      reg SPI0_SS_O;
+      reg SPI0_SS1_O;
+      reg SPI0_SS2_O;
+      reg SPI0_SS_T;
       reg TTC0_WAVE0_OUT;
       reg TTC0_WAVE1_OUT;
       reg TTC0_WAVE2_OUT;

@@ -202,3 +202,14 @@ Reason: Name or service not known
 09:08:13 INFO  : Successfully done query RDI_DATADIR 
 09:08:13 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
 09:08:13 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+10:19:14 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+10:19:16 INFO  : XSCT server has started successfully.
+10:19:16 INFO  : Registering command handlers for Vitis TCF services
+10:19:20 INFO  : plnx-install-location is set to ''
+10:19:20 INFO  : Successfully done setting XSCT server connection channel  
+10:19:20 INFO  : Successfully done query RDI_DATADIR 
+10:19:20 INFO  : Successfully done setting workspace for the tool. 
+10:19:21 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+10:19:21 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+14:26:57 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+14:27:27 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...

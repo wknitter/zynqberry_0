@@ -1,8 +1,8 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
--- Date        : Tue Jan 21 21:10:33 2020
--- Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.3 LTS
+-- Date        : Sat Mar 21 17:12:44 2020
+-- Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.4 LTS
 -- Command     : write_vhdl -force -mode funcsim
 --               /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_processing_system7_0_0/zsys_processing_system7_0_0_sim_netlist.vhdl
 -- Design      : zsys_processing_system7_0_0
@@ -70,9 +70,9 @@ entity zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 is
     ENET1_MDIO_I : in STD_LOGIC;
     ENET1_EXT_INTIN : in STD_LOGIC;
     ENET1_GMII_RXD : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    GPIO_I : in STD_LOGIC_VECTOR ( 23 downto 0 );
-    GPIO_O : out STD_LOGIC_VECTOR ( 23 downto 0 );
-    GPIO_T : out STD_LOGIC_VECTOR ( 23 downto 0 );
+    GPIO_I : in STD_LOGIC_VECTOR ( 16 downto 0 );
+    GPIO_O : out STD_LOGIC_VECTOR ( 16 downto 0 );
+    GPIO_T : out STD_LOGIC_VECTOR ( 16 downto 0 );
     I2C0_SDA_I : in STD_LOGIC;
     I2C0_SDA_O : out STD_LOGIC;
     I2C0_SDA_T : out STD_LOGIC;
@@ -709,7 +709,7 @@ entity zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 is
   attribute C_DQ_WIDTH : integer;
   attribute C_DQ_WIDTH of zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 16;
   attribute C_EMIO_GPIO_WIDTH : integer;
-  attribute C_EMIO_GPIO_WIDTH of zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 24;
+  attribute C_EMIO_GPIO_WIDTH of zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 17;
   attribute C_EN_EMIO_ENET0 : integer;
   attribute C_EN_EMIO_ENET0 of zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_EN_EMIO_ENET1 : integer;
@@ -817,7 +817,7 @@ entity zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 is
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "processing_system7_v5_5_processing_system7";
   attribute POWER : string;
-  attribute POWER of zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "<PROCESSOR name={system} numA9Cores={2} clockFreq={666.666666} load={0.5} /><MEMORY name={code} memType={DDR3(LowVoltage)} dataWidth={16} clockFreq={533.333333} readRate={0.5} writeRate={0.5} /><IO interface={GPIO_Bank_1} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p1} clockFreq={1} usageRate={0.5} /><IO interface={GPIO_Bank_0} ioStandard={LVCMOS33} bidis={0} ioBank={Vcco_p0} clockFreq={1} usageRate={0.5} /><IO interface={Timer} ioStandard={} bidis={0} ioBank={} clockFreq={111.111107} usageRate={0.5} /><IO interface={I2C} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p1} clockFreq={111.111107} usageRate={0.5} /><IO interface={I2C} ioStandard={} bidis={1} ioBank={} clockFreq={111.111107} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={99.999992} usageRate={0.5} /><IO interface={SD} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={99.999992} usageRate={0.5} /><IO interface={USB} ioStandard={LVCMOS33} bidis={12} ioBank={Vcco_p1} clockFreq={60} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={6} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1333.333} /><PLL domain={Memory} vco={1066.667} /><PLL domain={IO} vco={1600.000} /><AXI interface={S_AXI_HP1} dataWidth={64} clockFreq={159} usageRate={0.5} /><AXI interface={S_AXI_HP0} dataWidth={32} clockFreq={159} usageRate={0.5} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={159} usageRate={0.5} />/>";
+  attribute POWER of zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "<PROCESSOR name={system} numA9Cores={2} clockFreq={666.666666} load={0.5} /><MEMORY name={code} memType={DDR3(LowVoltage)} dataWidth={16} clockFreq={533.333333} readRate={0.5} writeRate={0.5} /><IO interface={GPIO_Bank_1} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p1} clockFreq={1} usageRate={0.5} /><IO interface={GPIO_Bank_0} ioStandard={LVCMOS33} bidis={0} ioBank={Vcco_p0} clockFreq={1} usageRate={0.5} /><IO interface={Timer} ioStandard={} bidis={0} ioBank={} clockFreq={111.111107} usageRate={0.5} /><IO interface={SPI} ioStandard={} bidis={0} ioBank={} clockFreq={159.999985} usageRate={0.5} /><IO interface={I2C} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p1} clockFreq={111.111107} usageRate={0.5} /><IO interface={I2C} ioStandard={} bidis={1} ioBank={} clockFreq={111.111107} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={99.999992} usageRate={0.5} /><IO interface={SD} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={99.999992} usageRate={0.5} /><IO interface={USB} ioStandard={LVCMOS33} bidis={12} ioBank={Vcco_p1} clockFreq={60} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={6} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1333.333} /><PLL domain={Memory} vco={1066.667} /><PLL domain={IO} vco={1600.000} /><AXI interface={S_AXI_HP1} dataWidth={64} clockFreq={159} usageRate={0.5} /><AXI interface={S_AXI_HP0} dataWidth={32} clockFreq={159} usageRate={0.5} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={159} usageRate={0.5} />/>";
   attribute USE_TRACE_DATA_EDGE_DETECTOR : integer;
   attribute USE_TRACE_DATA_EDGE_DETECTOR of zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
 end zsys_processing_system7_0_0_processing_system7_v5_5_processing_system7;
@@ -901,7 +901,7 @@ architecture STRUCTURE of zsys_processing_system7_0_0_processing_system7_v5_5_pr
   signal buffered_PS_CLK : STD_LOGIC;
   signal buffered_PS_PORB : STD_LOGIC;
   signal buffered_PS_SRSTB : STD_LOGIC;
-  signal gpio_out_t_n : STD_LOGIC_VECTOR ( 23 downto 0 );
+  signal gpio_out_t_n : STD_LOGIC_VECTOR ( 16 downto 0 );
   signal NLW_PS7_i_EMIOENET0GMIITXEN_UNCONNECTED : STD_LOGIC;
   signal NLW_PS7_i_EMIOENET0GMIITXER_UNCONNECTED : STD_LOGIC;
   signal NLW_PS7_i_EMIOENET1GMIITXEN_UNCONNECTED : STD_LOGIC;
@@ -915,8 +915,8 @@ architecture STRUCTURE of zsys_processing_system7_0_0_processing_system7_v5_5_pr
   signal NLW_PS7_i_DDRDQSP_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 2 );
   signal NLW_PS7_i_EMIOENET0GMIITXD_UNCONNECTED : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal NLW_PS7_i_EMIOENET1GMIITXD_UNCONNECTED : STD_LOGIC_VECTOR ( 7 downto 0 );
-  signal NLW_PS7_i_EMIOGPIOO_UNCONNECTED : STD_LOGIC_VECTOR ( 63 downto 24 );
-  signal NLW_PS7_i_EMIOGPIOTN_UNCONNECTED : STD_LOGIC_VECTOR ( 63 downto 24 );
+  signal NLW_PS7_i_EMIOGPIOO_UNCONNECTED : STD_LOGIC_VECTOR ( 63 downto 17 );
+  signal NLW_PS7_i_EMIOGPIOTN_UNCONNECTED : STD_LOGIC_VECTOR ( 63 downto 17 );
   signal NLW_PS7_i_EMIOTRACEDATA_UNCONNECTED : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal NLW_PS7_i_MIO_UNCONNECTED : STD_LOGIC_VECTOR ( 51 downto 16 );
   signal NLW_PS7_i_SAXIHP0RDATA_UNCONNECTED : STD_LOGIC_VECTOR ( 63 downto 32 );
@@ -1184,30 +1184,6 @@ GND: unisim.vcomponents.GND
       I0 => gpio_out_t_n(16),
       O => GPIO_T(16)
     );
-\GPIO_T[17]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => gpio_out_t_n(17),
-      O => GPIO_T(17)
-    );
-\GPIO_T[18]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => gpio_out_t_n(18),
-      O => GPIO_T(18)
-    );
-\GPIO_T[19]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => gpio_out_t_n(19),
-      O => GPIO_T(19)
-    );
 \GPIO_T[1]_INST_0\: unisim.vcomponents.LUT1
     generic map(
       INIT => X"1"
@@ -1215,38 +1191,6 @@ GND: unisim.vcomponents.GND
         port map (
       I0 => gpio_out_t_n(1),
       O => GPIO_T(1)
-    );
-\GPIO_T[20]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => gpio_out_t_n(20),
-      O => GPIO_T(20)
-    );
-\GPIO_T[21]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => gpio_out_t_n(21),
-      O => GPIO_T(21)
-    );
-\GPIO_T[22]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => gpio_out_t_n(22),
-      O => GPIO_T(22)
-    );
-\GPIO_T[23]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => gpio_out_t_n(23),
-      O => GPIO_T(23)
     );
 \GPIO_T[2]_INST_0\: unisim.vcomponents.LUT1
     generic map(
@@ -1458,12 +1402,12 @@ PS7_i: unisim.vcomponents.PS7
       EMIOENET1PTPSYNCFRAMETX => ENET1_PTP_SYNC_FRAME_TX,
       EMIOENET1SOFRX => ENET1_SOF_RX,
       EMIOENET1SOFTX => ENET1_SOF_TX,
-      EMIOGPIOI(63 downto 24) => B"0000000000000000000000000000000000000000",
-      EMIOGPIOI(23 downto 0) => GPIO_I(23 downto 0),
-      EMIOGPIOO(63 downto 24) => NLW_PS7_i_EMIOGPIOO_UNCONNECTED(63 downto 24),
-      EMIOGPIOO(23 downto 0) => GPIO_O(23 downto 0),
-      EMIOGPIOTN(63 downto 24) => NLW_PS7_i_EMIOGPIOTN_UNCONNECTED(63 downto 24),
-      EMIOGPIOTN(23 downto 0) => gpio_out_t_n(23 downto 0),
+      EMIOGPIOI(63 downto 17) => B"00000000000000000000000000000000000000000000000",
+      EMIOGPIOI(16 downto 0) => GPIO_I(16 downto 0),
+      EMIOGPIOO(63 downto 17) => NLW_PS7_i_EMIOGPIOO_UNCONNECTED(63 downto 17),
+      EMIOGPIOO(16 downto 0) => GPIO_O(16 downto 0),
+      EMIOGPIOTN(63 downto 17) => NLW_PS7_i_EMIOGPIOTN_UNCONNECTED(63 downto 17),
+      EMIOGPIOTN(16 downto 0) => gpio_out_t_n(16 downto 0),
       EMIOI2C0SCLI => I2C0_SCL_I,
       EMIOI2C0SCLO => I2C0_SCL_O,
       EMIOI2C0SCLTN => I2C0_SCL_T_n,
@@ -2781,15 +2725,29 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity zsys_processing_system7_0_0 is
   port (
-    GPIO_I : in STD_LOGIC_VECTOR ( 23 downto 0 );
-    GPIO_O : out STD_LOGIC_VECTOR ( 23 downto 0 );
-    GPIO_T : out STD_LOGIC_VECTOR ( 23 downto 0 );
+    GPIO_I : in STD_LOGIC_VECTOR ( 16 downto 0 );
+    GPIO_O : out STD_LOGIC_VECTOR ( 16 downto 0 );
+    GPIO_T : out STD_LOGIC_VECTOR ( 16 downto 0 );
     I2C0_SDA_I : in STD_LOGIC;
     I2C0_SDA_O : out STD_LOGIC;
     I2C0_SDA_T : out STD_LOGIC;
     I2C0_SCL_I : in STD_LOGIC;
     I2C0_SCL_O : out STD_LOGIC;
     I2C0_SCL_T : out STD_LOGIC;
+    SPI0_SCLK_I : in STD_LOGIC;
+    SPI0_SCLK_O : out STD_LOGIC;
+    SPI0_SCLK_T : out STD_LOGIC;
+    SPI0_MOSI_I : in STD_LOGIC;
+    SPI0_MOSI_O : out STD_LOGIC;
+    SPI0_MOSI_T : out STD_LOGIC;
+    SPI0_MISO_I : in STD_LOGIC;
+    SPI0_MISO_O : out STD_LOGIC;
+    SPI0_MISO_T : out STD_LOGIC;
+    SPI0_SS_I : in STD_LOGIC;
+    SPI0_SS_O : out STD_LOGIC;
+    SPI0_SS1_O : out STD_LOGIC;
+    SPI0_SS2_O : out STD_LOGIC;
+    SPI0_SS_T : out STD_LOGIC;
     TTC0_WAVE0_OUT : out STD_LOGIC;
     TTC0_WAVE1_OUT : out STD_LOGIC;
     TTC0_WAVE2_OUT : out STD_LOGIC;
@@ -3084,16 +3042,6 @@ architecture STRUCTURE of zsys_processing_system7_0_0 is
   signal NLW_inst_SDIO1_CMD_O_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_SDIO1_CMD_T_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_SDIO1_LED_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_MISO_O_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_MISO_T_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_MOSI_O_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_MOSI_T_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_SCLK_O_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_SCLK_T_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_SS1_O_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_SS2_O_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_SS_O_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_SPI0_SS_T_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_SPI1_MISO_O_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_SPI1_MISO_T_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_SPI1_MOSI_O_UNCONNECTED : STD_LOGIC;
@@ -3230,7 +3178,7 @@ architecture STRUCTURE of zsys_processing_system7_0_0 is
   attribute C_DQ_WIDTH : integer;
   attribute C_DQ_WIDTH of inst : label is 16;
   attribute C_EMIO_GPIO_WIDTH : integer;
-  attribute C_EMIO_GPIO_WIDTH of inst : label is 24;
+  attribute C_EMIO_GPIO_WIDTH of inst : label is 17;
   attribute C_EN_EMIO_ENET0 : integer;
   attribute C_EN_EMIO_ENET0 of inst : label is 0;
   attribute C_EN_EMIO_ENET1 : integer;
@@ -3336,7 +3284,7 @@ architecture STRUCTURE of zsys_processing_system7_0_0 is
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of inst : label is "zsys_processing_system7_0_0.hwdef";
   attribute POWER : string;
-  attribute POWER of inst : label is "<PROCESSOR name={system} numA9Cores={2} clockFreq={666.666666} load={0.5} /><MEMORY name={code} memType={DDR3(LowVoltage)} dataWidth={16} clockFreq={533.333333} readRate={0.5} writeRate={0.5} /><IO interface={GPIO_Bank_1} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p1} clockFreq={1} usageRate={0.5} /><IO interface={GPIO_Bank_0} ioStandard={LVCMOS33} bidis={0} ioBank={Vcco_p0} clockFreq={1} usageRate={0.5} /><IO interface={Timer} ioStandard={} bidis={0} ioBank={} clockFreq={111.111107} usageRate={0.5} /><IO interface={I2C} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p1} clockFreq={111.111107} usageRate={0.5} /><IO interface={I2C} ioStandard={} bidis={1} ioBank={} clockFreq={111.111107} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={99.999992} usageRate={0.5} /><IO interface={SD} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={99.999992} usageRate={0.5} /><IO interface={USB} ioStandard={LVCMOS33} bidis={12} ioBank={Vcco_p1} clockFreq={60} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={6} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1333.333} /><PLL domain={Memory} vco={1066.667} /><PLL domain={IO} vco={1600.000} /><AXI interface={S_AXI_HP1} dataWidth={64} clockFreq={159} usageRate={0.5} /><AXI interface={S_AXI_HP0} dataWidth={32} clockFreq={159} usageRate={0.5} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={159} usageRate={0.5} />/>";
+  attribute POWER of inst : label is "<PROCESSOR name={system} numA9Cores={2} clockFreq={666.666666} load={0.5} /><MEMORY name={code} memType={DDR3(LowVoltage)} dataWidth={16} clockFreq={533.333333} readRate={0.5} writeRate={0.5} /><IO interface={GPIO_Bank_1} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p1} clockFreq={1} usageRate={0.5} /><IO interface={GPIO_Bank_0} ioStandard={LVCMOS33} bidis={0} ioBank={Vcco_p0} clockFreq={1} usageRate={0.5} /><IO interface={Timer} ioStandard={} bidis={0} ioBank={} clockFreq={111.111107} usageRate={0.5} /><IO interface={SPI} ioStandard={} bidis={0} ioBank={} clockFreq={159.999985} usageRate={0.5} /><IO interface={I2C} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p1} clockFreq={111.111107} usageRate={0.5} /><IO interface={I2C} ioStandard={} bidis={1} ioBank={} clockFreq={111.111107} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={99.999992} usageRate={0.5} /><IO interface={SD} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={99.999992} usageRate={0.5} /><IO interface={USB} ioStandard={LVCMOS33} bidis={12} ioBank={Vcco_p1} clockFreq={60} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={6} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1333.333} /><PLL domain={Memory} vco={1066.667} /><PLL domain={IO} vco={1600.000} /><AXI interface={S_AXI_HP1} dataWidth={64} clockFreq={159} usageRate={0.5} /><AXI interface={S_AXI_HP0} dataWidth={32} clockFreq={159} usageRate={0.5} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={159} usageRate={0.5} />/>";
   attribute USE_TRACE_DATA_EDGE_DETECTOR : integer;
   attribute USE_TRACE_DATA_EDGE_DETECTOR of inst : label is 0;
   attribute X_INTERFACE_INFO : string;
@@ -3402,6 +3350,20 @@ architecture STRUCTURE of zsys_processing_system7_0_0 is
   attribute X_INTERFACE_INFO of PS_PORB : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB";
   attribute X_INTERFACE_PARAMETER of PS_PORB : signal is "XIL_INTERFACENAME FIXED_IO, CAN_DEBUG false";
   attribute X_INTERFACE_INFO of PS_SRSTB : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB";
+  attribute X_INTERFACE_INFO of SPI0_MISO_I : signal is "xilinx.com:interface:spi:1.0 SPI_0 IO1_I";
+  attribute X_INTERFACE_INFO of SPI0_MISO_O : signal is "xilinx.com:interface:spi:1.0 SPI_0 IO1_O";
+  attribute X_INTERFACE_INFO of SPI0_MISO_T : signal is "xilinx.com:interface:spi:1.0 SPI_0 IO1_T";
+  attribute X_INTERFACE_INFO of SPI0_MOSI_I : signal is "xilinx.com:interface:spi:1.0 SPI_0 IO0_I";
+  attribute X_INTERFACE_INFO of SPI0_MOSI_O : signal is "xilinx.com:interface:spi:1.0 SPI_0 IO0_O";
+  attribute X_INTERFACE_INFO of SPI0_MOSI_T : signal is "xilinx.com:interface:spi:1.0 SPI_0 IO0_T";
+  attribute X_INTERFACE_INFO of SPI0_SCLK_I : signal is "xilinx.com:interface:spi:1.0 SPI_0 SCK_I";
+  attribute X_INTERFACE_INFO of SPI0_SCLK_O : signal is "xilinx.com:interface:spi:1.0 SPI_0 SCK_O";
+  attribute X_INTERFACE_INFO of SPI0_SCLK_T : signal is "xilinx.com:interface:spi:1.0 SPI_0 SCK_T";
+  attribute X_INTERFACE_INFO of SPI0_SS1_O : signal is "xilinx.com:interface:spi:1.0 SPI_0 SS1_O";
+  attribute X_INTERFACE_INFO of SPI0_SS2_O : signal is "xilinx.com:interface:spi:1.0 SPI_0 SS2_O";
+  attribute X_INTERFACE_INFO of SPI0_SS_I : signal is "xilinx.com:interface:spi:1.0 SPI_0 SS_I";
+  attribute X_INTERFACE_INFO of SPI0_SS_O : signal is "xilinx.com:interface:spi:1.0 SPI_0 SS_O";
+  attribute X_INTERFACE_INFO of SPI0_SS_T : signal is "xilinx.com:interface:spi:1.0 SPI_0 SS_T";
   attribute X_INTERFACE_INFO of S_AXI_HP0_ACLK : signal is "xilinx.com:signal:clock:1.0 S_AXI_HP0_ACLK CLK";
   attribute X_INTERFACE_PARAMETER of S_AXI_HP0_ACLK : signal is "XIL_INTERFACENAME S_AXI_HP0_ACLK, ASSOCIATED_BUSIF S_AXI_HP0, FREQ_HZ 159999985, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of S_AXI_HP0_ARREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP0 ARREADY";
@@ -3699,9 +3661,9 @@ inst: entity work.zsys_processing_system7_0_0_processing_system7_v5_5_processing
       FTMT_P2F_TRIG_1 => NLW_inst_FTMT_P2F_TRIG_1_UNCONNECTED,
       FTMT_P2F_TRIG_2 => NLW_inst_FTMT_P2F_TRIG_2_UNCONNECTED,
       FTMT_P2F_TRIG_3 => NLW_inst_FTMT_P2F_TRIG_3_UNCONNECTED,
-      GPIO_I(23 downto 0) => GPIO_I(23 downto 0),
-      GPIO_O(23 downto 0) => GPIO_O(23 downto 0),
-      GPIO_T(23 downto 0) => GPIO_T(23 downto 0),
+      GPIO_I(16 downto 0) => GPIO_I(16 downto 0),
+      GPIO_O(16 downto 0) => GPIO_O(16 downto 0),
+      GPIO_T(16 downto 0) => GPIO_T(16 downto 0),
       I2C0_SCL_I => I2C0_SCL_I,
       I2C0_SCL_O => I2C0_SCL_O,
       I2C0_SCL_T => I2C0_SCL_T,
@@ -3858,20 +3820,20 @@ inst: entity work.zsys_processing_system7_0_0_processing_system7_v5_5_processing
       SDIO1_DATA_T(3 downto 0) => NLW_inst_SDIO1_DATA_T_UNCONNECTED(3 downto 0),
       SDIO1_LED => NLW_inst_SDIO1_LED_UNCONNECTED,
       SDIO1_WP => '0',
-      SPI0_MISO_I => '0',
-      SPI0_MISO_O => NLW_inst_SPI0_MISO_O_UNCONNECTED,
-      SPI0_MISO_T => NLW_inst_SPI0_MISO_T_UNCONNECTED,
-      SPI0_MOSI_I => '0',
-      SPI0_MOSI_O => NLW_inst_SPI0_MOSI_O_UNCONNECTED,
-      SPI0_MOSI_T => NLW_inst_SPI0_MOSI_T_UNCONNECTED,
-      SPI0_SCLK_I => '0',
-      SPI0_SCLK_O => NLW_inst_SPI0_SCLK_O_UNCONNECTED,
-      SPI0_SCLK_T => NLW_inst_SPI0_SCLK_T_UNCONNECTED,
-      SPI0_SS1_O => NLW_inst_SPI0_SS1_O_UNCONNECTED,
-      SPI0_SS2_O => NLW_inst_SPI0_SS2_O_UNCONNECTED,
-      SPI0_SS_I => '0',
-      SPI0_SS_O => NLW_inst_SPI0_SS_O_UNCONNECTED,
-      SPI0_SS_T => NLW_inst_SPI0_SS_T_UNCONNECTED,
+      SPI0_MISO_I => SPI0_MISO_I,
+      SPI0_MISO_O => SPI0_MISO_O,
+      SPI0_MISO_T => SPI0_MISO_T,
+      SPI0_MOSI_I => SPI0_MOSI_I,
+      SPI0_MOSI_O => SPI0_MOSI_O,
+      SPI0_MOSI_T => SPI0_MOSI_T,
+      SPI0_SCLK_I => SPI0_SCLK_I,
+      SPI0_SCLK_O => SPI0_SCLK_O,
+      SPI0_SCLK_T => SPI0_SCLK_T,
+      SPI0_SS1_O => SPI0_SS1_O,
+      SPI0_SS2_O => SPI0_SS2_O,
+      SPI0_SS_I => SPI0_SS_I,
+      SPI0_SS_O => SPI0_SS_O,
+      SPI0_SS_T => SPI0_SS_T,
       SPI1_MISO_I => '0',
       SPI1_MISO_O => NLW_inst_SPI1_MISO_O_UNCONNECTED,
       SPI1_MISO_T => NLW_inst_SPI1_MISO_T_UNCONNECTED,

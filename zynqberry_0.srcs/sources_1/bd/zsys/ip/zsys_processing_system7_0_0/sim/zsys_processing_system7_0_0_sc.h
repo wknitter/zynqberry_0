@@ -76,10 +76,10 @@ public:
 
 public: // module socket-to-socket TLM interface
 
-  xtlm::xtlm_axis_target_socket* DMA0_REQ_socket;
-  xtlm::xtlm_axis_initiator_socket* DMA0_ACK_socket;
-  xtlm::xtlm_axis_target_socket* DMA1_REQ_socket;
-  xtlm::xtlm_axis_initiator_socket* DMA1_ACK_socket;
+  xtlm::xtlm_axis_target_socket* DMA0_REQ_tlm_axis_socket;
+  xtlm::xtlm_axis_initiator_socket* DMA0_ACK_tlm_axis_socket;
+  xtlm::xtlm_axis_target_socket* DMA1_REQ_tlm_axis_socket;
+  xtlm::xtlm_axis_initiator_socket* DMA1_ACK_tlm_axis_socket;
   xtlm::xtlm_aximm_initiator_socket* M_AXI_GP0_rd_socket;
   xtlm::xtlm_aximm_initiator_socket* M_AXI_GP0_wr_socket;
   xtlm::xtlm_aximm_target_socket* S_AXI_HP0_rd_socket;

@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date         : Sun Mar 15 12:04:00 2020
+| Date         : Sat Mar 21 17:22:35 2020
 | Host         : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.4 LTS
 | Command      : report_methodology -file zsys_wrapper_methodology_drc_routed.rpt -pb zsys_wrapper_methodology_drc_routed.pb -rpx zsys_wrapper_methodology_drc_routed.rpx
 | Design       : zsys_wrapper
@@ -79,7 +79,7 @@ Related violations: <none>
 
 PDRC-190#1 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[4] in site SLICE_X17Y57 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell zsys_i/audio/axi_i2s_adi_0/U0/ctrl/SDATA_O_reg[0] is not placed in the same (SLICE) site.
+The FDRE cell zsys_i/audio/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[4] in site SLICE_X8Y59 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell zsys_i/audio/axi_i2s_adi_0/U0/ctrl/SDATA_O_reg[0] is not placed in the same (SLICE) site.
 Related violations: <none>
 
 TIMING-9#1 Warning

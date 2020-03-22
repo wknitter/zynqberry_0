@@ -1,4 +1,4 @@
-2020-03-15T09:08:34.26127700255-09:08:34 **** Incremental Build of configuration Debug for project zynqberry_system ****
+2020-03-21T14:27:27.46038700255-14:27:27 **** Incremental Build of configuration Debug for project zynqberry_system ****
 000-make all 
 000-Generating bif file for the system project
 000-Executing command '::scw::generate_bif -xpfm /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm -domains standalone_domain -bifpath /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif' on XSCT
@@ -6,5 +6,5 @@
 000-creating BOOT.BIN using /home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/bitstream/zsys_wrapper.bit
 000-Running /tools/Xilinx/Vitis/2019.2/bin/bootgen  -image /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
 00255-
-09:08:39 Build Finished (took 5s.686ms)
+14:27:33 Build Finished (took 5s.735ms)
 
