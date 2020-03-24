@@ -213,3 +213,204 @@ Reason: Name or service not known
 10:19:21 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
 14:26:57 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
 14:27:27 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+09:26:23 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+09:26:25 INFO  : XSCT server has started successfully.
+09:26:25 INFO  : Registering command handlers for Vitis TCF services
+09:26:25 INFO  : Successfully done setting XSCT server connection channel  
+09:26:26 INFO  : plnx-install-location is set to ''
+09:26:29 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa is already opened
+
+09:26:29 INFO  : Successfully done setting workspace for the tool. 
+09:26:29 INFO  : Successfully done query RDI_DATADIR 
+09:26:30 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+09:26:30 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+09:37:23 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+09:37:39 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+09:37:49 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+11:58:37 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+12:18:00 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+15:38:38 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+16:05:10 INFO  : (SwPlatform) Successfully done update_mss 
+16:05:10 INFO  : No changes in MSS file content so sources will not be generated.
+16:06:00 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+16:06:35 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+16:06:35 INFO  : No changes in MSS file content so sources will not be generated.
+16:07:04 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+16:07:04 INFO  : No changes in MSS file content so sources will not be generated.
+16:07:35 INFO  : Hardware specification for platform project 'zynqberry_0' is updated.
+16:07:40 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+16:07:40 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+16:07:55 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+16:07:55 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+16:07:56 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+16:08:19 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+16:08:19 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+16:08:19 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+16:08:33 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+16:08:35 INFO  : XSCT server has started successfully.
+16:08:35 ERROR : Failed to update hardware specification for project 'zynqberry_0'.
+Reason: Failed to execute command 'platform config -updatehw {/home/parallels/zynqberry_0/zsys_wrapper.xsa}'. Click on details for more information.
+16:09:02 WARN  : Failed to closehw "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa"
+Reason: Cannot close hw design '/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa'.
+Design is not opened in the current session.
+
+16:09:02 ERROR : (XSDB Server)ERROR: [HDF 64-5] File not found - /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa
+
+16:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1451] Error: running open_hw_design.
+
+16:09:02 ERROR : Failed to openhw "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+16:09:21 INFO  : Hardware specification for platform project 'zynqberry_0' is updated.
+16:10:06 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+16:10:08 INFO  : XSCT server has started successfully.
+16:10:12 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+16:10:12 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+16:11:06 ERROR : (XSDB Server)/tools/Xilinx/Vitis/2019.2/bin/loader: line 280:  2078 Segmentation fault      (core dumped) "$RDI_PROG" "$@"
+
+16:11:06 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+16:11:08 INFO  : XSCT server has started successfully.
+16:11:10 ERROR : Internal exception while opening bsp settings dailog.
+java.lang.NullPointerException
+	at com.xilinx.sdk.sw.internal.SwDb.getDriversForHwComponent(SwDb.java:588)
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriverAssignment(SwDriversPresenter.java:109)
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriversFromPlatform(SwDriversPresenter.java:90)
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.viewReady(SwDriversPresenter.java:55)
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.viewReady(BspSettingsPresenter.java:108)
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsView.createDialogArea(BspSettingsView.java:134)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:158)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1096)
+	at org.eclipse.jface.window.Window.open(Window.java:783)
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.open(BspSettingsPresenter.java:96)
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlowInternal(BspSettingsFlow.java:76)
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlow(BspSettingsFlow.java:54)
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$5(ScwStandaloneBspSettingsUi.java:187)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4915)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4521)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:471)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$25(ProgressManager.java:820)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:71)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:853)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:829)
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.changeBspSettings(ScwStandaloneBspSettingsUi.java:166)
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$2(ScwStandaloneBspSettingsUi.java:124)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+16:11:25 ERROR : Error occurred while generating bsp sources for the domain 'zynq_fsbl'.
+16:11:37 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+16:11:37 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+16:11:38 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+16:12:02 ERROR : (XSDB Server)ERROR: [HDF 64-5] File not found - /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa
+
+16:12:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1451] Error: running open_hw_design.
+
+16:12:02 ERROR : Failed to openhw "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+16:12:45 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+16:12:45 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+16:12:45 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+16:13:32 ERROR : Error occurred while generating bsp sources for the domain 'zynq_fsbl'.
+16:13:53 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+16:13:53 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+16:13:54 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+16:14:59 ERROR : Failed to openhw "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+16:15:26 ERROR : (XSDB Server)ERROR: [HDF 64-5] File not found - /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa
+
+16:15:26 ERROR : Failed to openhw "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+16:15:26 ERROR : (XSDB Server)ERROR: [Hsi 55-1451] Error: running open_hw_design.
+
+16:15:27 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+16:15:41 ERROR : Failed to update hardware specification for project 'zynqberry_0'.
+Reason: Failed to execute command 'platform config -updatehw {/home/parallels/zynqberry_0/zsys_wrapper.xsa}'. Click on details for more information.
+16:16:04 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa is already opened
+
+16:16:04 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+16:16:04 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+16:16:55 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+16:16:56 INFO  : Updating application flags with new BSP settings...
+16:16:57 INFO  : Successfully updated application flags for project hello_zynqberry.
+16:16:57 INFO  : The hardware specfication used by project 'hello_zynqberry' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+16:16:57 INFO  : The file '/home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/bitstream/zsys_wrapper.bit' stored in project is removed.
+16:16:57 INFO  : The updated bitstream files are copied from platform to folder '/home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/bitstream' in project 'hello_zynqberry'.
+16:16:57 INFO  : The file '/home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/psinit/ps7_init.tcl' stored in project is removed.
+16:17:02 INFO  : The updated ps init files are copied from platform to folder '/home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/psinit' in project 'hello_zynqberry'.
+16:17:17 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+20:08:17 INFO  : Hardware specification for platform project 'zynqberry_0' is updated.
+20:08:22 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+20:08:22 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+20:08:32 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+20:08:32 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+20:08:32 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+20:09:24 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+20:09:24 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+20:09:24 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+20:09:43 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+20:09:43 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+20:09:44 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+20:10:12 INFO  : Hardware specification for platform project 'zynqberry_0' is updated.
+20:10:15 WARN  : Failed to closehw "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/hw/zsys_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::close_hw_design' failed due to earlier errors.
+
+20:10:15 ERROR : Failed to execute command 'domain active {zynq_fsbl}'. Click on details for more information.
+20:10:15 ERROR : (XSDB Server)/tools/Xilinx/Vitis/2019.2/bin/loader: line 280:  2645 Segmentation fault      (core dumped) "$RDI_PROG" "$@"
+
+20:10:15 ERROR : Failed to read mss path for 'standalone_domain'.
+20:10:27 ERROR : Failed to execute command 'platform read {/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/platform.spr}'. Click on details for more information.
+20:10:35 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+20:10:35 ERROR : Failed to get platform details for the project 'hello_zynqberry'. Cannot sync application flags.
+20:10:35 ERROR : Failed to compute checksum of hardware specification file used by project 'hello_zynqberry'
+20:17:44 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/zynqberry_0/vitis_workspace/temp_xsdb_launch_script.tcl
+20:17:46 INFO  : XSCT server has started successfully.
+20:17:46 ERROR : Failed to update hardware specification for project 'zynqberry_0'.
+Reason: Failed to execute command 'platform config -updatehw {/home/parallels/zynqberry_0/zsys_wrapper.xsa}'. Click on details for more information.
+20:17:58 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+20:17:58 INFO  : Successfully done sdx_reload_mss "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+20:18:48 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...
+20:18:48 WARN  : Failed to closehw "/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa"
+Reason: Cannot close hw design '/home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/hw/zsys_wrapper.xsa'.
+Design is not opened in the current session.
+
+20:18:51 INFO  : The hardware specfication used by project 'hello_zynqberry' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+20:18:51 INFO  : The file '/home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/bitstream/zsys_wrapper.bit' stored in project is removed.
+20:18:51 INFO  : The updated bitstream files are copied from platform to folder '/home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/bitstream' in project 'hello_zynqberry'.
+20:18:51 INFO  : The file '/home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/psinit/ps7_init.tcl' stored in project is removed.
+20:18:56 INFO  : The updated ps init files are copied from platform to folder '/home/parallels/zynqberry_0/vitis_workspace/hello_zynqberry/_ide/psinit' in project 'hello_zynqberry'.
+20:19:35 INFO  : Checking for BSP changes to sync application flags for project 'hello_zynqberry'...

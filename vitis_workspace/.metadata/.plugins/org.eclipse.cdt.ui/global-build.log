@@ -1,13 +1,13 @@
 Nothing to build in platform 'zynqberry_0'
 
-14:27:27 **** Incremental Build of configuration Debug for project hello_zynqberry ****
+20:19:35 **** Incremental Build of configuration Debug for project hello_zynqberry ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
  
 make --no-print-directory main-build
 make[1]: Nothing to be done for 'main-build'.
-14:27:27 **** Incremental Build of configuration Debug for project zynqberry_system ****
+20:19:36 **** Incremental Build of configuration Debug for project zynqberry_system ****
 make all 
 Generating bif file for the system project
 Executing command '::scw::generate_bif -xpfm /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm -domains standalone_domain -bifpath /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif' on XSCT

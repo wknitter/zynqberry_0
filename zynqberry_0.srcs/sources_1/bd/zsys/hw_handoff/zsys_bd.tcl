@@ -1454,6 +1454,15 @@ proc create_root_design { parentCell } {
   # Create instance: resets
   create_hier_cell_resets [current_bd_instance .] resets
 
+  # Create instance: system_ila_0, and set properties
+  set system_ila_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:system_ila:1.1 system_ila_0 ]
+  set_property -dict [ list \
+   CONFIG.C_MON_TYPE {INTERFACE} \
+   CONFIG.C_NUM_MONITOR_SLOTS {1} \
+   CONFIG.C_SLOT_0_INTF_TYPE {xilinx.com:interface:spi_rtl:1.0} \
+   CONFIG.C_SLOT_0_TYPE {0} \
+ ] $system_ila_0
+
   # Create instance: video_in
   create_hier_cell_video_in [current_bd_instance .] video_in
 
@@ -1501,6 +1510,8 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net processing_system7_0_IIC_0 [get_bd_intf_ports IIC_0_0] [get_bd_intf_pins processing_system7_0/IIC_0]
   connect_bd_intf_net -intf_net processing_system7_0_M_AXI_GP0 [get_bd_intf_pins proc_sys7_0_axi_periph/S00_AXI] [get_bd_intf_pins processing_system7_0/M_AXI_GP0]
   connect_bd_intf_net -intf_net processing_system7_0_SPI_0 [get_bd_intf_ports SPI_0_0] [get_bd_intf_pins processing_system7_0/SPI_0]
+connect_bd_intf_net -intf_net [get_bd_intf_nets processing_system7_0_SPI_0] [get_bd_intf_ports SPI_0_0] [get_bd_intf_pins system_ila_0/SLOT_0_SPI]
+  set_property HDL_ATTRIBUTE.DEBUG {true} [get_bd_intf_nets processing_system7_0_SPI_0]
   connect_bd_intf_net -intf_net video_in_M00_AXI [get_bd_intf_pins processing_system7_0/S_AXI_HP1] [get_bd_intf_pins video_in/VIDEO_IN_AXI]
   connect_bd_intf_net -intf_net video_out_M00_AXI [get_bd_intf_pins processing_system7_0/S_AXI_HP0] [get_bd_intf_pins video_out/VIDEO_OUT_AXI]
 
@@ -1514,7 +1525,7 @@ proc create_root_design { parentCell } {
   connect_bd_net -net csi_d_lp_p_1 [get_bd_ports csi_d_lp_p] [get_bd_pins video_in/csi_data_lp_p]
   connect_bd_net -net csi_d_n_1 [get_bd_ports csi_d_n] [get_bd_pins video_in/csi_data_n]
   connect_bd_net -net csi_d_p_1 [get_bd_ports csi_d_p] [get_bd_pins video_in/csi_data_p]
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins audio/axi_aclk] [get_bd_pins axi_reg32_0/s_axi_aclk] [get_bd_pins proc_sys7_0_axi_periph/ACLK] [get_bd_pins proc_sys7_0_axi_periph/M00_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M01_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M02_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M03_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M04_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M05_ACLK] [get_bd_pins proc_sys7_0_axi_periph/S00_ACLK] [get_bd_pins processing_system7_0/DMA0_ACLK] [get_bd_pins processing_system7_0/DMA1_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_HP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_HP1_ACLK] [get_bd_pins resets/axi_clk] [get_bd_pins video_in/axi_aclk] [get_bd_pins video_in/processing_clk] [get_bd_pins video_out/axi_aclk]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins audio/axi_aclk] [get_bd_pins axi_reg32_0/s_axi_aclk] [get_bd_pins proc_sys7_0_axi_periph/ACLK] [get_bd_pins proc_sys7_0_axi_periph/M00_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M01_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M02_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M03_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M04_ACLK] [get_bd_pins proc_sys7_0_axi_periph/M05_ACLK] [get_bd_pins proc_sys7_0_axi_periph/S00_ACLK] [get_bd_pins processing_system7_0/DMA0_ACLK] [get_bd_pins processing_system7_0/DMA1_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_HP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_HP1_ACLK] [get_bd_pins resets/axi_clk] [get_bd_pins system_ila_0/clk] [get_bd_pins video_in/axi_aclk] [get_bd_pins video_in/processing_clk] [get_bd_pins video_out/axi_aclk]
   connect_bd_net -net processing_system7_0_FCLK_CLK2 [get_bd_pins processing_system7_0/FCLK_CLK2] [get_bd_pins video_in/ref_clk] [get_bd_pins video_out/ref_clk]
   connect_bd_net -net processing_system7_0_FCLK_CLK3 [get_bd_pins audio/audio_clk] [get_bd_pins processing_system7_0/FCLK_CLK3]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins resets/ext_reset_in] [get_bd_pins video_in/ext_reset_in]

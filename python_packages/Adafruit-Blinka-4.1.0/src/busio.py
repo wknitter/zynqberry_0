@@ -129,7 +129,7 @@ class SPI(Lockable):
                 "No Hardware SPI on (SCLK, MOSI, MISO)={}\nValid SPI ports:{}".
                 format((clock, MOSI, MISO), spiPorts))
 
-    def configure(self, baudrate=100000, polarity=0, phase=0, bits=8):
+    def configure(self, baudrate=5000000, polarity=0, phase=0, bits=8):
         if detector.board.any_raspberry_pi or detector.board.any_raspberry_pi_40_pin:
             from adafruit_blinka.microcontroller.bcm283x.pin import Pin
             from adafruit_blinka.microcontroller.generic_linux.spi import SPI as _SPI

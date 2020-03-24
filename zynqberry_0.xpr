@@ -66,77 +66,80 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_data_fifo_3_0/zsys_axis_data_fifo_3_0.xci">
-          <Proxy FileSetName="zsys_axis_data_fifo_3_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_data_fifo_4_0/zsys_axis_data_fifo_4_0.xci">
-          <Proxy FileSetName="zsys_axis_data_fifo_4_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_data_fifo_0_0/zsys_axis_data_fifo_0_0.xci">
-          <Proxy FileSetName="zsys_axis_data_fifo_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axi_i2s_adi_0_0/zsys_axi_i2s_adi_0_0.xci">
-          <Proxy FileSetName="zsys_axi_i2s_adi_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_rst_proc_sys7_0_50M_0/zsys_rst_proc_sys7_0_50M_0.xci">
-          <Proxy FileSetName="zsys_rst_proc_sys7_0_50M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axi_reg32_0_0/zsys_axi_reg32_0_0.xci">
-          <Proxy FileSetName="zsys_axi_reg32_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_to_i2s_0_0/zsys_axis_to_i2s_0_0.xci">
-          <Proxy FileSetName="zsys_axis_to_i2s_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_i2s_to_pwm_0_0/zsys_i2s_to_pwm_0_0.xci">
-          <Proxy FileSetName="zsys_i2s_to_pwm_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axi_vdma_0_0/zsys_axi_vdma_0_0.xci">
-          <Proxy FileSetName="zsys_axi_vdma_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_xbar_0/zsys_xbar_0.xci">
-          <Proxy FileSetName="zsys_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_processing_system7_0_0/zsys_processing_system7_0_0.xci">
-          <Proxy FileSetName="zsys_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0.xci">
-          <Proxy FileSetName="zsys_xadc_wiz_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_raw_unpack_0_0/zsys_axis_raw_unpack_0_0.xci">
-          <Proxy FileSetName="zsys_axis_raw_unpack_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_csi_to_axis_0_0/zsys_csi_to_axis_0_0.xci">
-          <Proxy FileSetName="zsys_csi_to_axis_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_csi2_d_phy_rx_0_0/zsys_csi2_d_phy_rx_0_0.xci">
-          <Proxy FileSetName="zsys_csi2_d_phy_rx_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_proc_sys_reset_0_0/zsys_proc_sys_reset_0_0.xci">
-          <Proxy FileSetName="zsys_proc_sys_reset_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_proc_sys_reset_1_0/zsys_proc_sys_reset_1_0.xci">
-          <Proxy FileSetName="zsys_proc_sys_reset_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_Video_IO_2_HDMI_TMDS_0_0/zsys_Video_IO_2_HDMI_TMDS_0_0.xci">
-          <Proxy FileSetName="zsys_Video_IO_2_HDMI_TMDS_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axi_vdma_0_1/zsys_axi_vdma_0_1.xci">
-          <Proxy FileSetName="zsys_axi_vdma_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_raw_demosaic_0_0/zsys_axis_raw_demosaic_0_0.xci">
-          <Proxy FileSetName="zsys_axis_raw_demosaic_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_fb_conv_0_0/zsys_axis_fb_conv_0_0.xci">
-          <Proxy FileSetName="zsys_axis_fb_conv_0_0"/>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_v_axi4s_vid_out_0_0/zsys_v_axi4s_vid_out_0_0.xci">
+          <Proxy FileSetName="zsys_v_axi4s_vid_out_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_clk_wiz_1_0/zsys_clk_wiz_1_0.xci">
           <Proxy FileSetName="zsys_clk_wiz_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_v_axi4s_vid_out_0_0/zsys_v_axi4s_vid_out_0_0.xci">
-          <Proxy FileSetName="zsys_v_axi4s_vid_out_0_0"/>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_fb_conv_0_0/zsys_axis_fb_conv_0_0.xci">
+          <Proxy FileSetName="zsys_axis_fb_conv_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_to_i2s_0_0/zsys_axis_to_i2s_0_0.xci">
+          <Proxy FileSetName="zsys_axis_to_i2s_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_v_tc_0_0/zsys_v_tc_0_0.xci">
           <Proxy FileSetName="zsys_v_tc_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_xadc_wiz_0_0/zsys_xadc_wiz_0_0.xci">
+          <Proxy FileSetName="zsys_xadc_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_i2s_to_pwm_0_0/zsys_i2s_to_pwm_0_0.xci">
+          <Proxy FileSetName="zsys_i2s_to_pwm_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axi_vdma_0_1/zsys_axi_vdma_0_1.xci">
+          <Proxy FileSetName="zsys_axi_vdma_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_csi2_d_phy_rx_0_0/zsys_csi2_d_phy_rx_0_0.xci">
+          <Proxy FileSetName="zsys_csi2_d_phy_rx_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_data_fifo_3_0/zsys_axis_data_fifo_3_0.xci">
+          <Proxy FileSetName="zsys_axis_data_fifo_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_raw_demosaic_0_0/zsys_axis_raw_demosaic_0_0.xci">
+          <Proxy FileSetName="zsys_axis_raw_demosaic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_proc_sys_reset_1_0/zsys_proc_sys_reset_1_0.xci">
+          <Proxy FileSetName="zsys_proc_sys_reset_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_raw_unpack_0_0/zsys_axis_raw_unpack_0_0.xci">
+          <Proxy FileSetName="zsys_axis_raw_unpack_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axi_i2s_adi_0_0/zsys_axi_i2s_adi_0_0.xci">
+          <Proxy FileSetName="zsys_axi_i2s_adi_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axi_vdma_0_0/zsys_axi_vdma_0_0.xci">
+          <Proxy FileSetName="zsys_axi_vdma_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_proc_sys_reset_0_0/zsys_proc_sys_reset_0_0.xci">
+          <Proxy FileSetName="zsys_proc_sys_reset_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_data_fifo_4_0/zsys_axis_data_fifo_4_0.xci">
+          <Proxy FileSetName="zsys_axis_data_fifo_4_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_csi_to_axis_0_0/zsys_csi_to_axis_0_0.xci">
+          <Proxy FileSetName="zsys_csi_to_axis_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_Video_IO_2_HDMI_TMDS_0_0/zsys_Video_IO_2_HDMI_TMDS_0_0.xci">
+          <Proxy FileSetName="zsys_Video_IO_2_HDMI_TMDS_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axis_data_fifo_0_0/zsys_axis_data_fifo_0_0.xci">
+          <Proxy FileSetName="zsys_axis_data_fifo_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_rst_proc_sys7_0_50M_0/zsys_rst_proc_sys7_0_50M_0.xci">
+          <Proxy FileSetName="zsys_rst_proc_sys7_0_50M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_processing_system7_0_0/zsys_processing_system7_0_0.xci">
+          <Proxy FileSetName="zsys_processing_system7_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_xbar_0/zsys_xbar_0.xci">
+          <Proxy FileSetName="zsys_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_axi_reg32_0_0/zsys_axi_reg32_0_0.xci">
+          <Proxy FileSetName="zsys_axi_reg32_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="zsys.bd" FileRelPathName="ip/zsys_system_ila_0_0/zsys_system_ila_0_0.xci">
+          <Proxy FileSetName="zsys_system_ila_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/zsys/hdl/zsys_wrapper.v">
@@ -375,6 +378,12 @@
     <FileSet Name="zsys_csi2_d_phy_rx_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/zsys_csi2_d_phy_rx_0_0">
       <Config>
         <Option Name="TopModule" Val="zsys_csi2_d_phy_rx_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="zsys_system_ila_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/zsys_system_ila_0_0">
+      <Config>
+        <Option Name="TopModule" Val="zsys_system_ila_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -647,6 +656,18 @@
     <Run Id="zsys_csi2_d_phy_rx_0_0_synth_1" Type="Ft3:Synth" SrcSet="zsys_csi2_d_phy_rx_0_0" Part="xc7z010clg225-1" ConstrsSet="zsys_csi2_d_phy_rx_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/zsys_csi2_d_phy_rx_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="zsys_system_ila_0_0_synth_1" Type="Ft3:Synth" SrcSet="zsys_system_ila_0_0" Part="xc7z010clg225-1" ConstrsSet="zsys_system_ila_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/zsys_system_ila_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1066,6 +1087,25 @@
     <Run Id="zsys_csi2_d_phy_rx_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg225-1" ConstrsSet="zsys_csi2_d_phy_rx_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="zsys_csi2_d_phy_rx_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design" EnableStepBool="1"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2019"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="zsys_system_ila_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg225-1" ConstrsSet="zsys_system_ila_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="zsys_system_ila_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

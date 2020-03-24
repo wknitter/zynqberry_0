@@ -1,4 +1,4 @@
-2020-03-21T14:27:27.10324700255-14:27:27 **** Incremental Build of configuration Debug for project hello_zynqberry ****
+2020-03-23T20:19:35.88502700255-20:19:35 **** Incremental Build of configuration Debug for project hello_zynqberry ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
@@ -6,5 +6,5 @@
 000-make --no-print-directory main-build
 000-make[1]: Nothing to be done for 'main-build'.
 00255-
-14:27:27 Build Finished (took 67ms)
+20:19:35 Build Finished (took 72ms)
 

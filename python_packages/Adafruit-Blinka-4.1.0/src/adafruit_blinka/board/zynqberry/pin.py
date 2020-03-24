@@ -95,7 +95,7 @@ D27 = Pin(27)    # Zynqberry GPIO[16]
 
 # ordered as spiId, sckId, mosiId, misoId
 spiPorts = (
-    (0, SCLK, MOSI, MISO),
+    (1, SCLK, MOSI, MISO),
 )
 
 i2cPorts = (

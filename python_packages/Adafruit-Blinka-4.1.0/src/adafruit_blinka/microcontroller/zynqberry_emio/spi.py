@@ -8,7 +8,7 @@ class SPI:
     CPHA = 1
     CPOL = 2
 
-    baudrate = 100000
+    baudrate = 5000000
     mode = 0
     bits = 8
 
@@ -16,7 +16,7 @@ class SPI:
         self._port = portid
         self._spi = spidev.SpiDev()
 
-    def init(self, baudrate=100000, polarity=0, phase=0, bits=8,
+    def init(self, baudrate=5000000, polarity=0, phase=0, bits=8,
                   firstbit=MSB, sck=None, mosi=None, miso=None):
         mode = 0
         if polarity:
@@ -46,7 +46,7 @@ class SPI:
         if end is None:
             end = len(buf)
         try:
-            self._spi.open(self._port, 0)
+            self._spi.open(self._port, 1)
             self.set_no_cs()
             self._spi.max_speed_hz = self.baudrate
             self._spi.mode = self.mode
@@ -63,7 +63,7 @@ class SPI:
         if end is None:
             end = len(buf)
         try:
-            self._spi.open(self._port, 0)
+            self._spi.open(self._port, 1)
             self.set_no_cs()
             self._spi.max_speed_hz = self.baudrate
             self._spi.mode = self.mode
@@ -87,7 +87,7 @@ class SPI:
         if out_end - out_start != in_end - in_start:
             raise RuntimeError('Buffer slices must be of equal length.')
         try:
-            self._spi.open(self._port, 0)
+            self._spi.open(self._port, 1)
             self.set_no_cs()
             self._spi.max_speed_hz = self.baudrate
             self._spi.mode = self.mode

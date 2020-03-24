@@ -598,6 +598,27 @@
 
 /******************************************************************/
 
+/* Definitions for driver SPIPS */
+#define XPAR_XSPIPS_NUM_INSTANCES 1
+
+/* Definitions for peripheral PS7_SPI_0 */
+#define XPAR_PS7_SPI_0_DEVICE_ID 0
+#define XPAR_PS7_SPI_0_BASEADDR 0xE0006000
+#define XPAR_PS7_SPI_0_HIGHADDR 0xE0006FFF
+#define XPAR_PS7_SPI_0_SPI_CLK_FREQ_HZ 159999985
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral PS7_SPI_0 */
+#define XPAR_XSPIPS_0_DEVICE_ID XPAR_PS7_SPI_0_DEVICE_ID
+#define XPAR_XSPIPS_0_BASEADDR 0xE0006000
+#define XPAR_XSPIPS_0_HIGHADDR 0xE0006FFF
+#define XPAR_XSPIPS_0_SPI_CLK_FREQ_HZ 159999985
+
+
+/******************************************************************/
+
 /* Definitions for driver TTCPS */
 #define XPAR_XTTCPS_NUM_INSTANCES 3U
 

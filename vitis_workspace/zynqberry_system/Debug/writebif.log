@@ -133,3 +133,102 @@ TRACE::2020-03-21.17:27:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
 TRACE::2020-03-21.17:27:29::SCWBifWriter::Device type is : zynq
 TRACE::2020-03-21.17:27:29::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
 TRACE::2020-03-21.17:27:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.12:37:27::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.12:37:27::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.12:37:27::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.12:37:27::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.12:37:27::SCWBifWriter::proc type : 
+TRACE::2020-03-23.12:37:27::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.12:37:27::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.12:37:27::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.12:37:27::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.12:37:41::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.12:37:41::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.12:37:41::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.12:37:41::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.12:37:41::SCWBifWriter::proc type : 
+TRACE::2020-03-23.12:37:41::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.12:37:41::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.12:37:41::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.12:37:41::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.12:37:51::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.12:37:51::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.12:37:51::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.12:37:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.12:37:51::SCWBifWriter::proc type : 
+TRACE::2020-03-23.12:37:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.12:37:51::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.12:37:51::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.12:37:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.14:58:40::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.14:58:40::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.14:58:40::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.14:58:40::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.14:58:40::SCWBifWriter::proc type : 
+TRACE::2020-03-23.14:58:40::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.14:58:40::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.14:58:40::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.14:58:40::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.15:18:02::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.15:18:02::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.15:18:02::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.15:18:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.15:18:02::SCWBifWriter::proc type : 
+TRACE::2020-03-23.15:18:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.15:18:02::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.15:18:02::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.15:18:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.18:38:42::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.18:38:42::SCWBifWriter::hardware databse : zsys_wrapper_1
+TRACE::2020-03-23.18:38:42::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.18:38:42::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.18:38:42::SCWBifWriter::proc type : 
+TRACE::2020-03-23.18:38:42::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.18:38:42::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.18:38:42::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.18:38:42::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.19:06:04::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.19:06:04::SCWBifWriter::hardware databse : zsys_wrapper_2
+TRACE::2020-03-23.19:06:04::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.19:06:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.19:06:04::SCWBifWriter::proc type : 
+TRACE::2020-03-23.19:06:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.19:06:04::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.19:06:04::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.19:06:04::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.19:17:03::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.19:17:03::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.19:17:03::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.19:17:03::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.19:17:03::SCWBifWriter::proc type : 
+TRACE::2020-03-23.19:17:03::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.19:17:03::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.19:17:03::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.19:17:03::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.19:17:19::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.19:17:19::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.19:17:19::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.19:17:19::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.19:17:19::SCWBifWriter::proc type : 
+TRACE::2020-03-23.19:17:19::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.19:17:19::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.19:17:19::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.19:17:19::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.23:18:58::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.23:18:58::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.23:18:58::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.23:18:58::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.23:18:58::SCWBifWriter::proc type : 
+TRACE::2020-03-23.23:18:58::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.23:18:58::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.23:18:58::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.23:18:58::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-03-23.23:19:38::SCWBifWriter::Found the complete platform /home/parallels/zynqberry_0/vitis_workspace/zynqberry_0/export/zynqberry_0/zynqberry_0.xpfm
+TRACE::2020-03-23.23:19:38::SCWBifWriter::hardware databse : zsys_wrapper_0
+TRACE::2020-03-23.23:19:38::SCWBifWriter::bitstream found in the design
+TRACE::2020-03-23.23:19:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-03-23.23:19:38::SCWBifWriter::proc type : 
+TRACE::2020-03-23.23:19:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-03-23.23:19:38::SCWBifWriter::Device type is : zynq
+TRACE::2020-03-23.23:19:38::SCWBifWriter::Writing BIF to file : /home/parallels/zynqberry_0/vitis_workspace/zynqberry_system/Debug/system.bif
+TRACE::2020-03-23.23:19:38::SCWBifWriter::Writing the Zynq Baremetal bif 

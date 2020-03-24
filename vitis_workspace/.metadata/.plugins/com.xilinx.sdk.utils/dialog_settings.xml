@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="/home/parallels/zynqberry_0" key="scw_hwspec_file_selection"/>
 	<item value="/home/parallels/zynqberry_0/pi_os/images/linux" key="zynq_flash_files_selection"/>
 	<item value="/home/parallels/zynqberry_0" key="scw_hwspec"/>
 </section>

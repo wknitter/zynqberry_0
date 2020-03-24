@@ -226,14 +226,17 @@
 };
 
 &spi0 {
+	#address-cells=<1>;
+    #size-cells=<0>;
 	status = "okay";
 	num-cs = <3>;
-	reg = <0xe0006000 0x1000>;
 
-	spidev@0 {
+	spidev0: spidev@0 {
 		compatible = "linux,spidev";
 		spi-max-frequency = <50000000>;
-		reg = <0>;
+		reg = <1>;
+		spi-cpol = <0>;
+		spi-cpha = <0>;
 	};
 };
 

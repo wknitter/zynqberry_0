@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-//Date        : Sat Mar 21 17:11:36 2020
+//Date        : Mon Mar 23 22:58:41 2020
 //Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.4 LTS
 //Command     : generate_target zsys.bd
 //Design      : zsys
@@ -2752,7 +2752,7 @@ module video_out_imp_VOY96P
         .vsync_out(v_tc_0_vtiming_out_VSYNC));
 endmodule
 
-(* CORE_GENERATION_INFO = "zsys,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=zsys,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=46,numReposBlks=30,numNonXlnxBlks=10,numHierBlks=16,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "zsys.hwdef" *) 
+(* CORE_GENERATION_INFO = "zsys,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=zsys,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=47,numReposBlks=31,numNonXlnxBlks=10,numHierBlks=16,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_clkrst_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "zsys.hwdef" *) 
 module zsys
    (DDR_addr,
     DDR_ba,
@@ -3072,20 +3072,20 @@ module zsys
   wire processing_system7_0_M_AXI_GP0_WREADY;
   wire [3:0]processing_system7_0_M_AXI_GP0_WSTRB;
   wire processing_system7_0_M_AXI_GP0_WVALID;
-  wire processing_system7_0_SPI_0_IO0_I;
-  wire processing_system7_0_SPI_0_IO0_O;
-  wire processing_system7_0_SPI_0_IO0_T;
-  wire processing_system7_0_SPI_0_IO1_I;
-  wire processing_system7_0_SPI_0_IO1_O;
-  wire processing_system7_0_SPI_0_IO1_T;
-  wire processing_system7_0_SPI_0_SCK_I;
-  wire processing_system7_0_SPI_0_SCK_O;
-  wire processing_system7_0_SPI_0_SCK_T;
-  wire processing_system7_0_SPI_0_SS1_O;
-  wire processing_system7_0_SPI_0_SS2_O;
-  wire processing_system7_0_SPI_0_SS_I;
-  wire processing_system7_0_SPI_0_SS_O;
-  wire processing_system7_0_SPI_0_SS_T;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None IO0_I" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_IO0_I;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None IO0_O" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_IO0_O;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None IO0_T" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_IO0_T;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None IO1_I" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_IO1_I;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None IO1_O" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_IO1_O;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None IO1_T" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_IO1_T;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None SCK_I" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_SCK_I;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None SCK_O" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_SCK_O;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None SCK_T" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_SCK_T;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None SS1_O" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_SS1_O;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None SS2_O" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_SS2_O;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None SS_I" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_SS_I;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None SS_O" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_SS_O;
+  (* CONN_BUS_INFO = "processing_system7_0_SPI_0 xilinx.com:interface:spi:1.0 None SS_T" *) (* DEBUG = "true" *) (* MARK_DEBUG *) wire processing_system7_0_SPI_0_SS_T;
   wire [0:0]rst_proc_sys7_0_50M_interconnect_aresetn;
   wire [0:0]rst_proc_sys7_0_50M_peripheral_aresetn;
   wire [31:0]video_in_M00_AXI_AWADDR;
@@ -3572,6 +3572,22 @@ module zsys
         .axi_int_aresetn(rst_proc_sys7_0_50M_interconnect_aresetn),
         .axi_per_aresetn(rst_proc_sys7_0_50M_peripheral_aresetn),
         .ext_reset_in(processing_system7_0_FCLK_RESET0_N));
+  zsys_system_ila_0_0 system_ila_0
+       (.SLOT_0_SPI_io0_i(processing_system7_0_SPI_0_IO0_I),
+        .SLOT_0_SPI_io0_o(processing_system7_0_SPI_0_IO0_O),
+        .SLOT_0_SPI_io0_t(processing_system7_0_SPI_0_IO0_T),
+        .SLOT_0_SPI_io1_i(processing_system7_0_SPI_0_IO1_I),
+        .SLOT_0_SPI_io1_o(processing_system7_0_SPI_0_IO1_O),
+        .SLOT_0_SPI_io1_t(processing_system7_0_SPI_0_IO1_T),
+        .SLOT_0_SPI_sck_i(processing_system7_0_SPI_0_SCK_I),
+        .SLOT_0_SPI_sck_o(processing_system7_0_SPI_0_SCK_O),
+        .SLOT_0_SPI_sck_t(processing_system7_0_SPI_0_SCK_T),
+        .SLOT_0_SPI_ss1_o(processing_system7_0_SPI_0_SS1_O),
+        .SLOT_0_SPI_ss2_o(processing_system7_0_SPI_0_SS2_O),
+        .SLOT_0_SPI_ss_i(processing_system7_0_SPI_0_SS_I),
+        .SLOT_0_SPI_ss_o(processing_system7_0_SPI_0_SS_O),
+        .SLOT_0_SPI_ss_t(processing_system7_0_SPI_0_SS_T),
+        .clk(processing_system7_0_FCLK_CLK0));
   video_in_imp_1E96PH video_in
        (.VDMA_AXI_araddr(proc_sys7_0_axi_periph_M01_AXI_ARADDR),
         .VDMA_AXI_arready(proc_sys7_0_axi_periph_M01_AXI_ARREADY),

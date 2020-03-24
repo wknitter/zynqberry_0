@@ -2,12 +2,18 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="GPIO" key="selection"/>
+		<item value="PS7_SPI" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="ps7_spi"/>
+			<item value="i2c"/>
+			<item value="E0006000"/>
+			<item value="e0006000"/>
+			<item value="e000d000"/>
+			<item value="spi"/>
 			<item value="gpio"/>
 			<item value="BootModeRegister"/>
 			<item value="bootmoderegister"/>
