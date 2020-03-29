@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z010clg225-1" LaunchTime="1585018746">
+<GenRun Id="synth_1" LaunchPart="xc7z010clg225-1" LaunchTime="1585439275">
   <File Type="VDS-TIMINGSUMMARY" Name="zsys_wrapper_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="zsys_wrapper.dcp"/>
   <File Type="RDS-UTIL-PB" Name="zsys_wrapper_utilization_synth.pb"/>
@@ -105,28 +105,20 @@
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="zsys_csi2_d_phy_rx_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_proc_sys_reset_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_proc_sys_reset_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axis_raw_unpack_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axis_raw_demosaic_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_Video_IO_2_HDMI_TMDS_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_3_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_csi_to_axis_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_4_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axis_to_i2s_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_i2s_to_pwm_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_reg32_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_system_ila_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axi_i2s_adi_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_reg32_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axis_data_fifo_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_xadc_wiz_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axi_vdma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_vdma_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_clk_wiz_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_axis_fb_conv_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_v_tc_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_v_axi4s_vid_out_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_axi_vdma_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="zsys_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="zsys_rst_proc_sys7_0_50M_0"/>
 </GenRun>

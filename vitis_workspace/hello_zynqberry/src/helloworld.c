@@ -46,15 +46,65 @@
  */
 
 #include <stdio.h>
+#include "xspips.h"
 #include "platform.h"
 #include "xil_printf.h"
+#include "xparameters.h"
 
+#define SPI_DEVICE_ID		XPAR_XSPIPS_0_DEVICE_ID
+XSpiPs Spi;			/* The instance of the SPI device */
 
 int main()
 {
     init_platform();
 
-    print("Hello Zynqberry!\n\r");
+	int Status;
+	XSpiPs_Config *SpiConfig;
+
+	/*
+	 * Initialize the SPI device.
+	 */
+	SpiConfig = XSpiPs_LookupConfig(SPI_DEVICE_ID);
+	if (NULL == SpiConfig) {
+		return XST_FAILURE;
+	}
+
+	Status = XSpiPs_CfgInitialize(&Spi, SpiConfig, SpiConfig->BaseAddress);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	u8 SendBufPtr[1];
+	u8 RecvBufPtr[1];
+
+	Status = 0;
+	RecvBufPtr[0] = 0x00;
+
+    while (1){
+    	int i = 0;
+
+    	while(i<100000000){
+    		i++;
+    	}
+
+		print("Hello Zynqberry!\n\r");
+
+		u32 Spi_options = XSpiPs_GetOptions(&Spi);
+		xil_printf("Sent Spi_options = %lu \r\n", Spi_options);
+
+		SendBufPtr[0] = 0x10;
+		xil_printf("Sent Byte = %02X \r\n", *SendBufPtr);
+		xil_printf("Sent Byte = %d \r\n", *SendBufPtr);
+
+		Status = XSpiPs_Transfer(&Spi, SendBufPtr, RecvBufPtr, 1);
+		if (Status != XST_SUCCESS){
+			print("Spi transfer failed...\n\r");
+		}
+		xil_printf("Received Byte = %02X \r\n", *RecvBufPtr);
+		xil_printf("Received Byte = %d \r\n", *RecvBufPtr);
+
+		RecvBufPtr[0] = 0x00;
+    }
 
     cleanup_platform();
     return 0;

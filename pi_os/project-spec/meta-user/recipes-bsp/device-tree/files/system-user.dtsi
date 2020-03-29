@@ -2,6 +2,8 @@
 / {
 	aliases{
 		eth0 = &usb0;
+		spi0 = &qspi;
+		spi1 = &spi1;
 	};
 };
 
@@ -225,16 +227,18 @@
     status = "disabled";
 };
 
-&spi0 {
+&spi1 {
 	#address-cells=<1>;
     #size-cells=<0>;
 	status = "okay";
-	num-cs = <3>;
+	num-cs = <1>;
+	bus-num = <0>;
+	is-decoded-cs = <0>;
 
-	spidev0: spidev@0 {
-		compatible = "linux,spidev";
-		spi-max-frequency = <50000000>;
-		reg = <1>;
+	rfm69: spidev@0 {	
+		compatible = "spidev";
+		spi-max-frequency = <25000000>;
+		reg = <0>;
 		spi-cpol = <0>;
 		spi-cpha = <0>;
 	};

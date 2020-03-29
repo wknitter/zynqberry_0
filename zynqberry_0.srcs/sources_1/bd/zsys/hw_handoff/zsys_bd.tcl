@@ -683,14 +683,16 @@ proc create_root_design { parentCell } {
 
   set IIC_0_0 [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:iic_rtl:1.0 IIC_0_0 ]
 
-  set SPI_0_0 [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:spi_rtl:1.0 SPI_0_0 ]
-
   set Vp_Vn [ create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:diff_analog_io_rtl:1.0 Vp_Vn ]
 
 
   # Create ports
   set PWM_L [ create_bd_port -dir O PWM_L ]
   set PWM_R [ create_bd_port -dir O PWM_R ]
+  set SPI1_MISO_I [ create_bd_port -dir I SPI1_MISO_I ]
+  set SPI1_MOSI_O [ create_bd_port -dir O SPI1_MOSI_O ]
+  set SPI1_SCLK_O [ create_bd_port -dir O SPI1_SCLK_O ]
+  set SPI1_SS_O [ create_bd_port -dir O SPI1_SS_O ]
   set csi_c_clk_n [ create_bd_port -dir I csi_c_clk_n ]
   set csi_c_clk_p [ create_bd_port -dir I csi_c_clk_p ]
   set csi_d_lp_n [ create_bd_port -dir I -from 0 -to 0 csi_d_lp_n ]
@@ -851,7 +853,7 @@ proc create_root_design { parentCell } {
    CONFIG.PCW_EN_EMIO_SDIO0 {0} \
    CONFIG.PCW_EN_EMIO_SDIO1 {0} \
    CONFIG.PCW_EN_EMIO_SPI0 {1} \
-   CONFIG.PCW_EN_EMIO_SPI1 {0} \
+   CONFIG.PCW_EN_EMIO_SPI1 {1} \
    CONFIG.PCW_EN_EMIO_SRAM_INT {0} \
    CONFIG.PCW_EN_EMIO_TRACE {0} \
    CONFIG.PCW_EN_EMIO_TTC0 {1} \
@@ -880,7 +882,7 @@ proc create_root_design { parentCell } {
    CONFIG.PCW_EN_SDIO1 {1} \
    CONFIG.PCW_EN_SMC {0} \
    CONFIG.PCW_EN_SPI0 {1} \
-   CONFIG.PCW_EN_SPI1 {0} \
+   CONFIG.PCW_EN_SPI1 {1} \
    CONFIG.PCW_EN_TRACE {0} \
    CONFIG.PCW_EN_TTC0 {1} \
    CONFIG.PCW_EN_TTC1 {0} \
@@ -1244,15 +1246,15 @@ proc create_root_design { parentCell } {
    CONFIG.PCW_SPI0_PERIPHERAL_ENABLE {1} \
    CONFIG.PCW_SPI0_SPI0_IO {EMIO} \
    CONFIG.PCW_SPI1_BASEADDR {0xE0007000} \
-   CONFIG.PCW_SPI1_GRP_SS0_ENABLE {0} \
-   CONFIG.PCW_SPI1_GRP_SS0_IO {<Select>} \
-   CONFIG.PCW_SPI1_GRP_SS1_ENABLE {0} \
-   CONFIG.PCW_SPI1_GRP_SS1_IO {<Select>} \
-   CONFIG.PCW_SPI1_GRP_SS2_ENABLE {0} \
-   CONFIG.PCW_SPI1_GRP_SS2_IO {<Select>} \
+   CONFIG.PCW_SPI1_GRP_SS0_ENABLE {1} \
+   CONFIG.PCW_SPI1_GRP_SS0_IO {EMIO} \
+   CONFIG.PCW_SPI1_GRP_SS1_ENABLE {1} \
+   CONFIG.PCW_SPI1_GRP_SS1_IO {EMIO} \
+   CONFIG.PCW_SPI1_GRP_SS2_ENABLE {1} \
+   CONFIG.PCW_SPI1_GRP_SS2_IO {EMIO} \
    CONFIG.PCW_SPI1_HIGHADDR {0xE0007FFF} \
-   CONFIG.PCW_SPI1_PERIPHERAL_ENABLE {0} \
-   CONFIG.PCW_SPI1_SPI1_IO {<Select>} \
+   CONFIG.PCW_SPI1_PERIPHERAL_ENABLE {1} \
+   CONFIG.PCW_SPI1_SPI1_IO {EMIO} \
    CONFIG.PCW_SPI_PERIPHERAL_CLKSRC {IO PLL} \
    CONFIG.PCW_SPI_PERIPHERAL_DIVISOR0 {10} \
    CONFIG.PCW_SPI_PERIPHERAL_FREQMHZ {166.666666} \
@@ -1457,10 +1459,9 @@ proc create_root_design { parentCell } {
   # Create instance: system_ila_0, and set properties
   set system_ila_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:system_ila:1.1 system_ila_0 ]
   set_property -dict [ list \
-   CONFIG.C_MON_TYPE {INTERFACE} \
-   CONFIG.C_NUM_MONITOR_SLOTS {1} \
-   CONFIG.C_SLOT_0_INTF_TYPE {xilinx.com:interface:spi_rtl:1.0} \
-   CONFIG.C_SLOT_0_TYPE {0} \
+   CONFIG.C_MON_TYPE {NATIVE} \
+   CONFIG.C_NUM_OF_PROBES {4} \
+   CONFIG.C_PROBE0_TYPE {0} \
  ] $system_ila_0
 
   # Create instance: video_in
@@ -1474,6 +1475,9 @@ proc create_root_design { parentCell } {
   set_property -dict [ list \
    CONFIG.NUM_PORTS {2} \
  ] $xlconcat_0
+
+  # Create instance: xlconstant_0, and set properties
+  set xlconstant_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0 ]
 
   # Create instance: xlslice_0, and set properties
   set xlslice_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_0 ]
@@ -1509,13 +1513,12 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net processing_system7_0_GPIO_0 [get_bd_intf_ports GPIO_1] [get_bd_intf_pins processing_system7_0/GPIO_0]
   connect_bd_intf_net -intf_net processing_system7_0_IIC_0 [get_bd_intf_ports IIC_0_0] [get_bd_intf_pins processing_system7_0/IIC_0]
   connect_bd_intf_net -intf_net processing_system7_0_M_AXI_GP0 [get_bd_intf_pins proc_sys7_0_axi_periph/S00_AXI] [get_bd_intf_pins processing_system7_0/M_AXI_GP0]
-  connect_bd_intf_net -intf_net processing_system7_0_SPI_0 [get_bd_intf_ports SPI_0_0] [get_bd_intf_pins processing_system7_0/SPI_0]
-connect_bd_intf_net -intf_net [get_bd_intf_nets processing_system7_0_SPI_0] [get_bd_intf_ports SPI_0_0] [get_bd_intf_pins system_ila_0/SLOT_0_SPI]
-  set_property HDL_ATTRIBUTE.DEBUG {true} [get_bd_intf_nets processing_system7_0_SPI_0]
   connect_bd_intf_net -intf_net video_in_M00_AXI [get_bd_intf_pins processing_system7_0/S_AXI_HP1] [get_bd_intf_pins video_in/VIDEO_IN_AXI]
   connect_bd_intf_net -intf_net video_out_M00_AXI [get_bd_intf_pins processing_system7_0/S_AXI_HP0] [get_bd_intf_pins video_out/VIDEO_OUT_AXI]
 
   # Create port connections
+  connect_bd_net -net SPI1_MISO_I_0_1 [get_bd_ports SPI1_MISO_I] [get_bd_pins processing_system7_0/SPI1_MISO_I] [get_bd_pins system_ila_0/probe1]
+  set_property HDL_ATTRIBUTE.DEBUG {true} [get_bd_nets SPI1_MISO_I_0_1]
   connect_bd_net -net audio_pwm_l_out [get_bd_ports PWM_L] [get_bd_pins audio/pwm_l_out]
   connect_bd_net -net audio_pwm_r_out [get_bd_ports PWM_R] [get_bd_pins audio/pwm_r_out]
   connect_bd_net -net axi_reg32_0_WR0 [get_bd_pins axi_reg32_0/WR0] [get_bd_pins xlslice_0/Din] [get_bd_pins xlslice_1/Din]
@@ -1529,6 +1532,12 @@ connect_bd_intf_net -intf_net [get_bd_intf_nets processing_system7_0_SPI_0] [get
   connect_bd_net -net processing_system7_0_FCLK_CLK2 [get_bd_pins processing_system7_0/FCLK_CLK2] [get_bd_pins video_in/ref_clk] [get_bd_pins video_out/ref_clk]
   connect_bd_net -net processing_system7_0_FCLK_CLK3 [get_bd_pins audio/audio_clk] [get_bd_pins processing_system7_0/FCLK_CLK3]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins resets/ext_reset_in] [get_bd_pins video_in/ext_reset_in]
+  connect_bd_net -net processing_system7_0_SPI1_MOSI_O [get_bd_ports SPI1_MOSI_O] [get_bd_pins processing_system7_0/SPI1_MOSI_O] [get_bd_pins system_ila_0/probe0]
+  set_property HDL_ATTRIBUTE.DEBUG {true} [get_bd_nets processing_system7_0_SPI1_MOSI_O]
+  connect_bd_net -net processing_system7_0_SPI1_SCLK_O [get_bd_ports SPI1_SCLK_O] [get_bd_pins processing_system7_0/SPI1_SCLK_O] [get_bd_pins system_ila_0/probe2]
+  set_property HDL_ATTRIBUTE.DEBUG {true} [get_bd_nets processing_system7_0_SPI1_SCLK_O]
+  connect_bd_net -net processing_system7_0_SPI1_SS_O [get_bd_ports SPI1_SS_O] [get_bd_pins processing_system7_0/SPI1_SS_O] [get_bd_pins system_ila_0/probe3]
+  set_property HDL_ATTRIBUTE.DEBUG {true} [get_bd_nets processing_system7_0_SPI1_SS_O]
   connect_bd_net -net rst_proc_sys7_0_50M_interconnect_aresetn [get_bd_pins proc_sys7_0_axi_periph/ARESETN] [get_bd_pins resets/axi_int_aresetn] [get_bd_pins video_in/axi_int_aresetn] [get_bd_pins video_out/axi_int_aresetn]
   connect_bd_net -net rst_proc_sys7_0_50M_peripheral_aresetn [get_bd_pins audio/axi_resetn] [get_bd_pins axi_reg32_0/s_axi_aresetn] [get_bd_pins proc_sys7_0_axi_periph/M00_ARESETN] [get_bd_pins proc_sys7_0_axi_periph/M01_ARESETN] [get_bd_pins proc_sys7_0_axi_periph/M02_ARESETN] [get_bd_pins proc_sys7_0_axi_periph/M03_ARESETN] [get_bd_pins proc_sys7_0_axi_periph/M04_ARESETN] [get_bd_pins proc_sys7_0_axi_periph/M05_ARESETN] [get_bd_pins proc_sys7_0_axi_periph/S00_ARESETN] [get_bd_pins resets/axi_per_aresetn] [get_bd_pins video_in/axi_aresetn] [get_bd_pins video_out/axi_per_aresetn]
   connect_bd_net -net video_in_rx_dma_int [get_bd_pins video_in/rx_dma_int] [get_bd_pins xlconcat_0/In1]
@@ -1538,6 +1547,7 @@ connect_bd_intf_net -intf_net [get_bd_intf_nets processing_system7_0_SPI_0] [get
   connect_bd_net -net video_out_hdmi_data_p [get_bd_ports hdmi_data_p] [get_bd_pins video_out/hdmi_data_p]
   connect_bd_net -net video_out_mm2s_introut [get_bd_pins video_out/tx_dma_int] [get_bd_pins xlconcat_0/In0]
   connect_bd_net -net xlconcat_0_dout [get_bd_pins processing_system7_0/IRQ_F2P] [get_bd_pins xlconcat_0/dout]
+  connect_bd_net -net xlconstant_0_dout [get_bd_pins processing_system7_0/SPI1_SS_I] [get_bd_pins xlconstant_0/dout]
   connect_bd_net -net xlslice_0_Dout [get_bd_pins video_in/enable] [get_bd_pins xlslice_0/Dout]
   connect_bd_net -net xlslice_1_Dout [get_bd_pins video_in/colors_mode] [get_bd_pins xlslice_1/Dout]
 

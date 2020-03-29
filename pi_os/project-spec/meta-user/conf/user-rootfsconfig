@@ -14,3 +14,4 @@ CONFIG_webfwu
 CONFIG_ffmpeg
 CONFIG_adafruit-circuitpython
 CONFIG_te-audio-codec
+CONFIG_spidev-test

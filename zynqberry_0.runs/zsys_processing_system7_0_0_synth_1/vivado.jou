@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Mon Mar 23 22:59:09 2020
-# Process ID: 915
+# Start of session at: Sat Mar 28 19:47:58 2020
+# Process ID: 22410
 # Current directory: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_processing_system7_0_0_synth_1
 # Command line: vivado -log zsys_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zsys_processing_system7_0_0.tcl
 # Log file: /home/parallels/zynqberry_0/zynqberry_0.runs/zsys_processing_system7_0_0_synth_1/zsys_processing_system7_0_0.vds

@@ -1,0 +1,10 @@
+2020-03-28T15:20:42.41992700255-15:20:42 **** Incremental Build of configuration Debug for project xspips_selftest_example_1 ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000- 
+000-make --no-print-directory main-build
+000-make[1]: Nothing to be done for 'main-build'.
+00255-
+15:20:42 Build Finished (took 84ms)
+

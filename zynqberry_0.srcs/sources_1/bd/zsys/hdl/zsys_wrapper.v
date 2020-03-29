@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-//Date        : Mon Mar 23 22:58:42 2020
+//Date        : Sat Mar 28 19:47:29 2020
 //Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.4 LTS
 //Command     : generate_target zsys_wrapper.bd
 //Design      : zsys_wrapper
@@ -36,12 +36,10 @@ module zsys_wrapper
     IIC_0_0_sda_io,
     PWM_L,
     PWM_R,
-    SPI_0_0_io0_io,
-    SPI_0_0_io1_io,
-    SPI_0_0_sck_io,
-    SPI_0_0_ss1_o,
-    SPI_0_0_ss2_o,
-    SPI_0_0_ss_io,
+    SPI1_MISO_I,
+    SPI1_MOSI_O,
+    SPI1_SCLK_O,
+    SPI1_SS_O,
     Vp_Vn_v_n,
     Vp_Vn_v_p,
     csi_c_clk_n,
@@ -80,12 +78,10 @@ module zsys_wrapper
   inout IIC_0_0_sda_io;
   output PWM_L;
   output PWM_R;
-  inout SPI_0_0_io0_io;
-  inout SPI_0_0_io1_io;
-  inout SPI_0_0_sck_io;
-  output SPI_0_0_ss1_o;
-  output SPI_0_0_ss2_o;
-  inout SPI_0_0_ss_io;
+  input SPI1_MISO_I;
+  output SPI1_MOSI_O;
+  output SPI1_SCLK_O;
+  output SPI1_SS_O;
   input Vp_Vn_v_n;
   input Vp_Vn_v_p;
   input csi_c_clk_n;
@@ -198,24 +194,10 @@ module zsys_wrapper
   wire IIC_0_0_sda_t;
   wire PWM_L;
   wire PWM_R;
-  wire SPI_0_0_io0_i;
-  wire SPI_0_0_io0_io;
-  wire SPI_0_0_io0_o;
-  wire SPI_0_0_io0_t;
-  wire SPI_0_0_io1_i;
-  wire SPI_0_0_io1_io;
-  wire SPI_0_0_io1_o;
-  wire SPI_0_0_io1_t;
-  wire SPI_0_0_sck_i;
-  wire SPI_0_0_sck_io;
-  wire SPI_0_0_sck_o;
-  wire SPI_0_0_sck_t;
-  wire SPI_0_0_ss1_o;
-  wire SPI_0_0_ss2_o;
-  wire SPI_0_0_ss_i;
-  wire SPI_0_0_ss_io;
-  wire SPI_0_0_ss_o;
-  wire SPI_0_0_ss_t;
+  wire SPI1_MISO_I;
+  wire SPI1_MOSI_O;
+  wire SPI1_SCLK_O;
+  wire SPI1_SS_O;
   wire Vp_Vn_v_n;
   wire Vp_Vn_v_p;
   wire csi_c_clk_n;
@@ -324,26 +306,6 @@ module zsys_wrapper
         .IO(IIC_0_0_sda_io),
         .O(IIC_0_0_sda_i),
         .T(IIC_0_0_sda_t));
-  IOBUF SPI_0_0_io0_iobuf
-       (.I(SPI_0_0_io0_o),
-        .IO(SPI_0_0_io0_io),
-        .O(SPI_0_0_io0_i),
-        .T(SPI_0_0_io0_t));
-  IOBUF SPI_0_0_io1_iobuf
-       (.I(SPI_0_0_io1_o),
-        .IO(SPI_0_0_io1_io),
-        .O(SPI_0_0_io1_i),
-        .T(SPI_0_0_io1_t));
-  IOBUF SPI_0_0_sck_iobuf
-       (.I(SPI_0_0_sck_o),
-        .IO(SPI_0_0_sck_io),
-        .O(SPI_0_0_sck_i),
-        .T(SPI_0_0_sck_t));
-  IOBUF SPI_0_0_ss_iobuf
-       (.I(SPI_0_0_ss_o),
-        .IO(SPI_0_0_ss_io),
-        .O(SPI_0_0_ss_i),
-        .T(SPI_0_0_ss_t));
   zsys zsys_i
        (.DDR_addr(DDR_addr),
         .DDR_ba(DDR_ba),
@@ -377,20 +339,10 @@ module zsys_wrapper
         .IIC_0_0_sda_t(IIC_0_0_sda_t),
         .PWM_L(PWM_L),
         .PWM_R(PWM_R),
-        .SPI_0_0_io0_i(SPI_0_0_io0_i),
-        .SPI_0_0_io0_o(SPI_0_0_io0_o),
-        .SPI_0_0_io0_t(SPI_0_0_io0_t),
-        .SPI_0_0_io1_i(SPI_0_0_io1_i),
-        .SPI_0_0_io1_o(SPI_0_0_io1_o),
-        .SPI_0_0_io1_t(SPI_0_0_io1_t),
-        .SPI_0_0_sck_i(SPI_0_0_sck_i),
-        .SPI_0_0_sck_o(SPI_0_0_sck_o),
-        .SPI_0_0_sck_t(SPI_0_0_sck_t),
-        .SPI_0_0_ss1_o(SPI_0_0_ss1_o),
-        .SPI_0_0_ss2_o(SPI_0_0_ss2_o),
-        .SPI_0_0_ss_i(SPI_0_0_ss_i),
-        .SPI_0_0_ss_o(SPI_0_0_ss_o),
-        .SPI_0_0_ss_t(SPI_0_0_ss_t),
+        .SPI1_MISO_I(SPI1_MISO_I),
+        .SPI1_MOSI_O(SPI1_MOSI_O),
+        .SPI1_SCLK_O(SPI1_SCLK_O),
+        .SPI1_SS_O(SPI1_SS_O),
         .Vp_Vn_v_n(Vp_Vn_v_n),
         .Vp_Vn_v_p(Vp_Vn_v_p),
         .csi_c_clk_n(csi_c_clk_n),

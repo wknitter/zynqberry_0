@@ -156,15 +156,13 @@ proc create_root_design { parentCell } {
 
 
   # Create interface ports
-  set SLOT_0_SPI [ create_bd_intf_port -mode Monitor -vlnv xilinx.com:interface:spi_rtl:1.0 SLOT_0_SPI ]
-
 
   # Create ports
   set clk [ create_bd_port -dir I -type clk clk ]
-  set_property -dict [ list \
-   CONFIG.ASSOCIATED_BUSIF {} \
-   CONFIG.ASSOCIATED_RESET {} \
- ] $clk
+  set probe0 [ create_bd_port -dir I -from 0 -to 0 probe0 ]
+  set probe1 [ create_bd_port -dir I -from 0 -to 0 probe1 ]
+  set probe2 [ create_bd_port -dir I -from 0 -to 0 probe2 ]
+  set probe3 [ create_bd_port -dir I -from 0 -to 0 probe3 ]
 
   # Create instance: ila_lib, and set properties
   set ila_lib [ create_bd_cell -type ip -vlnv xilinx.com:ip:ila:6.2 ila_lib ]
@@ -178,35 +176,19 @@ proc create_root_design { parentCell } {
    CONFIG.C_ILA_CLK_FREQ {159999985} \
    CONFIG.C_INPUT_PIPE_STAGES {0} \
    CONFIG.C_MONITOR_TYPE {Native} \
-   CONFIG.C_NUM_OF_PROBES {14} \
+   CONFIG.C_NUM_OF_PROBES {4} \
+   CONFIG.C_PROBE0_MU_CNT {1} \
    CONFIG.C_PROBE0_TYPE {0} \
    CONFIG.C_PROBE0_WIDTH {1} \
-   CONFIG.C_PROBE10_TYPE {0} \
-   CONFIG.C_PROBE10_WIDTH {1} \
-   CONFIG.C_PROBE11_TYPE {0} \
-   CONFIG.C_PROBE11_WIDTH {1} \
-   CONFIG.C_PROBE12_TYPE {0} \
-   CONFIG.C_PROBE12_WIDTH {1} \
-   CONFIG.C_PROBE13_TYPE {0} \
-   CONFIG.C_PROBE13_WIDTH {1} \
+   CONFIG.C_PROBE1_MU_CNT {1} \
    CONFIG.C_PROBE1_TYPE {0} \
    CONFIG.C_PROBE1_WIDTH {1} \
+   CONFIG.C_PROBE2_MU_CNT {1} \
    CONFIG.C_PROBE2_TYPE {0} \
    CONFIG.C_PROBE2_WIDTH {1} \
+   CONFIG.C_PROBE3_MU_CNT {1} \
    CONFIG.C_PROBE3_TYPE {0} \
    CONFIG.C_PROBE3_WIDTH {1} \
-   CONFIG.C_PROBE4_TYPE {0} \
-   CONFIG.C_PROBE4_WIDTH {1} \
-   CONFIG.C_PROBE5_TYPE {0} \
-   CONFIG.C_PROBE5_WIDTH {1} \
-   CONFIG.C_PROBE6_TYPE {0} \
-   CONFIG.C_PROBE6_WIDTH {1} \
-   CONFIG.C_PROBE7_TYPE {0} \
-   CONFIG.C_PROBE7_WIDTH {1} \
-   CONFIG.C_PROBE8_TYPE {0} \
-   CONFIG.C_PROBE8_WIDTH {1} \
-   CONFIG.C_PROBE9_TYPE {0} \
-   CONFIG.C_PROBE9_WIDTH {1} \
    CONFIG.C_TIME_TAG_WIDTH {32} \
    CONFIG.C_TRIGIN_EN {false} \
    CONFIG.C_TRIGOUT_EN {false} \
@@ -214,21 +196,11 @@ proc create_root_design { parentCell } {
  ] $ila_lib
 
   # Create port connections
-  connect_bd_net -net SLOT_0_SPI_io0_i_1 [get_bd_ports SLOT_0_SPI_io0_i] [get_bd_pins ila_lib/probe3]
-  connect_bd_net -net SLOT_0_SPI_io0_o_1 [get_bd_ports SLOT_0_SPI_io0_o] [get_bd_pins ila_lib/probe4]
-  connect_bd_net -net SLOT_0_SPI_io0_t_1 [get_bd_ports SLOT_0_SPI_io0_t] [get_bd_pins ila_lib/probe5]
-  connect_bd_net -net SLOT_0_SPI_io1_i_1 [get_bd_ports SLOT_0_SPI_io1_i] [get_bd_pins ila_lib/probe6]
-  connect_bd_net -net SLOT_0_SPI_io1_o_1 [get_bd_ports SLOT_0_SPI_io1_o] [get_bd_pins ila_lib/probe7]
-  connect_bd_net -net SLOT_0_SPI_io1_t_1 [get_bd_ports SLOT_0_SPI_io1_t] [get_bd_pins ila_lib/probe8]
-  connect_bd_net -net SLOT_0_SPI_sck_i_1 [get_bd_ports SLOT_0_SPI_sck_i] [get_bd_pins ila_lib/probe0]
-  connect_bd_net -net SLOT_0_SPI_sck_o_1 [get_bd_ports SLOT_0_SPI_sck_o] [get_bd_pins ila_lib/probe1]
-  connect_bd_net -net SLOT_0_SPI_sck_t_1 [get_bd_ports SLOT_0_SPI_sck_t] [get_bd_pins ila_lib/probe2]
-  connect_bd_net -net SLOT_0_SPI_ss1_o_1 [get_bd_ports SLOT_0_SPI_ss1_o] [get_bd_pins ila_lib/probe11]
-  connect_bd_net -net SLOT_0_SPI_ss2_o_1 [get_bd_ports SLOT_0_SPI_ss2_o] [get_bd_pins ila_lib/probe12]
-  connect_bd_net -net SLOT_0_SPI_ss_i_1 [get_bd_ports SLOT_0_SPI_ss_i] [get_bd_pins ila_lib/probe9]
-  connect_bd_net -net SLOT_0_SPI_ss_o_1 [get_bd_ports SLOT_0_SPI_ss_o] [get_bd_pins ila_lib/probe10]
-  connect_bd_net -net SLOT_0_SPI_ss_t_1 [get_bd_ports SLOT_0_SPI_ss_t] [get_bd_pins ila_lib/probe13]
   connect_bd_net -net clk_1 [get_bd_ports clk] [get_bd_pins ila_lib/clk]
+  connect_bd_net -net probe0_1 [get_bd_ports probe0] [get_bd_pins ila_lib/probe0]
+  connect_bd_net -net probe1_1 [get_bd_ports probe1] [get_bd_pins ila_lib/probe1]
+  connect_bd_net -net probe2_1 [get_bd_ports probe2] [get_bd_pins ila_lib/probe2]
+  connect_bd_net -net probe3_1 [get_bd_ports probe3] [get_bd_pins ila_lib/probe3]
 
   # Create address segments
 

@@ -3944,6 +3944,7 @@ CONFIG_imagefeature-debug-tweaks=y
 # CONFIG_gpio-demo is not set
 # CONFIG_peekpoke is not set
 CONFIG_rpicam=y
+CONFIG_spidev-test=y
 # CONFIG_startup is not set
 # CONFIG_webfwu is not set
 

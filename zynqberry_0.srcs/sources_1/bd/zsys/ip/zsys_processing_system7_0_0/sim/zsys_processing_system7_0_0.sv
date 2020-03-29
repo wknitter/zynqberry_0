@@ -700,6 +700,20 @@
   SPI0_SS1_O,
   SPI0_SS2_O,
   SPI0_SS_T,
+  SPI1_SCLK_I,
+  SPI1_SCLK_O,
+  SPI1_SCLK_T,
+  SPI1_MOSI_I,
+  SPI1_MOSI_O,
+  SPI1_MOSI_T,
+  SPI1_MISO_I,
+  SPI1_MISO_O,
+  SPI1_MISO_T,
+  SPI1_SS_I,
+  SPI1_SS_O,
+  SPI1_SS1_O,
+  SPI1_SS2_O,
+  SPI1_SS_T,
   TTC0_WAVE0_OUT,
   TTC0_WAVE1_OUT,
   TTC0_WAVE2_OUT,
@@ -964,6 +978,20 @@
       output  SPI0_SS1_O;
       output  SPI0_SS2_O;
       output  SPI0_SS_T;
+      input  SPI1_SCLK_I;
+      output  SPI1_SCLK_O;
+      output  SPI1_SCLK_T;
+      input  SPI1_MOSI_I;
+      output  SPI1_MOSI_O;
+      output  SPI1_MOSI_T;
+      input  SPI1_MISO_I;
+      output  SPI1_MISO_O;
+      output  SPI1_MISO_T;
+      input  SPI1_SS_I;
+      output  SPI1_SS_O;
+      output  SPI1_SS1_O;
+      output  SPI1_SS2_O;
+      output  SPI1_SS_T;
       output  TTC0_WAVE0_OUT;
       output  TTC0_WAVE1_OUT;
       output  TTC0_WAVE2_OUT;
@@ -1161,6 +1189,16 @@
       reg SPI0_SS1_O;
       reg SPI0_SS2_O;
       reg SPI0_SS_T;
+      reg SPI1_SCLK_O;
+      reg SPI1_SCLK_T;
+      reg SPI1_MOSI_O;
+      reg SPI1_MOSI_T;
+      reg SPI1_MISO_O;
+      reg SPI1_MISO_T;
+      reg SPI1_SS_O;
+      reg SPI1_SS1_O;
+      reg SPI1_SS2_O;
+      reg SPI1_SS_T;
       reg TTC0_WAVE0_OUT;
       reg TTC0_WAVE1_OUT;
       reg TTC0_WAVE2_OUT;

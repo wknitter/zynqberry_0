@@ -46,7 +46,7 @@ class SPI:
         if end is None:
             end = len(buf)
         try:
-            self._spi.open(self._port, 1)
+            self._spi.open(self._port, 0)
             self.set_no_cs()
             self._spi.max_speed_hz = self.baudrate
             self._spi.mode = self.mode
@@ -63,7 +63,7 @@ class SPI:
         if end is None:
             end = len(buf)
         try:
-            self._spi.open(self._port, 1)
+            self._spi.open(self._port, 0)
             self.set_no_cs()
             self._spi.max_speed_hz = self.baudrate
             self._spi.mode = self.mode
@@ -87,7 +87,7 @@ class SPI:
         if out_end - out_start != in_end - in_start:
             raise RuntimeError('Buffer slices must be of equal length.')
         try:
-            self._spi.open(self._port, 1)
+            self._spi.open(self._port, 0)
             self.set_no_cs()
             self._spi.max_speed_hz = self.baudrate
             self._spi.mode = self.mode

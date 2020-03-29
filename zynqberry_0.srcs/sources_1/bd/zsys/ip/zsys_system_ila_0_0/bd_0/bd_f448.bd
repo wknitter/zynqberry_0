@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xD2F556B93F0DCD20",
+      "boundary_crc": "0xF1324B08CCCFBFDE",
       "design_src": "SBD",
       "device": "xc7z010clg225-1",
       "name": "bd_f448",
@@ -12,70 +12,6 @@
     },
     "design_tree": {
       "ila_lib": ""
-    },
-    "interface_ports": {
-      "SLOT_0_SPI": {
-        "mode": "Monitor",
-        "vlnv": "xilinx.com:interface:spi_rtl:1.0",
-        "port_maps": {
-          "SCK_I": {
-            "physical_name": "SLOT_0_SPI_sck_i",
-            "direction": "I"
-          },
-          "SCK_O": {
-            "physical_name": "SLOT_0_SPI_sck_o",
-            "direction": "I"
-          },
-          "SCK_T": {
-            "physical_name": "SLOT_0_SPI_sck_t",
-            "direction": "I"
-          },
-          "IO0_I": {
-            "physical_name": "SLOT_0_SPI_io0_i",
-            "direction": "I"
-          },
-          "IO0_O": {
-            "physical_name": "SLOT_0_SPI_io0_o",
-            "direction": "I"
-          },
-          "IO0_T": {
-            "physical_name": "SLOT_0_SPI_io0_t",
-            "direction": "I"
-          },
-          "IO1_I": {
-            "physical_name": "SLOT_0_SPI_io1_i",
-            "direction": "I"
-          },
-          "IO1_O": {
-            "physical_name": "SLOT_0_SPI_io1_o",
-            "direction": "I"
-          },
-          "IO1_T": {
-            "physical_name": "SLOT_0_SPI_io1_t",
-            "direction": "I"
-          },
-          "SS_I": {
-            "physical_name": "SLOT_0_SPI_ss_i",
-            "direction": "I"
-          },
-          "SS_O": {
-            "physical_name": "SLOT_0_SPI_ss_o",
-            "direction": "I"
-          },
-          "SS1_O": {
-            "physical_name": "SLOT_0_SPI_ss1_o",
-            "direction": "I"
-          },
-          "SS2_O": {
-            "physical_name": "SLOT_0_SPI_ss2_o",
-            "direction": "I"
-          },
-          "SS_T": {
-            "physical_name": "SLOT_0_SPI_ss_t",
-            "direction": "I"
-          }
-        }
-      }
     },
     "ports": {
       "clk": {
@@ -100,47 +36,25 @@
           }
         }
       },
-      "SLOT_0_SPI_sck_i": {
-        "direction": "I"
+      "probe0": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
       },
-      "SLOT_0_SPI_sck_o": {
-        "direction": "I"
+      "probe1": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
       },
-      "SLOT_0_SPI_sck_t": {
-        "direction": "I"
+      "probe2": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
       },
-      "SLOT_0_SPI_io0_i": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_io0_o": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_io0_t": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_io1_i": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_io1_o": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_io1_t": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_ss_i": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_ss_o": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_ss1_o": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_ss2_o": {
-        "direction": "I"
-      },
-      "SLOT_0_SPI_ss_t": {
-        "direction": "I"
+      "probe3": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
       }
     },
     "components": {
@@ -176,7 +90,10 @@
             "value": "Native"
           },
           "C_NUM_OF_PROBES": {
-            "value": "14"
+            "value": "4"
+          },
+          "C_PROBE0_MU_CNT": {
+            "value": "1"
           },
           "C_PROBE0_TYPE": {
             "value": "0"
@@ -184,28 +101,7 @@
           "C_PROBE0_WIDTH": {
             "value": "1"
           },
-          "C_PROBE10_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE10_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE11_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE11_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE12_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE12_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE13_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE13_WIDTH": {
+          "C_PROBE1_MU_CNT": {
             "value": "1"
           },
           "C_PROBE1_TYPE": {
@@ -214,52 +110,22 @@
           "C_PROBE1_WIDTH": {
             "value": "1"
           },
+          "C_PROBE2_MU_CNT": {
+            "value": "1"
+          },
           "C_PROBE2_TYPE": {
             "value": "0"
           },
           "C_PROBE2_WIDTH": {
             "value": "1"
           },
+          "C_PROBE3_MU_CNT": {
+            "value": "1"
+          },
           "C_PROBE3_TYPE": {
             "value": "0"
           },
           "C_PROBE3_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE4_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE4_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE5_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE5_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE6_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE6_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE7_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE7_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE8_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE8_WIDTH": {
-            "value": "1"
-          },
-          "C_PROBE9_TYPE": {
-            "value": "0"
-          },
-          "C_PROBE9_WIDTH": {
             "value": "1"
           },
           "C_TIME_TAG_WIDTH": {
@@ -284,88 +150,28 @@
           "ila_lib/clk"
         ]
       },
-      "SLOT_0_SPI_sck_i_1": {
+      "probe0_1": {
         "ports": [
-          "SLOT_0_SPI_sck_i",
+          "probe0",
           "ila_lib/probe0"
         ]
       },
-      "SLOT_0_SPI_sck_o_1": {
+      "probe1_1": {
         "ports": [
-          "SLOT_0_SPI_sck_o",
+          "probe1",
           "ila_lib/probe1"
         ]
       },
-      "SLOT_0_SPI_sck_t_1": {
+      "probe2_1": {
         "ports": [
-          "SLOT_0_SPI_sck_t",
+          "probe2",
           "ila_lib/probe2"
         ]
       },
-      "SLOT_0_SPI_io0_i_1": {
+      "probe3_1": {
         "ports": [
-          "SLOT_0_SPI_io0_i",
+          "probe3",
           "ila_lib/probe3"
-        ]
-      },
-      "SLOT_0_SPI_io0_o_1": {
-        "ports": [
-          "SLOT_0_SPI_io0_o",
-          "ila_lib/probe4"
-        ]
-      },
-      "SLOT_0_SPI_io0_t_1": {
-        "ports": [
-          "SLOT_0_SPI_io0_t",
-          "ila_lib/probe5"
-        ]
-      },
-      "SLOT_0_SPI_io1_i_1": {
-        "ports": [
-          "SLOT_0_SPI_io1_i",
-          "ila_lib/probe6"
-        ]
-      },
-      "SLOT_0_SPI_io1_o_1": {
-        "ports": [
-          "SLOT_0_SPI_io1_o",
-          "ila_lib/probe7"
-        ]
-      },
-      "SLOT_0_SPI_io1_t_1": {
-        "ports": [
-          "SLOT_0_SPI_io1_t",
-          "ila_lib/probe8"
-        ]
-      },
-      "SLOT_0_SPI_ss_i_1": {
-        "ports": [
-          "SLOT_0_SPI_ss_i",
-          "ila_lib/probe9"
-        ]
-      },
-      "SLOT_0_SPI_ss_o_1": {
-        "ports": [
-          "SLOT_0_SPI_ss_o",
-          "ila_lib/probe10"
-        ]
-      },
-      "SLOT_0_SPI_ss1_o_1": {
-        "ports": [
-          "SLOT_0_SPI_ss1_o",
-          "ila_lib/probe11"
-        ]
-      },
-      "SLOT_0_SPI_ss2_o_1": {
-        "ports": [
-          "SLOT_0_SPI_ss2_o",
-          "ila_lib/probe12"
-        ]
-      },
-      "SLOT_0_SPI_ss_t_1": {
-        "ports": [
-          "SLOT_0_SPI_ss_t",
-          "ila_lib/probe13"
         ]
       }
     }

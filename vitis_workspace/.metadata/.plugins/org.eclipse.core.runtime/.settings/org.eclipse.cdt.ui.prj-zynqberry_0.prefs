@@ -1,0 +1,3 @@
+buildConsole/keepLog=true
+buildConsole/logLocation=/home/parallels/zynqberry_0/vitis_workspace/.metadata/.plugins/org.eclipse.cdt.ui/zynqberry_0.build.log
+eclipse.preferences.version=1

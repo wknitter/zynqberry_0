@@ -81,6 +81,20 @@ module zsys_processing_system7_0_0 (
   SPI0_SS1_O,
   SPI0_SS2_O,
   SPI0_SS_T,
+  SPI1_SCLK_I,
+  SPI1_SCLK_O,
+  SPI1_SCLK_T,
+  SPI1_MOSI_I,
+  SPI1_MOSI_O,
+  SPI1_MOSI_T,
+  SPI1_MISO_I,
+  SPI1_MISO_O,
+  SPI1_MISO_T,
+  SPI1_SS_I,
+  SPI1_SS_O,
+  SPI1_SS1_O,
+  SPI1_SS2_O,
+  SPI1_SS_T,
   TTC0_WAVE0_OUT,
   TTC0_WAVE1_OUT,
   TTC0_WAVE2_OUT,
@@ -307,6 +321,34 @@ output wire SPI0_SS1_O;
 output wire SPI0_SS2_O;
 (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_0 SS_T" *)
 output wire SPI0_SS_T;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 SCK_I" *)
+input wire SPI1_SCLK_I;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 SCK_O" *)
+output wire SPI1_SCLK_O;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 SCK_T" *)
+output wire SPI1_SCLK_T;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 IO0_I" *)
+input wire SPI1_MOSI_I;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 IO0_O" *)
+output wire SPI1_MOSI_O;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 IO0_T" *)
+output wire SPI1_MOSI_T;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 IO1_I" *)
+input wire SPI1_MISO_I;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 IO1_O" *)
+output wire SPI1_MISO_O;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 IO1_T" *)
+output wire SPI1_MISO_T;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 SS_I" *)
+input wire SPI1_SS_I;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 SS_O" *)
+output wire SPI1_SS_O;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 SS1_O" *)
+output wire SPI1_SS1_O;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 SS2_O" *)
+output wire SPI1_SS2_O;
+(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SPI_1 SS_T" *)
+output wire SPI1_SS_T;
 output wire TTC0_WAVE0_OUT;
 output wire TTC0_WAVE1_OUT;
 output wire TTC0_WAVE2_OUT;
@@ -624,16 +666,16 @@ input wire [1 : 0] DMA0_DRTYPE;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DMA1_REQ, TDATA_NUM_BYTES 0, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 2, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 159999985, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK0, LAYERED_METADATA undef, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 DMA1_REQ TUSER" *)
 input wire [1 : 0] DMA1_DRTYPE;
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK0, FREQ_HZ 1.6e+08, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK0, FREQ_HZ 159999985, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 FCLK_CLK0 CLK" *)
 output wire FCLK_CLK0;
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK1, FREQ_HZ 1e+08, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK1, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK1, FREQ_HZ 99999992, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK1, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 FCLK_CLK1 CLK" *)
 output wire FCLK_CLK1;
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK2, FREQ_HZ 2e+08, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK2, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK2, FREQ_HZ 199999985, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK2, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 FCLK_CLK2 CLK" *)
 output wire FCLK_CLK2;
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK3, FREQ_HZ 1.23077e+07, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK3, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK3, FREQ_HZ 12307691, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK3, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 FCLK_CLK3 CLK" *)
 output wire FCLK_CLK3;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_RESET0_N, POLARITY ACTIVE_LOW, INSERT_VIP 0" *)
@@ -855,20 +897,20 @@ inout wire PS_PORB;
     .SPI0_SS1_O(SPI0_SS1_O),
     .SPI0_SS2_O(SPI0_SS2_O),
     .SPI0_SS_T(SPI0_SS_T),
-    .SPI1_SCLK_I(1'B0),
-    .SPI1_SCLK_O(),
-    .SPI1_SCLK_T(),
-    .SPI1_MOSI_I(1'B0),
-    .SPI1_MOSI_O(),
-    .SPI1_MOSI_T(),
-    .SPI1_MISO_I(1'B0),
-    .SPI1_MISO_O(),
-    .SPI1_MISO_T(),
-    .SPI1_SS_I(1'B0),
-    .SPI1_SS_O(),
-    .SPI1_SS1_O(),
-    .SPI1_SS2_O(),
-    .SPI1_SS_T(),
+    .SPI1_SCLK_I(SPI1_SCLK_I),
+    .SPI1_SCLK_O(SPI1_SCLK_O),
+    .SPI1_SCLK_T(SPI1_SCLK_T),
+    .SPI1_MOSI_I(SPI1_MOSI_I),
+    .SPI1_MOSI_O(SPI1_MOSI_O),
+    .SPI1_MOSI_T(SPI1_MOSI_T),
+    .SPI1_MISO_I(SPI1_MISO_I),
+    .SPI1_MISO_O(SPI1_MISO_O),
+    .SPI1_MISO_T(SPI1_MISO_T),
+    .SPI1_SS_I(SPI1_SS_I),
+    .SPI1_SS_O(SPI1_SS_O),
+    .SPI1_SS1_O(SPI1_SS1_O),
+    .SPI1_SS2_O(SPI1_SS2_O),
+    .SPI1_SS_T(SPI1_SS_T),
     .UART0_DTRN(),
     .UART0_RTSN(),
     .UART0_TX(),

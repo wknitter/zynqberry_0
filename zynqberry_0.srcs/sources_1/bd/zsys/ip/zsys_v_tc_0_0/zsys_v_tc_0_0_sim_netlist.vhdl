@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
--- Date        : Tue Jan 21 21:11:32 2020
+-- Date        : Tue Jan 21 21:11:30 2020
 -- Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.3 LTS
--- Command     : write_vhdl -force -mode funcsim
---               /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_v_tc_0_0/zsys_v_tc_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top zsys_v_tc_0_0 -prefix
+--               zsys_v_tc_0_0_ zsys_v_tc_0_0_sim_netlist.vhdl
 -- Design      : zsys_v_tc_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -29,8 +29,6 @@ entity zsys_v_tc_0_0_address_decoder is
     s_axi_awready : in STD_LOGIC;
     s_axi_awready_0 : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_address_decoder : entity is "address_decoder";
 end zsys_v_tc_0_0_address_decoder;
 
 architecture STRUCTURE of zsys_v_tc_0_0_address_decoder is
@@ -783,8 +781,6 @@ entity zsys_v_tc_0_0_mux_tree is
     \GEN_TREE.GEN_BRANCH[31].GEN_MUX_REG.data_out_reg_reg[31][1]_0\ : in STD_LOGIC;
     \GEN_TREE.GEN_BRANCH[31].GEN_MUX_REG.data_out_reg_reg[31][0]_0\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_mux_tree : entity is "mux_tree";
 end zsys_v_tc_0_0_mux_tree;
 
 architecture STRUCTURE of zsys_v_tc_0_0_mux_tree is
@@ -14815,8 +14811,6 @@ entity zsys_v_tc_0_0_tc_generator is
     \time_control_regs[24]\ : in STD_LOGIC_VECTOR ( 21 downto 0 );
     \time_control_regs[23]\ : in STD_LOGIC_VECTOR ( 23 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_tc_generator : entity is "tc_generator";
 end zsys_v_tc_0_0_tc_generator;
 
 architecture STRUCTURE of zsys_v_tc_0_0_tc_generator is
@@ -19324,8 +19318,6 @@ entity zsys_v_tc_0_0_video_clock_cross is
     \data_sync_reg[0][44]_0\ : in STD_LOGIC_VECTOR ( 44 downto 0 );
     vid_aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_video_clock_cross : entity is "video_clock_cross";
 end zsys_v_tc_0_0_video_clock_cross;
 
 architecture STRUCTURE of zsys_v_tc_0_0_video_clock_cross is
@@ -28895,8 +28887,6 @@ entity zsys_v_tc_0_0_slave_attachment is
     s_axi_araddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 8 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_slave_attachment : entity is "slave_attachment";
 end zsys_v_tc_0_0_slave_attachment;
 
 architecture STRUCTURE of zsys_v_tc_0_0_slave_attachment is
@@ -30080,8 +30070,6 @@ entity zsys_v_tc_0_0_tc_top is
     \time_control_regs[24]\ : in STD_LOGIC_VECTOR ( 21 downto 0 );
     \time_control_regs[23]\ : in STD_LOGIC_VECTOR ( 23 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_tc_top : entity is "tc_top";
 end zsys_v_tc_0_0_tc_top;
 
 architecture STRUCTURE of zsys_v_tc_0_0_tc_top is
@@ -30443,8 +30431,6 @@ entity zsys_v_tc_0_0_axi_lite_ipif is
     s_axi_araddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 8 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_axi_lite_ipif : entity is "axi_lite_ipif";
 end zsys_v_tc_0_0_axi_lite_ipif;
 
 architecture STRUCTURE of zsys_v_tc_0_0_axi_lite_ipif is
@@ -30672,8 +30658,6 @@ entity zsys_v_tc_0_0_video_ctrl is
   attribute C_VERSION_MINOR of zsys_v_tc_0_0_video_ctrl : entity is 2;
   attribute C_VERSION_REVISION : integer;
   attribute C_VERSION_REVISION of zsys_v_tc_0_0_video_ctrl : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_video_ctrl : entity is "video_ctrl";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of zsys_v_tc_0_0_video_ctrl : entity is "yes";
 end zsys_v_tc_0_0_video_ctrl;
@@ -54201,8 +54185,6 @@ entity zsys_v_tc_0_0_v_tc is
   attribute C_S_AXI_CLK_FREQ_HZ of zsys_v_tc_0_0_v_tc : entity is 100000000;
   attribute C_S_AXI_DATA_WIDTH : integer;
   attribute C_S_AXI_DATA_WIDTH of zsys_v_tc_0_0_v_tc : entity is 32;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of zsys_v_tc_0_0_v_tc : entity is "v_tc";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of zsys_v_tc_0_0_v_tc : entity is "yes";
 end zsys_v_tc_0_0_v_tc;

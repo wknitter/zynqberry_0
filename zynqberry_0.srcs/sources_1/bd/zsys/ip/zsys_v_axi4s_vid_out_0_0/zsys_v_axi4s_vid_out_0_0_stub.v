@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-// Date        : Tue Jan 21 21:11:20 2020
+// Date        : Tue Jan 21 21:11:19 2020
 // Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode synth_stub
-//               /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_v_axi4s_vid_out_0_0/zsys_v_axi4s_vid_out_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top zsys_v_axi4s_vid_out_0_0 -prefix
+//               zsys_v_axi4s_vid_out_0_0_ zsys_v_axi4s_vid_out_0_0_stub.v
 // Design      : zsys_v_axi4s_vid_out_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg225-1

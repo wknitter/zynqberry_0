@@ -13,6 +13,7 @@ SRC_URI += "file://Adafruit-Blinka-4.1.0.tar.gz;unpack=0 \
 		file://radio_rfm69.py \
         file://button_test.py \
 		file://font5x8.bin \
+		file://SSD1306_Zynqberry_test.py \
 	    file://Zynqberry.GPIO-0.0.1.tar.gz;unpack=0 \
 "
 
@@ -26,6 +27,7 @@ do_install() {
 	cp -r ${WORKDIR}/radio_rfm69.py ${D}/home/root/
 	cp -r ${WORKDIR}/button_test.py ${D}/home/root/
 	cp -r ${WORKDIR}/font5x8.bin ${D}/home/root/
+	cp -r ${WORKDIR}/SSD1306_Zynqberry_test.py ${D}/home/root/
 	install -m 0755 ${WORKDIR}/Zynqberry.GPIO-0.0.1.tar.gz ${D}/home/root/
 }
 
@@ -38,5 +40,6 @@ FILES_${PN} = " \
 		/home/root/radio_rfm69.py \
 		/home/root/button_test.py \
 		/home/root/font5x8.bin \
+		/home/root/SSD1306_Zynqberry_test.py \
 		/home/root/Zynqberry.GPIO-0.0.1.tar.gz \
 "

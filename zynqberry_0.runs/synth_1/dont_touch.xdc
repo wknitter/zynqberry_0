@@ -108,6 +108,12 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zsys_xlslice_0_
 # IP: bd/zsys/ip/zsys_xlslice_1_0/zsys_xlslice_1_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zsys_xlslice_1_0 || ORIG_REF_NAME==zsys_xlslice_1_0} -quiet] -quiet
 
+# IP: bd/zsys/ip/zsys_xlconstant_0_0/zsys_xlconstant_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zsys_xlconstant_0_0 || ORIG_REF_NAME==zsys_xlconstant_0_0} -quiet] -quiet
+
+# IP: bd/zsys/ip/zsys_system_ila_0_0/zsys_system_ila_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zsys_system_ila_0_0 || ORIG_REF_NAME==zsys_system_ila_0_0} -quiet] -quiet
+
 # IP: bd/zsys/ip/zsys_auto_pc_0/zsys_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zsys_auto_pc_0 || ORIG_REF_NAME==zsys_auto_pc_0} -quiet] -quiet
 
@@ -116,8 +122,5 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zsys_auto_pc_1 
 
 # IP: bd/zsys/ip/zsys_auto_pc_2/zsys_auto_pc_2.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zsys_auto_pc_2 || ORIG_REF_NAME==zsys_auto_pc_2} -quiet] -quiet
-
-# IP: bd/zsys/ip/zsys_system_ila_0_0/zsys_system_ila_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zsys_system_ila_0_0 || ORIG_REF_NAME==zsys_system_ila_0_0} -quiet] -quiet
 
 # XDC: bd/zsys/zsys_ooc.xdc

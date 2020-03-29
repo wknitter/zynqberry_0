@@ -17,6 +17,8 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param tcl.collectionResultDisplayLimit 0
+set_param xicom.use_bs_reader 1
 set_param chipscope.maxJobs 2
 create_project -in_memory -part xc7z010clg225-1
 
@@ -67,15 +69,15 @@ set_property used_in_implementation false [get_files -all /home/parallels/zynqbe
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_v_axi4s_vid_out_0_0/zsys_v_axi4s_vid_out_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_v_tc_0_0/zsys_v_tc_0_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_v_tc_0_0/zsys_v_tc_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_auto_pc_0/zsys_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_auto_pc_1/zsys_auto_pc_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_auto_pc_2/zsys_auto_pc_2_ooc.xdc]
 set_property used_in_synthesis false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_system_ila_0_0/bd_0/ip/ip_0/bd_f448_ila_lib_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_system_ila_0_0/bd_0/bd_f448_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_system_ila_0_0/zsys_system_ila_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_auto_pc_0/zsys_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_auto_pc_1/zsys_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/ip/zsys_auto_pc_2/zsys_auto_pc_2_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/zynqberry_0/zynqberry_0.srcs/sources_1/bd/zsys/zsys_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being

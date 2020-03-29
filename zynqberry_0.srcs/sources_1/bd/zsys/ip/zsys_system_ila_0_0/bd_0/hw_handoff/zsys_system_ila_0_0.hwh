@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Mar 23 22:59:03 2020" VIVADOVERSION="2019.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Mar 28 19:47:51 2020" VIVADOVERSION="2019.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="trenz.biz:te0726_m:part0:3.1" DEVICE="7z010" NAME="bd_f448" PACKAGE="clg225" SPEEDGRADE="-1"/>
 
@@ -9,98 +9,29 @@
         <CONNECTION INSTANCE="ila_lib" PORT="clk"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_sck_i" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_sck_i">
+    <PORT DIR="I" LEFT="0" NAME="probe0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_probe0">
       <CONNECTIONS>
         <CONNECTION INSTANCE="ila_lib" PORT="probe0"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_sck_o" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_sck_o">
+    <PORT DIR="I" LEFT="0" NAME="probe1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_probe1">
       <CONNECTIONS>
         <CONNECTION INSTANCE="ila_lib" PORT="probe1"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_sck_t" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_sck_t">
+    <PORT DIR="I" LEFT="0" NAME="probe2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_probe2">
       <CONNECTIONS>
         <CONNECTION INSTANCE="ila_lib" PORT="probe2"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_io0_i" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io0_i">
+    <PORT DIR="I" LEFT="0" NAME="probe3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_probe3">
       <CONNECTIONS>
         <CONNECTION INSTANCE="ila_lib" PORT="probe3"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_io0_o" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io0_o">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe4"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_io0_t" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io0_t">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe5"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_io1_i" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io1_i">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe6"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_io1_o" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io1_o">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe7"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_io1_t" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io1_t">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe8"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_ss_i" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss_i">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe9"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_ss_o" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss_o">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe10"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_ss1_o" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss1_o">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe11"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_ss2_o" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss2_o">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe12"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_SPI_ss_t" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss_t">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ila_lib" PORT="probe13"/>
-      </CONNECTIONS>
-    </PORT>
   </EXTERNALPORTS>
 
-  <EXTERNALINTERFACES>
-    <BUSINTERFACE BUSNAME="__NOC__" NAME="SLOT_0_SPI" TYPE="MONITOR">
-      <PORTMAPS>
-        <PORTMAP LOGICAL="SCK_I" PHYSICAL="SLOT_0_SPI_sck_i"/>
-        <PORTMAP LOGICAL="SCK_O" PHYSICAL="SLOT_0_SPI_sck_o"/>
-        <PORTMAP LOGICAL="SCK_T" PHYSICAL="SLOT_0_SPI_sck_t"/>
-        <PORTMAP LOGICAL="IO0_I" PHYSICAL="SLOT_0_SPI_io0_i"/>
-        <PORTMAP LOGICAL="IO0_O" PHYSICAL="SLOT_0_SPI_io0_o"/>
-        <PORTMAP LOGICAL="IO0_T" PHYSICAL="SLOT_0_SPI_io0_t"/>
-        <PORTMAP LOGICAL="IO1_I" PHYSICAL="SLOT_0_SPI_io1_i"/>
-        <PORTMAP LOGICAL="IO1_O" PHYSICAL="SLOT_0_SPI_io1_o"/>
-        <PORTMAP LOGICAL="IO1_T" PHYSICAL="SLOT_0_SPI_io1_t"/>
-        <PORTMAP LOGICAL="SS_I" PHYSICAL="SLOT_0_SPI_ss_i"/>
-        <PORTMAP LOGICAL="SS_O" PHYSICAL="SLOT_0_SPI_ss_o"/>
-        <PORTMAP LOGICAL="SS1_O" PHYSICAL="SLOT_0_SPI_ss1_o"/>
-        <PORTMAP LOGICAL="SS2_O" PHYSICAL="SLOT_0_SPI_ss2_o"/>
-        <PORTMAP LOGICAL="SS_T" PHYSICAL="SLOT_0_SPI_ss_t"/>
-      </PORTMAPS>
-    </BUSINTERFACE>
-  </EXTERNALINTERFACES>
+  <EXTERNALINTERFACES/>
 
   <MODULES>
     <MODULE COREREVISION="10" FULLNAME="/ila_lib" HWVERSION="6.2" INSTANCE="ila_lib" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ila" VLNV="xilinx.com:ip:ila:6.2">
@@ -123,7 +54,7 @@
         <PARAMETER NAME="C_SLOT_0_AXI_PROTOCOL" VALUE="AXI4"/>
         <PARAMETER NAME="C_NUM_MONITOR_SLOTS" VALUE="1"/>
         <PARAMETER NAME="C_ENABLE_ILA_AXI_MON" VALUE="0"/>
-        <PARAMETER NAME="C_NUM_OF_PROBES" VALUE="14"/>
+        <PARAMETER NAME="C_NUM_OF_PROBES" VALUE="4"/>
         <PARAMETER NAME="C_DATA_DEPTH" VALUE="1024"/>
         <PARAMETER NAME="C_MAJOR_VERSION" VALUE="2019"/>
         <PARAMETER NAME="C_MINOR_VERSION" VALUE="2"/>
@@ -3248,74 +3179,24 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_sck_i">
+        <PORT DIR="I" LEFT="0" NAME="probe0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_probe0">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_sck_i"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="probe0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_sck_o">
+        <PORT DIR="I" LEFT="0" NAME="probe1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_probe1">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_sck_o"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="probe1"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_sck_t">
+        <PORT DIR="I" LEFT="0" NAME="probe2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_probe2">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_sck_t"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="probe2"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io0_i">
+        <PORT DIR="I" LEFT="0" NAME="probe3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_probe3">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_io0_i"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe4" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io0_o">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_io0_o"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe5" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io0_t">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_io0_t"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe6" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io1_i">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_io1_i"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe7" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io1_o">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_io1_o"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe8" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_io1_t">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_io1_t"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe9" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss_i">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_ss_i"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe10" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss_o">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_ss_o"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe11" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss1_o">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_ss1_o"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe12" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss2_o">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_ss2_o"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="probe13" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SLOT_0_SPI_ss_t">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="SLOT_0_SPI_ss_t"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="probe3"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

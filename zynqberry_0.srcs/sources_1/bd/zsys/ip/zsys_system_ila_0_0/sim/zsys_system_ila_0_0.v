@@ -55,69 +55,25 @@
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module zsys_system_ila_0_0 (
   clk,
-  SLOT_0_SPI_ss_i,
-  SLOT_0_SPI_ss_o,
-  SLOT_0_SPI_ss_t,
-  SLOT_0_SPI_sck_i,
-  SLOT_0_SPI_sck_o,
-  SLOT_0_SPI_sck_t,
-  SLOT_0_SPI_io0_i,
-  SLOT_0_SPI_io0_o,
-  SLOT_0_SPI_io0_t,
-  SLOT_0_SPI_io1_i,
-  SLOT_0_SPI_io1_o,
-  SLOT_0_SPI_io1_t,
-  SLOT_0_SPI_ss1_o,
-  SLOT_0_SPI_ss2_o
+  probe0,
+  probe1,
+  probe2,
+  probe3
 );
 
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.clk, FREQ_HZ 159999985, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.clk, FREQ_HZ 159999984, PHASE 0.000, CLK_DOMAIN zsys_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.clk CLK" *)
 input wire clk;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI SS_I" *)
-input wire SLOT_0_SPI_ss_i;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI SS_O" *)
-input wire SLOT_0_SPI_ss_o;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI SS_T" *)
-input wire SLOT_0_SPI_ss_t;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI SCK_I" *)
-input wire SLOT_0_SPI_sck_i;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI SCK_O" *)
-input wire SLOT_0_SPI_sck_o;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI SCK_T" *)
-input wire SLOT_0_SPI_sck_t;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI IO0_I" *)
-input wire SLOT_0_SPI_io0_i;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI IO0_O" *)
-input wire SLOT_0_SPI_io0_o;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI IO0_T" *)
-input wire SLOT_0_SPI_io0_t;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI IO1_I" *)
-input wire SLOT_0_SPI_io1_i;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI IO1_O" *)
-input wire SLOT_0_SPI_io1_o;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI IO1_T" *)
-input wire SLOT_0_SPI_io1_t;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI SS1_O" *)
-input wire SLOT_0_SPI_ss1_o;
-(* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 SLOT_0_SPI SS2_O" *)
-input wire SLOT_0_SPI_ss2_o;
+input wire [0 : 0] probe0;
+input wire [0 : 0] probe1;
+input wire [0 : 0] probe2;
+input wire [0 : 0] probe3;
 
   bd_f448 inst (
     .clk(clk),
-    .SLOT_0_SPI_ss_i(SLOT_0_SPI_ss_i),
-    .SLOT_0_SPI_ss_o(SLOT_0_SPI_ss_o),
-    .SLOT_0_SPI_ss_t(SLOT_0_SPI_ss_t),
-    .SLOT_0_SPI_sck_i(SLOT_0_SPI_sck_i),
-    .SLOT_0_SPI_sck_o(SLOT_0_SPI_sck_o),
-    .SLOT_0_SPI_sck_t(SLOT_0_SPI_sck_t),
-    .SLOT_0_SPI_io0_i(SLOT_0_SPI_io0_i),
-    .SLOT_0_SPI_io0_o(SLOT_0_SPI_io0_o),
-    .SLOT_0_SPI_io0_t(SLOT_0_SPI_io0_t),
-    .SLOT_0_SPI_io1_i(SLOT_0_SPI_io1_i),
-    .SLOT_0_SPI_io1_o(SLOT_0_SPI_io1_o),
-    .SLOT_0_SPI_io1_t(SLOT_0_SPI_io1_t),
-    .SLOT_0_SPI_ss1_o(SLOT_0_SPI_ss1_o),
-    .SLOT_0_SPI_ss2_o(SLOT_0_SPI_ss2_o)
+    .probe0(probe0),
+    .probe1(probe1),
+    .probe2(probe2),
+    .probe3(probe3)
   );
 endmodule
