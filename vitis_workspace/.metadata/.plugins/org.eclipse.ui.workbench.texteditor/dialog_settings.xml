@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Options" key="selection"/>
+		<item value="clk" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="clk"/>
+			<item value="baud"/>
 			<item value="Options"/>
 			<item value="SPIPS"/>
 			<item value="SPI_1"/>
@@ -21,8 +23,6 @@
 			<item value="ps7_spi"/>
 			<item value="ps7_post_config"/>
 			<item value="LVL_PS_PL"/>
-			<item value="PS7_POST_CONFIG"/>
-			<item value="ps7_post_config_2_0"/>
 		</list>
 		<list key="replacehistory">
 		</list>

@@ -6765,3 +6765,9 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 "vivado_version": "2019.2",
 "part": "xc7z010clg225-1",
 }]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-03-29 16:50:21.645
+!MESSAGE Executing command: /tools/Xilinx/Vitis/2019.2/bin/wbtcv -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-03-29 16:50:21.656
+!MESSAGE Executed Webtalk command
