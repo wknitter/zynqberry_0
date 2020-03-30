@@ -68,7 +68,6 @@ class SPI:
             self._spi.max_speed_hz = self.baudrate
             self._spi.mode = self.mode
             self._spi.bits_per_word = self.bits
-            #data = self._spi.xfer([write_value]*(end-start))
             data = self._spi.xfer(buf)
             for i in range(1, (end+1)-start):  # 'readinto' the given buffer
               buf[start] = data[i]
