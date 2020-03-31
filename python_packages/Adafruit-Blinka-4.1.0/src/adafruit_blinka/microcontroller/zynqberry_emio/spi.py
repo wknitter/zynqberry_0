@@ -68,9 +68,25 @@ class SPI:
             self._spi.max_speed_hz = self.baudrate
             self._spi.mode = self.mode
             self._spi.bits_per_word = self.bits
-            data = self._spi.xfer(buf)
-            for i in range(1, (end+1)-start):  # 'readinto' the given buffer
-              buf[start] = data[i]
+            #print('buf[start:end] = ', buf[start:end])
+            xfer_end = end + 1
+            xfer_buf = buf[start:xfer_end]
+            data = self._spi.xfer(xfer_buf)
+            #print('data = ', data)
+            data_start = start + 1
+            data_in = data[data_start:xfer_end]
+            print('data_in = ', data_in)
+            data_size = len(data_in)
+
+            for i in range(1, xfer_end-start):
+                if i <= data_size:
+                    start = i - 1
+                    buf[start] = data[i]
+                    #print('buf[start] = ', buf[start])
+
+            #data = self._spi.xfer(buf)
+            #for i in range(1, (end+1)-start):  # 'readinto' the given buffer
+              #buf[start] = data[i]
             self._spi.close()
         except FileNotFoundError as not_found:
             print("Could not open SPI device - check if SPI is enabled in kernel!")
